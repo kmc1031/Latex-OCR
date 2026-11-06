@@ -1,0 +1,79 @@
+{
+  "post_test_diagnostic_only": true,
+  "changes_selection": false,
+  "exported_weights_identical": true,
+  "full_validation": {
+    "n": 800,
+    "exact": 0.205,
+    "semantic_exact": 0.205,
+    "token_error_rate": 0.3976632764562495,
+    "syntax_valid": 0.9525,
+    "eos_rate": 1.0,
+    "seconds": 54.726,
+    "greek": {
+      "n": 300,
+      "exact": 0.1,
+      "semantic_exact": 0.1,
+      "token_error_rate": 0.4753023160483706,
+      "syntax_valid": 0.95,
+      "eos_rate": 1.0
+    },
+    "groups": {
+      "human_handwriting": {
+        "n": 800,
+        "exact": 0.205,
+        "semantic_exact": 0.205,
+        "token_error_rate": 0.3976632764562495,
+        "syntax_valid": 0.9525,
+        "eos_rate": 1.0
+      }
+    },
+    "layouts": {}
+  },
+  "splits": {
+    "val": {
+      "n": 800,
+      "mean_tokens": 14.87125,
+      "formulas_seen_in_training": 375,
+      "formula_overlap_fraction": 0.46875,
+      "seen_formula": {
+        "n": 375,
+        "exact": 0.42933333333333334,
+        "semantic_exact": 0.42933333333333334,
+        "token_error_rate": 0.17737296260786195,
+        "syntax_valid": 0.9946666666666667,
+        "eos_rate": 1.0
+      },
+      "new_formula": {
+        "n": 425,
+        "exact": 0.007058823529411765,
+        "semantic_exact": 0.007058823529411765,
+        "token_error_rate": 0.5166343042071198,
+        "syntax_valid": 0.9152941176470588,
+        "eos_rate": 1.0
+      }
+    },
+    "test": {
+      "n": 800,
+      "mean_tokens": 16.75875,
+      "formulas_seen_in_training": 27,
+      "formula_overlap_fraction": 0.03375,
+      "seen_formula": {
+        "n": 27,
+        "exact": 0.1111111111111111,
+        "semantic_exact": 0.1111111111111111,
+        "token_error_rate": 0.40789473684210525,
+        "syntax_valid": 0.9629629629629629,
+        "eos_rate": 1.0
+      },
+      "new_formula": {
+        "n": 773,
+        "exact": 0.01034928848641656,
+        "semantic_exact": 0.01034928848641656,
+        "token_error_rate": 0.5263686201837696,
+        "syntax_valid": 0.9327296248382924,
+        "eos_rate": 1.0
+      }
+    }
+  }
+}

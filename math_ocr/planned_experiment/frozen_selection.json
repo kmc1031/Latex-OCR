@@ -1,0 +1,10 @@
+{
+  "cnn": "C2",
+  "lstm": "L1",
+  "profile": [
+    0.7,
+    0.6,
+    0.65
+  ],
+  "selection_data": "validation only"
+}

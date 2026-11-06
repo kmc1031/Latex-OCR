@@ -1,0 +1,10 @@
+{
+  "url": "https://storage.googleapis.com/mathwriting_data/mathwriting-2024-excerpt.tgz",
+  "bytes": 1620634,
+  "sha256": "cba038def001480a89962b25cb20a60df4c4145e94c86ef9d2af65f192cb82bc",
+  "google_md5": "tmal4L5Vd8pU8B65CUxE0w==",
+  "google_md5_verified": true,
+  "license": "CC-BY-NC-SA-4.0",
+  "source": "https://github.com/google-research/google-research/tree/master/mathwriting",
+  "seconds": 0.1
+}

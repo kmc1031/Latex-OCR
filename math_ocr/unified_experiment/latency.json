@@ -1,0 +1,12 @@
+{
+  "device": "CPU",
+  "threads": 1,
+  "n": 317,
+  "repeats": 3,
+  "warmup": 10,
+  "median_seconds": 0.022841400001198053,
+  "p95_seconds": 0.03745380000327714,
+  "cpu_gpu_prediction_agreement_count": 317,
+  "agreement_denominator": 317,
+  "scope": "File reading + automatic preprocessing + segmentation + CNN + LSTM. Model load, UI, and network excluded."
+}

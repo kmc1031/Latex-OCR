@@ -1,0 +1,8 @@
+# GPU wheel installation: pip install torch==2.7.1 --index-url https://download.pytorch.org/whl/cu128
+torch==2.7.1
+numpy
+pillow
+pyarrow
+matplotlib
+requests
+scipy

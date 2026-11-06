@@ -1,0 +1,586 @@
+{
+  "metrics": {
+    "n": 22,
+    "exact_match": 0.0,
+    "token_error_rate": 0.7964601769911505,
+    "seed": 42,
+    "scope": "Historical MathWriting digital-ink test subset; 23-symbol token filter; <=12 visible symbols, <=1 fraction, <=1 script. Not paper photos or new independent test."
+  },
+  "predictions": [
+    {
+      "image": "images/test_db4734ea1c03e8d8.png",
+      "truth": [
+        "1",
+        "+",
+        "2",
+        "x",
+        "+",
+        "x",
+        "^",
+        "{",
+        "2",
+        "}"
+      ],
+      "pred": [
+        "1",
+        "+",
+        "x",
+        "=",
+        "4"
+      ],
+      "exact": false,
+      "distance": 7
+    },
+    {
+      "image": "images/test_6d4ec383674d9692.png",
+      "truth": [
+        "2",
+        "^",
+        "{",
+        "2",
+        "}",
+        "+",
+        "2",
+        "+",
+        "1",
+        "-",
+        "1"
+      ],
+      "pred": [
+        "\\frac",
+        "{",
+        "2",
+        "+",
+        "l",
+        "}",
+        "{",
+        "y",
+        "}"
+      ],
+      "exact": false,
+      "distance": 8
+    },
+    {
+      "image": "images/test_27c39f789601c1de.png",
+      "truth": [
+        "2",
+        "^",
+        "{",
+        "9",
+        "0",
+        "(",
+        "1",
+        "0",
+        "2",
+        "4",
+        ")",
+        "}"
+      ],
+      "pred": [
+        "\\frac",
+        "{",
+        "2",
+        "+",
+        "0",
+        "}",
+        "{",
+        "4",
+        "}"
+      ],
+      "exact": false,
+      "distance": 9
+    },
+    {
+      "image": "images/test_6e9f45df724af59b.png",
+      "truth": [
+        "(",
+        "1",
+        "4",
+        "-",
+        "x",
+        ")",
+        "\\times",
+        "4"
+      ],
+      "pred": [
+        "1",
+        "+",
+        "y",
+        "=",
+        "4"
+      ],
+      "exact": false,
+      "distance": 6
+    },
+    {
+      "image": "images/test_ce911d1041af1adb.png",
+      "truth": [
+        "1",
+        "^",
+        "{",
+        "5",
+        "/",
+        "4",
+        "}"
+      ],
+      "pred": [
+        "\\frac",
+        "{",
+        "5",
+        "+",
+        "7",
+        "}",
+        "{",
+        "z",
+        "}"
+      ],
+      "exact": false,
+      "distance": 7
+    },
+    {
+      "image": "images/test_06773a394d1ee0cd.png",
+      "truth": [
+        "1",
+        "+",
+        "2",
+        "+",
+        "3",
+        "+",
+        "4",
+        "=",
+        "1",
+        "0"
+      ],
+      "pred": [
+        "\\frac",
+        "{",
+        "\\frac",
+        "{",
+        "9",
+        "+",
+        "b",
+        "}",
+        "{",
+        "4",
+        "}"
+      ],
+      "exact": false,
+      "distance": 10
+    },
+    {
+      "image": "images/test_0bd4d27e8ad0a22c.png",
+      "truth": [
+        "1",
+        "+",
+        "\\frac",
+        "{",
+        "a",
+        "}",
+        "{",
+        "a",
+        "x",
+        "+",
+        "b",
+        "}"
+      ],
+      "pred": [
+        "\\frac",
+        "{",
+        "a",
+        "+",
+        "a",
+        "=",
+        "b"
+      ],
+      "exact": false,
+      "distance": 7
+    },
+    {
+      "image": "images/test_6a9b0cac7e9c8f57.png",
+      "truth": [
+        "3",
+        "x",
+        "^",
+        "{",
+        "2",
+        "}",
+        "+",
+        "2",
+        "x",
+        "+",
+        "1",
+        "=",
+        "6",
+        "x"
+      ],
+      "pred": [
+        "\\frac",
+        "{",
+        "3",
+        "+",
+        "x",
+        "}",
+        "{",
+        "x",
+        "}"
+      ],
+      "exact": false,
+      "distance": 11
+    },
+    {
+      "image": "images/test_4575ea67a0a83330.png",
+      "truth": [
+        "y",
+        "=",
+        "x",
+        "^",
+        "{",
+        "2",
+        "}",
+        "-",
+        "x",
+        "-",
+        "2"
+      ],
+      "pred": [
+        "3",
+        "\\times",
+        "z",
+        "=",
+        "2"
+      ],
+      "exact": false,
+      "distance": 10
+    },
+    {
+      "image": "images/test_23c7b9d4f3a2749c.png",
+      "truth": [
+        "y",
+        "=",
+        "-",
+        "\\frac",
+        "{",
+        "2",
+        "2",
+        "1",
+        "}",
+        "{",
+        "4",
+        "2",
+        "3",
+        "}"
+      ],
+      "pred": [
+        "y",
+        "-",
+        "4",
+        "=",
+        "4"
+      ],
+      "exact": false,
+      "distance": 11
+    },
+    {
+      "image": "images/test_106314044e73a8d4.png",
+      "truth": [
+        "3",
+        "2",
+        "x",
+        "+",
+        "4",
+        "(",
+        "1",
+        "-",
+        "x",
+        ")",
+        "=",
+        "1"
+      ],
+      "pred": [
+        "3",
+        "+",
+        "9",
+        "=",
+        "y"
+      ],
+      "exact": false,
+      "distance": 9
+    },
+    {
+      "image": "images/test_32c46dc002237bd7.png",
+      "truth": [
+        "-",
+        "x",
+        "+",
+        "x",
+        "=",
+        "0"
+      ],
+      "pred": [
+        "4",
+        "\\times",
+        "a",
+        "=",
+        "2"
+      ],
+      "exact": false,
+      "distance": 5
+    },
+    {
+      "image": "images/test_cde2eda9f1efe995.png",
+      "truth": [
+        "1",
+        "+",
+        "2",
+        "x",
+        "+",
+        "x",
+        "^",
+        "{",
+        "2",
+        "}"
+      ],
+      "pred": [
+        "1",
+        "+",
+        "x",
+        "=",
+        "2"
+      ],
+      "exact": false,
+      "distance": 6
+    },
+    {
+      "image": "images/test_9c5a81d11f4bdf2c.png",
+      "truth": [
+        "x",
+        "-",
+        "7",
+        "\\times",
+        "(",
+        "x",
+        "/",
+        "1",
+        "0",
+        "0",
+        ")"
+      ],
+      "pred": [
+        "y",
+        "\\times",
+        "4",
+        "=",
+        "7"
+      ],
+      "exact": false,
+      "distance": 10
+    },
+    {
+      "image": "images/test_e218a629764a3199.png",
+      "truth": [
+        "a",
+        "=",
+        "(",
+        "2",
+        "x",
+        "+",
+        "3",
+        ")",
+        "y"
+      ],
+      "pred": [
+        "a",
+        "+",
+        "b",
+        "=",
+        "2",
+        "}"
+      ],
+      "exact": false,
+      "distance": 8
+    },
+    {
+      "image": "images/test_412ce490e42f1ed0.png",
+      "truth": [
+        "2",
+        "^",
+        "{",
+        "9",
+        "0",
+        "(",
+        "1",
+        "0",
+        "2",
+        "4",
+        ")",
+        "}"
+      ],
+      "pred": [
+        "\\frac",
+        "{",
+        "0",
+        "+",
+        "0",
+        "}",
+        "{",
+        "0",
+        "}"
+      ],
+      "exact": false,
+      "distance": 8
+    },
+    {
+      "image": "images/test_df56d37e9ab468f5.png",
+      "truth": [
+        "(",
+        "-",
+        "1",
+        ")",
+        "^",
+        "{",
+        "2",
+        "}",
+        "=",
+        "1"
+      ],
+      "pred": [
+        "\\frac",
+        "{",
+        "l",
+        "+",
+        "l",
+        "}",
+        "{",
+        "2",
+        "}"
+      ],
+      "exact": false,
+      "distance": 8
+    },
+    {
+      "image": "images/test_328ae57d4d124487.png",
+      "truth": [
+        "y",
+        "=",
+        "x",
+        "^",
+        "{",
+        "2",
+        "}",
+        "-",
+        "x",
+        "-",
+        "2"
+      ],
+      "pred": [
+        "y",
+        "\\times",
+        "z",
+        "=",
+        "x"
+      ],
+      "exact": false,
+      "distance": 9
+    },
+    {
+      "image": "images/test_3ca991dd0cd0e01a.png",
+      "truth": [
+        "\\frac",
+        "{",
+        "z",
+        "}",
+        "{",
+        "z",
+        "_",
+        "{",
+        "0",
+        "}",
+        "}",
+        "-",
+        "1"
+      ],
+      "pred": [
+        "2",
+        "-",
+        "0",
+        "=",
+        "1"
+      ],
+      "exact": false,
+      "distance": 11
+    },
+    {
+      "image": "images/test_57340267fb2bb222.png",
+      "truth": [
+        "1",
+        "^",
+        "{",
+        "5",
+        "/",
+        "4",
+        "}"
+      ],
+      "pred": [
+        "\\frac",
+        "{",
+        "l",
+        "+",
+        "4",
+        "}",
+        "{",
+        "x",
+        "}"
+      ],
+      "exact": false,
+      "distance": 7
+    },
+    {
+      "image": "images/test_4c971c403ce56111.png",
+      "truth": [
+        "(",
+        "1",
+        "4",
+        "-",
+        "x",
+        ")",
+        "\\times",
+        "4"
+      ],
+      "pred": [
+        "\\frac",
+        "{",
+        "1",
+        "+",
+        "y",
+        "}",
+        "{",
+        "2",
+        "}"
+      ],
+      "exact": false,
+      "distance": 8
+    },
+    {
+      "image": "images/test_72be979abb48455d.png",
+      "truth": [
+        "0",
+        "-",
+        "(",
+        "-",
+        "1",
+        ")",
+        "=",
+        "1"
+      ],
+      "pred": [
+        "y",
+        "-",
+        "1",
+        "=",
+        "y"
+      ],
+      "exact": false,
+      "distance": 5
+    }
+  ]
+}

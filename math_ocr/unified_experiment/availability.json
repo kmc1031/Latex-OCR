@@ -1,0 +1,12 @@
+{
+  "checked_date": "2026-11-05",
+  "source": "../data_handwriting/{train,val,test}.jsonl",
+  "filter": "family=human_handwriting, tokens within scope, <=64 tokens; structural depth and visible-symbol filters NOT applied",
+  "scope24_counts": {"train": 1223, "val": 23, "test": 40},
+  "scope70_counts": {"train": 4664, "val": 207, "test": 344},
+  "O_single_glyphs_in_prepared_training_data": 20,
+  "full_mathwriting_archive_available": true,
+  "full_mathwriting_archive_path": "../data_mathwriting/raw/mathwriting-2024.tgz",
+  "real_photographs_collected_for_this_new_experiment": 0,
+  "note": "Availability inspection only. These are not training or evaluation results of the new experiment."
+}

@@ -1,0 +1,15 @@
+{
+  "method": "components",
+  "detector_threshold": 0,
+  "script_threshold": 0.65,
+  "n": 160,
+  "expression_accuracy": 0.31875,
+  "box_precision_iou50": 0.8856140350877193,
+  "box_recall_iou50": 0.9648318042813455,
+  "demos": [
+    "b7740b56818097e6",
+    "e03601cf4eec745b",
+    "6f9731e3a7c694ef"
+  ],
+  "demos_selected_from_correct_validation": true
+}

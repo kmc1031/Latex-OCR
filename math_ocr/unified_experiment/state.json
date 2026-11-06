@@ -1,0 +1,16 @@
+{
+  "state": "COMPLETE_WITH_LIMITATIONS",
+  "complete": true,
+  "protocol_version": "3.0",
+  "training_started": true,
+  "test_predictions_generated": true,
+  "photos_used": 0,
+  "primary_test_n": 317,
+  "primary_correct": 1,
+  "primary_exact_match": 0.0031545741324921135,
+  "performance_target_met": false,
+  "api_and_js_checks_passed": true,
+  "live_browser_clicks_verified": false,
+  "live_browser_limitation": "In-app browser localhost timeout; native Chrome control not approved. No browser permissions or firewall settings changed.",
+  "app_url": "http://127.0.0.1:8768"
+}

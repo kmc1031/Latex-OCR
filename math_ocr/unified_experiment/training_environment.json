@@ -1,0 +1,10 @@
+{
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 3050 Ti Laptop GPU",
+  "torch": "2.7.1+cu128",
+  "parameters": 699285,
+  "input_signature": "daa5aa9f430f6d4dde0a8f75a9991af10ad221f5330032e07d7c191011cafbfe",
+  "auxiliary_allowed": 50424,
+  "smallest_class_originals": 27,
+  "cache_note": "Cached pixel crops and geometry, NOT detached CNN features; two full-image segmentation views per training image."
+}

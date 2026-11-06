@@ -1,0 +1,40 @@
+{
+  "source_selection_version": 2,
+  "scanned": {
+    "train": 229864,
+    "val": 15674,
+    "test": 7644
+  },
+  "rejected": {
+    "unsupported_token": 204638,
+    "syntax_or_structure": 11920,
+    "multiple_fraction": 6556,
+    "length": 5000,
+    "historical_test_id": 800
+  },
+  "selected": {
+    "train": {
+      "basic": 973,
+      "sup": 984,
+      "sub": 915,
+      "fraction": 1000
+    },
+    "val": {
+      "basic": 93,
+      "sup": 100,
+      "sub": 70,
+      "fraction": 100
+    },
+    "test": {
+      "basic": 61,
+      "sup": 100,
+      "sub": 56,
+      "fraction": 100
+    }
+  },
+  "cross_split_content_overlap": 0,
+  "cross_split_image_overlap": 0,
+  "historical_test_ids_excluded": 800,
+  "seconds": 141.76210808753967,
+  "note": "All eligible unique syntax identities considered. No bounded duplicate candidate buffer. Normalized targets round-trip to identical syntax trees."
+}

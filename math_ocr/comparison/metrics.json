@@ -1,0 +1,2035 @@
+{
+  "selection": "Mean semantic exact accuracy over original/font/capture validation; original validation then latency break ties.",
+  "scope": "A-D: five-family synthetic grammar, STIX. P: three fonts and additional nested expressions. Disjoint train/test expressions.",
+  "device": "cuda",
+  "variants": {
+    "A": {
+      "name": "A: stacked \u2192 LaTeX",
+      "view": "A_stack_tex",
+      "checkpoint": "runs/controlled/best.pt",
+      "input": "stack",
+      "output": "tex",
+      "kind": "seq2seq",
+      "epoch": 40,
+      "parameters": 3527300,
+      "val": {
+        "n": 300,
+        "semantic_exact": 0.8333333333333334,
+        "semantic_count": 250,
+        "string_exact": 0.8333333333333334,
+        "syntax_valid": 1.0,
+        "normalized_similarity": 0.981952861952862,
+        "fraction_n": 60,
+        "numerator_exact": 0.9333333333333333,
+        "denominator_exact": 0.18333333333333332,
+        "groups": {
+          "linear": {
+            "n": 60,
+            "semantic_exact": 1.0,
+            "semantic_count": 60,
+            "string_exact": 1.0,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 1.0,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "fraction": {
+            "n": 60,
+            "semantic_exact": 0.18333333333333332,
+            "semantic_count": 11,
+            "string_exact": 0.18333333333333332,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.9116161616161614,
+            "fraction_n": 60,
+            "numerator_exact": 0.9333333333333333,
+            "denominator_exact": 0.18333333333333332
+          },
+          "scripts": {
+            "n": 120,
+            "semantic_exact": 0.9916666666666667,
+            "semantic_count": 119,
+            "string_exact": 0.9916666666666667,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.999074074074074,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "radical": {
+            "n": 60,
+            "semantic_exact": 1.0,
+            "semantic_count": 60,
+            "string_exact": 1.0,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 1.0,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          }
+        }
+      },
+      "val_font": {
+        "n": 300,
+        "semantic_exact": 0.13,
+        "semantic_count": 39,
+        "string_exact": 0.13,
+        "syntax_valid": 1.0,
+        "normalized_similarity": 0.7663585858585859,
+        "fraction_n": 60,
+        "numerator_exact": 0.45,
+        "denominator_exact": 0.16666666666666666,
+        "groups": {
+          "linear": {
+            "n": 60,
+            "semantic_exact": 0.3,
+            "semantic_count": 18,
+            "string_exact": 0.3,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.727037037037037,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "fraction": {
+            "n": 60,
+            "semantic_exact": 0.016666666666666666,
+            "semantic_count": 1,
+            "string_exact": 0.016666666666666666,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.832996632996633,
+            "fraction_n": 60,
+            "numerator_exact": 0.45,
+            "denominator_exact": 0.16666666666666666
+          },
+          "scripts": {
+            "n": 120,
+            "semantic_exact": 0.05,
+            "semantic_count": 6,
+            "string_exact": 0.05,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.7305555555555557,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "radical": {
+            "n": 60,
+            "semantic_exact": 0.23333333333333334,
+            "semantic_count": 14,
+            "string_exact": 0.23333333333333334,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.8106481481481481,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          }
+        }
+      },
+      "val_capture": {
+        "n": 300,
+        "semantic_exact": 0.8333333333333334,
+        "semantic_count": 250,
+        "string_exact": 0.8333333333333334,
+        "syntax_valid": 1.0,
+        "normalized_similarity": 0.9815824915824916,
+        "fraction_n": 60,
+        "numerator_exact": 0.9,
+        "denominator_exact": 0.2,
+        "groups": {
+          "linear": {
+            "n": 60,
+            "semantic_exact": 1.0,
+            "semantic_count": 60,
+            "string_exact": 1.0,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 1.0,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "fraction": {
+            "n": 60,
+            "semantic_exact": 0.18333333333333332,
+            "semantic_count": 11,
+            "string_exact": 0.18333333333333332,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.9097643097643097,
+            "fraction_n": 60,
+            "numerator_exact": 0.9,
+            "denominator_exact": 0.2
+          },
+          "scripts": {
+            "n": 120,
+            "semantic_exact": 0.9916666666666667,
+            "semantic_count": 119,
+            "string_exact": 0.9916666666666667,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.999074074074074,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "radical": {
+            "n": 60,
+            "semantic_exact": 1.0,
+            "semantic_count": 60,
+            "string_exact": 1.0,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 1.0,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          }
+        }
+      },
+      "test": {
+        "n": 500,
+        "semantic_exact": 0.812,
+        "semantic_count": 406,
+        "string_exact": 0.812,
+        "syntax_valid": 1.0,
+        "normalized_similarity": 0.979831313131313,
+        "fraction_n": 100,
+        "numerator_exact": 0.91,
+        "denominator_exact": 0.15,
+        "groups": {
+          "linear": {
+            "n": 100,
+            "semantic_exact": 0.98,
+            "semantic_count": 98,
+            "string_exact": 0.98,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.996,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "fraction": {
+            "n": 100,
+            "semantic_exact": 0.12,
+            "semantic_count": 12,
+            "string_exact": 0.12,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.9078787878787877,
+            "fraction_n": 100,
+            "numerator_exact": 0.91,
+            "denominator_exact": 0.15
+          },
+          "scripts": {
+            "n": 200,
+            "semantic_exact": 0.99,
+            "semantic_count": 198,
+            "string_exact": 0.99,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.9988888888888888,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "radical": {
+            "n": 100,
+            "semantic_exact": 0.98,
+            "semantic_count": 98,
+            "string_exact": 0.98,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.9975,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          }
+        }
+      },
+      "long_test": {
+        "n": 200,
+        "semantic_exact": 0.0,
+        "semantic_count": 0,
+        "string_exact": 0.0,
+        "syntax_valid": 0.99,
+        "normalized_similarity": 0.36595238095238103,
+        "fraction_n": 200,
+        "numerator_exact": 0.0,
+        "denominator_exact": 0.0,
+        "groups": {
+          "linear": {
+            "n": 0
+          },
+          "fraction": {
+            "n": 200,
+            "semantic_exact": 0.0,
+            "semantic_count": 0,
+            "string_exact": 0.0,
+            "syntax_valid": 0.99,
+            "normalized_similarity": 0.36595238095238103,
+            "fraction_n": 200,
+            "numerator_exact": 0.0,
+            "denominator_exact": 0.0
+          },
+          "scripts": {
+            "n": 0
+          },
+          "radical": {
+            "n": 0
+          }
+        }
+      },
+      "test_font": {
+        "n": 500,
+        "semantic_exact": 0.152,
+        "semantic_count": 76,
+        "string_exact": 0.152,
+        "syntax_valid": 0.998,
+        "normalized_similarity": 0.7640797979797981,
+        "fraction_n": 100,
+        "numerator_exact": 0.44,
+        "denominator_exact": 0.13,
+        "groups": {
+          "linear": {
+            "n": 100,
+            "semantic_exact": 0.3,
+            "semantic_count": 30,
+            "string_exact": 0.3,
+            "syntax_valid": 0.99,
+            "normalized_similarity": 0.7196666666666666,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "fraction": {
+            "n": 100,
+            "semantic_exact": 0.06,
+            "semantic_count": 6,
+            "string_exact": 0.06,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.8354545454545453,
+            "fraction_n": 100,
+            "numerator_exact": 0.44,
+            "denominator_exact": 0.13
+          },
+          "scripts": {
+            "n": 200,
+            "semantic_exact": 0.05,
+            "semantic_count": 10,
+            "string_exact": 0.05,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.7222222222222223,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "radical": {
+            "n": 100,
+            "semantic_exact": 0.3,
+            "semantic_count": 30,
+            "string_exact": 0.3,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.8208333333333334,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          }
+        }
+      },
+      "test_capture": {
+        "n": 500,
+        "semantic_exact": 0.806,
+        "semantic_count": 403,
+        "string_exact": 0.806,
+        "syntax_valid": 1.0,
+        "normalized_similarity": 0.9786555555555555,
+        "fraction_n": 100,
+        "numerator_exact": 0.87,
+        "denominator_exact": 0.14,
+        "groups": {
+          "linear": {
+            "n": 100,
+            "semantic_exact": 0.99,
+            "semantic_count": 99,
+            "string_exact": 0.99,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.998,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "fraction": {
+            "n": 100,
+            "semantic_exact": 0.11,
+            "semantic_count": 11,
+            "string_exact": 0.11,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.9033333333333331,
+            "fraction_n": 100,
+            "numerator_exact": 0.87,
+            "denominator_exact": 0.14
+          },
+          "scripts": {
+            "n": 200,
+            "semantic_exact": 0.975,
+            "semantic_count": 195,
+            "string_exact": 0.975,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.9972222222222222,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "radical": {
+            "n": 100,
+            "semantic_exact": 0.98,
+            "semantic_count": 98,
+            "string_exact": 0.98,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.9975,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          }
+        }
+      },
+      "latency": {
+        "n": 60,
+        "batch_size": 1,
+        "median_ms": 8.165849983925,
+        "p95_ms": 28.470715024741363,
+        "includes": "prepared CPU tensor -> GPU transfer -> output token IDs; excludes image preprocessing"
+      },
+      "robust_validation_exact": 0.5988888888888889,
+      "training_seconds": 247.68916440015892
+    },
+    "B": {
+      "name": "B: stacked \u2192 slash",
+      "view": "B_stack_slash",
+      "checkpoint": "runs/slash_B/best.pt",
+      "input": "stack",
+      "output": "slash",
+      "kind": "seq2seq",
+      "epoch": 40,
+      "parameters": 3528006,
+      "val": {
+        "n": 300,
+        "semantic_exact": 0.8433333333333334,
+        "semantic_count": 253,
+        "string_exact": 0.8433333333333334,
+        "syntax_valid": 1.0,
+        "normalized_similarity": 0.9844107744107744,
+        "fraction_n": 60,
+        "numerator_exact": 1.0,
+        "denominator_exact": 0.21666666666666667,
+        "groups": {
+          "linear": {
+            "n": 60,
+            "semantic_exact": 1.0,
+            "semantic_count": 60,
+            "string_exact": 1.0,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 1.0,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "fraction": {
+            "n": 60,
+            "semantic_exact": 0.21666666666666667,
+            "semantic_count": 13,
+            "string_exact": 0.21666666666666667,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.9220538720538719,
+            "fraction_n": 60,
+            "numerator_exact": 1.0,
+            "denominator_exact": 0.21666666666666667
+          },
+          "scripts": {
+            "n": 120,
+            "semantic_exact": 1.0,
+            "semantic_count": 120,
+            "string_exact": 1.0,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 1.0,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "radical": {
+            "n": 60,
+            "semantic_exact": 1.0,
+            "semantic_count": 60,
+            "string_exact": 1.0,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 1.0,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          }
+        }
+      },
+      "val_font": {
+        "n": 300,
+        "semantic_exact": 0.10666666666666667,
+        "semantic_count": 32,
+        "string_exact": 0.10666666666666667,
+        "syntax_valid": 1.0,
+        "normalized_similarity": 0.7241818181818181,
+        "fraction_n": 60,
+        "numerator_exact": 0.48333333333333334,
+        "denominator_exact": 0.11666666666666667,
+        "groups": {
+          "linear": {
+            "n": 60,
+            "semantic_exact": 0.25,
+            "semantic_count": 15,
+            "string_exact": 0.25,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.7633333333333332,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "fraction": {
+            "n": 60,
+            "semantic_exact": 0.05,
+            "semantic_count": 3,
+            "string_exact": 0.05,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.8372053872053871,
+            "fraction_n": 60,
+            "numerator_exact": 0.48333333333333334,
+            "denominator_exact": 0.11666666666666667
+          },
+          "scripts": {
+            "n": 120,
+            "semantic_exact": 0.008333333333333333,
+            "semantic_count": 1,
+            "string_exact": 0.008333333333333333,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.5972222222222221,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "radical": {
+            "n": 60,
+            "semantic_exact": 0.21666666666666667,
+            "semantic_count": 13,
+            "string_exact": 0.21666666666666667,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.825925925925926,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          }
+        }
+      },
+      "val_capture": {
+        "n": 300,
+        "semantic_exact": 0.8433333333333334,
+        "semantic_count": 253,
+        "string_exact": 0.8433333333333334,
+        "syntax_valid": 1.0,
+        "normalized_similarity": 0.9844107744107744,
+        "fraction_n": 60,
+        "numerator_exact": 1.0,
+        "denominator_exact": 0.21666666666666667,
+        "groups": {
+          "linear": {
+            "n": 60,
+            "semantic_exact": 1.0,
+            "semantic_count": 60,
+            "string_exact": 1.0,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 1.0,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "fraction": {
+            "n": 60,
+            "semantic_exact": 0.21666666666666667,
+            "semantic_count": 13,
+            "string_exact": 0.21666666666666667,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.9220538720538719,
+            "fraction_n": 60,
+            "numerator_exact": 1.0,
+            "denominator_exact": 0.21666666666666667
+          },
+          "scripts": {
+            "n": 120,
+            "semantic_exact": 1.0,
+            "semantic_count": 120,
+            "string_exact": 1.0,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 1.0,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "radical": {
+            "n": 60,
+            "semantic_exact": 1.0,
+            "semantic_count": 60,
+            "string_exact": 1.0,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 1.0,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          }
+        }
+      },
+      "test": {
+        "n": 500,
+        "semantic_exact": 0.828,
+        "semantic_count": 414,
+        "string_exact": 0.828,
+        "syntax_valid": 1.0,
+        "normalized_similarity": 0.9827919191919192,
+        "fraction_n": 100,
+        "numerator_exact": 0.96,
+        "denominator_exact": 0.16,
+        "groups": {
+          "linear": {
+            "n": 100,
+            "semantic_exact": 0.99,
+            "semantic_count": 99,
+            "string_exact": 0.99,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.998,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "fraction": {
+            "n": 100,
+            "semantic_exact": 0.15,
+            "semantic_count": 15,
+            "string_exact": 0.15,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.9159595959595959,
+            "fraction_n": 100,
+            "numerator_exact": 0.96,
+            "denominator_exact": 0.16
+          },
+          "scripts": {
+            "n": 200,
+            "semantic_exact": 1.0,
+            "semantic_count": 200,
+            "string_exact": 1.0,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 1.0,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "radical": {
+            "n": 100,
+            "semantic_exact": 1.0,
+            "semantic_count": 100,
+            "string_exact": 1.0,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 1.0,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          }
+        }
+      },
+      "long_test": {
+        "n": 200,
+        "semantic_exact": 0.0,
+        "semantic_count": 0,
+        "string_exact": 0.0,
+        "syntax_valid": 1.0,
+        "normalized_similarity": 0.3769047619047619,
+        "fraction_n": 200,
+        "numerator_exact": 0.0,
+        "denominator_exact": 0.0,
+        "groups": {
+          "linear": {
+            "n": 0
+          },
+          "fraction": {
+            "n": 200,
+            "semantic_exact": 0.0,
+            "semantic_count": 0,
+            "string_exact": 0.0,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.3769047619047619,
+            "fraction_n": 200,
+            "numerator_exact": 0.0,
+            "denominator_exact": 0.0
+          },
+          "scripts": {
+            "n": 0
+          },
+          "radical": {
+            "n": 0
+          }
+        }
+      },
+      "test_font": {
+        "n": 500,
+        "semantic_exact": 0.09,
+        "semantic_count": 45,
+        "string_exact": 0.09,
+        "syntax_valid": 1.0,
+        "normalized_similarity": 0.72174797979798,
+        "fraction_n": 100,
+        "numerator_exact": 0.43,
+        "denominator_exact": 0.07,
+        "groups": {
+          "linear": {
+            "n": 100,
+            "semantic_exact": 0.29,
+            "semantic_count": 29,
+            "string_exact": 0.29,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.8059999999999998,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "fraction": {
+            "n": 100,
+            "semantic_exact": 0.02,
+            "semantic_count": 2,
+            "string_exact": 0.02,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.8267676767676768,
+            "fraction_n": 100,
+            "numerator_exact": 0.43,
+            "denominator_exact": 0.07
+          },
+          "scripts": {
+            "n": 200,
+            "semantic_exact": 0.01,
+            "semantic_count": 2,
+            "string_exact": 0.01,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.5761111111111111,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "radical": {
+            "n": 100,
+            "semantic_exact": 0.12,
+            "semantic_count": 12,
+            "string_exact": 0.12,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.82375,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          }
+        }
+      },
+      "test_capture": {
+        "n": 500,
+        "semantic_exact": 0.822,
+        "semantic_count": 411,
+        "string_exact": 0.822,
+        "syntax_valid": 1.0,
+        "normalized_similarity": 0.9820974747474748,
+        "fraction_n": 100,
+        "numerator_exact": 0.96,
+        "denominator_exact": 0.15,
+        "groups": {
+          "linear": {
+            "n": 100,
+            "semantic_exact": 0.99,
+            "semantic_count": 99,
+            "string_exact": 0.99,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.998,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "fraction": {
+            "n": 100,
+            "semantic_exact": 0.14,
+            "semantic_count": 14,
+            "string_exact": 0.14,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.9148484848484847,
+            "fraction_n": 100,
+            "numerator_exact": 0.96,
+            "denominator_exact": 0.15
+          },
+          "scripts": {
+            "n": 200,
+            "semantic_exact": 0.995,
+            "semantic_count": 199,
+            "string_exact": 0.995,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.9994444444444445,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "radical": {
+            "n": 100,
+            "semantic_exact": 0.99,
+            "semantic_count": 99,
+            "string_exact": 0.99,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.99875,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          }
+        }
+      },
+      "latency": {
+        "n": 60,
+        "batch_size": 1,
+        "median_ms": 7.989999983692542,
+        "p95_ms": 14.366900007007638,
+        "includes": "prepared CPU tensor -> GPU transfer -> output token IDs; excludes image preprocessing"
+      },
+      "robust_validation_exact": 0.5977777777777779,
+      "training_seconds": 230.26451600005385
+    },
+    "C": {
+      "name": "C: slash \u2192 LaTeX",
+      "view": "C_slash_tex",
+      "checkpoint": "runs/slash_C/best.pt",
+      "input": "slash",
+      "output": "tex",
+      "kind": "seq2seq",
+      "epoch": 32,
+      "parameters": 3527300,
+      "val": {
+        "n": 300,
+        "semantic_exact": 0.97,
+        "semantic_count": 291,
+        "string_exact": 0.97,
+        "syntax_valid": 1.0,
+        "normalized_similarity": 0.9972053872053872,
+        "fraction_n": 60,
+        "numerator_exact": 1.0,
+        "denominator_exact": 0.85,
+        "groups": {
+          "linear": {
+            "n": 60,
+            "semantic_exact": 1.0,
+            "semantic_count": 60,
+            "string_exact": 1.0,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 1.0,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "fraction": {
+            "n": 60,
+            "semantic_exact": 0.85,
+            "semantic_count": 51,
+            "string_exact": 0.85,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.986026936026936,
+            "fraction_n": 60,
+            "numerator_exact": 1.0,
+            "denominator_exact": 0.85
+          },
+          "scripts": {
+            "n": 120,
+            "semantic_exact": 1.0,
+            "semantic_count": 120,
+            "string_exact": 1.0,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 1.0,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "radical": {
+            "n": 60,
+            "semantic_exact": 1.0,
+            "semantic_count": 60,
+            "string_exact": 1.0,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 1.0,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          }
+        }
+      },
+      "val_font": {
+        "n": 300,
+        "semantic_exact": 0.46,
+        "semantic_count": 138,
+        "string_exact": 0.46,
+        "syntax_valid": 1.0,
+        "normalized_similarity": 0.8731742424242426,
+        "fraction_n": 60,
+        "numerator_exact": 0.65,
+        "denominator_exact": 0.5833333333333334,
+        "groups": {
+          "linear": {
+            "n": 60,
+            "semantic_exact": 0.7333333333333333,
+            "semantic_count": 44,
+            "string_exact": 0.7333333333333333,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.9211111111111111,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "fraction": {
+            "n": 60,
+            "semantic_exact": 0.31666666666666665,
+            "semantic_count": 19,
+            "string_exact": 0.31666666666666665,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.9102693602693602,
+            "fraction_n": 60,
+            "numerator_exact": 0.65,
+            "denominator_exact": 0.5833333333333334
+          },
+          "scripts": {
+            "n": 120,
+            "semantic_exact": 0.5833333333333334,
+            "semantic_count": 70,
+            "string_exact": 0.5833333333333334,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.9370370370370371,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "radical": {
+            "n": 60,
+            "semantic_exact": 0.08333333333333333,
+            "semantic_count": 5,
+            "string_exact": 0.08333333333333333,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.6604166666666667,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          }
+        }
+      },
+      "val_capture": {
+        "n": 300,
+        "semantic_exact": 0.9666666666666667,
+        "semantic_count": 290,
+        "string_exact": 0.9666666666666667,
+        "syntax_valid": 1.0,
+        "normalized_similarity": 0.9969023569023568,
+        "fraction_n": 60,
+        "numerator_exact": 1.0,
+        "denominator_exact": 0.85,
+        "groups": {
+          "linear": {
+            "n": 60,
+            "semantic_exact": 1.0,
+            "semantic_count": 60,
+            "string_exact": 1.0,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 1.0,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "fraction": {
+            "n": 60,
+            "semantic_exact": 0.85,
+            "semantic_count": 51,
+            "string_exact": 0.85,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.9863636363636363,
+            "fraction_n": 60,
+            "numerator_exact": 1.0,
+            "denominator_exact": 0.85
+          },
+          "scripts": {
+            "n": 120,
+            "semantic_exact": 0.9916666666666667,
+            "semantic_count": 119,
+            "string_exact": 0.9916666666666667,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.999074074074074,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "radical": {
+            "n": 60,
+            "semantic_exact": 1.0,
+            "semantic_count": 60,
+            "string_exact": 1.0,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 1.0,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          }
+        }
+      },
+      "test": {
+        "n": 500,
+        "semantic_exact": 0.92,
+        "semantic_count": 460,
+        "string_exact": 0.92,
+        "syntax_valid": 1.0,
+        "normalized_similarity": 0.9888929292929293,
+        "fraction_n": 100,
+        "numerator_exact": 0.94,
+        "denominator_exact": 0.63,
+        "groups": {
+          "linear": {
+            "n": 100,
+            "semantic_exact": 0.97,
+            "semantic_count": 97,
+            "string_exact": 0.97,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.9835555555555555,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "fraction": {
+            "n": 100,
+            "semantic_exact": 0.63,
+            "semantic_count": 63,
+            "string_exact": 0.63,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.9609090909090906,
+            "fraction_n": 100,
+            "numerator_exact": 0.94,
+            "denominator_exact": 0.63
+          },
+          "scripts": {
+            "n": 200,
+            "semantic_exact": 1.0,
+            "semantic_count": 200,
+            "string_exact": 1.0,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 1.0,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "radical": {
+            "n": 100,
+            "semantic_exact": 1.0,
+            "semantic_count": 100,
+            "string_exact": 1.0,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 1.0,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          }
+        }
+      },
+      "long_test": {
+        "n": 200,
+        "semantic_exact": 0.0,
+        "semantic_count": 0,
+        "string_exact": 0.0,
+        "syntax_valid": 1.0,
+        "normalized_similarity": 0.13500000000000004,
+        "fraction_n": 200,
+        "numerator_exact": 0.0,
+        "denominator_exact": 0.0,
+        "groups": {
+          "linear": {
+            "n": 0
+          },
+          "fraction": {
+            "n": 200,
+            "semantic_exact": 0.0,
+            "semantic_count": 0,
+            "string_exact": 0.0,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.13500000000000004,
+            "fraction_n": 200,
+            "numerator_exact": 0.0,
+            "denominator_exact": 0.0
+          },
+          "scripts": {
+            "n": 0
+          },
+          "radical": {
+            "n": 0
+          }
+        }
+      },
+      "test_font": {
+        "n": 500,
+        "semantic_exact": 0.372,
+        "semantic_count": 186,
+        "string_exact": 0.372,
+        "syntax_valid": 0.998,
+        "normalized_similarity": 0.857208585858586,
+        "fraction_n": 100,
+        "numerator_exact": 0.54,
+        "denominator_exact": 0.45,
+        "groups": {
+          "linear": {
+            "n": 100,
+            "semantic_exact": 0.6,
+            "semantic_count": 60,
+            "string_exact": 0.6,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.8924444444444444,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "fraction": {
+            "n": 100,
+            "semantic_exact": 0.23,
+            "semantic_count": 23,
+            "string_exact": 0.23,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.8870707070707069,
+            "fraction_n": 100,
+            "numerator_exact": 0.54,
+            "denominator_exact": 0.45
+          },
+          "scripts": {
+            "n": 200,
+            "semantic_exact": 0.465,
+            "semantic_count": 93,
+            "string_exact": 0.465,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.9188888888888889,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "radical": {
+            "n": 100,
+            "semantic_exact": 0.1,
+            "semantic_count": 10,
+            "string_exact": 0.1,
+            "syntax_valid": 0.99,
+            "normalized_similarity": 0.66875,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          }
+        }
+      },
+      "test_capture": {
+        "n": 500,
+        "semantic_exact": 0.924,
+        "semantic_count": 462,
+        "string_exact": 0.924,
+        "syntax_valid": 1.0,
+        "normalized_similarity": 0.9894787878787878,
+        "fraction_n": 100,
+        "numerator_exact": 0.94,
+        "denominator_exact": 0.65,
+        "groups": {
+          "linear": {
+            "n": 100,
+            "semantic_exact": 0.97,
+            "semantic_count": 97,
+            "string_exact": 0.97,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.9846666666666667,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "fraction": {
+            "n": 100,
+            "semantic_exact": 0.65,
+            "semantic_count": 65,
+            "string_exact": 0.65,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.9627272727272725,
+            "fraction_n": 100,
+            "numerator_exact": 0.94,
+            "denominator_exact": 0.65
+          },
+          "scripts": {
+            "n": 200,
+            "semantic_exact": 1.0,
+            "semantic_count": 200,
+            "string_exact": 1.0,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 1.0,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "radical": {
+            "n": 100,
+            "semantic_exact": 1.0,
+            "semantic_count": 100,
+            "string_exact": 1.0,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 1.0,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          }
+        }
+      },
+      "latency": {
+        "n": 60,
+        "batch_size": 1,
+        "median_ms": 8.592350030085072,
+        "p95_ms": 35.95858002954628,
+        "includes": "prepared CPU tensor -> GPU transfer -> output token IDs; excludes image preprocessing"
+      },
+      "robust_validation_exact": 0.7988888888888889,
+      "training_seconds": 264.2864918996929
+    },
+    "D": {
+      "name": "D: slash \u2192 slash",
+      "view": "D_slash_slash",
+      "checkpoint": "runs/slash_D/best.pt",
+      "input": "slash",
+      "output": "slash",
+      "kind": "seq2seq",
+      "epoch": 35,
+      "parameters": 3528006,
+      "val": {
+        "n": 300,
+        "semantic_exact": 0.9966666666666667,
+        "semantic_count": 299,
+        "string_exact": 0.9966666666666667,
+        "syntax_valid": 1.0,
+        "normalized_similarity": 0.9996969696969696,
+        "fraction_n": 60,
+        "numerator_exact": 1.0,
+        "denominator_exact": 0.9833333333333333,
+        "groups": {
+          "linear": {
+            "n": 60,
+            "semantic_exact": 1.0,
+            "semantic_count": 60,
+            "string_exact": 1.0,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 1.0,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "fraction": {
+            "n": 60,
+            "semantic_exact": 0.9833333333333333,
+            "semantic_count": 59,
+            "string_exact": 0.9833333333333333,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.9984848484848484,
+            "fraction_n": 60,
+            "numerator_exact": 1.0,
+            "denominator_exact": 0.9833333333333333
+          },
+          "scripts": {
+            "n": 120,
+            "semantic_exact": 1.0,
+            "semantic_count": 120,
+            "string_exact": 1.0,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 1.0,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "radical": {
+            "n": 60,
+            "semantic_exact": 1.0,
+            "semantic_count": 60,
+            "string_exact": 1.0,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 1.0,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          }
+        }
+      },
+      "val_font": {
+        "n": 300,
+        "semantic_exact": 0.45,
+        "semantic_count": 135,
+        "string_exact": 0.45,
+        "syntax_valid": 1.0,
+        "normalized_similarity": 0.8632651515151516,
+        "fraction_n": 60,
+        "numerator_exact": 0.6833333333333333,
+        "denominator_exact": 0.7333333333333333,
+        "groups": {
+          "linear": {
+            "n": 60,
+            "semantic_exact": 0.7,
+            "semantic_count": 42,
+            "string_exact": 0.7,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.9233333333333332,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "fraction": {
+            "n": 60,
+            "semantic_exact": 0.5,
+            "semantic_count": 30,
+            "string_exact": 0.5,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.9316498316498316,
+            "fraction_n": 60,
+            "numerator_exact": 0.6833333333333333,
+            "denominator_exact": 0.7333333333333333
+          },
+          "scripts": {
+            "n": 120,
+            "semantic_exact": 0.5083333333333333,
+            "semantic_count": 61,
+            "string_exact": 0.5083333333333333,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.9129629629629631,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "radical": {
+            "n": 60,
+            "semantic_exact": 0.03333333333333333,
+            "semantic_count": 2,
+            "string_exact": 0.03333333333333333,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.6354166666666666,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          }
+        }
+      },
+      "val_capture": {
+        "n": 300,
+        "semantic_exact": 0.9966666666666667,
+        "semantic_count": 299,
+        "string_exact": 0.9966666666666667,
+        "syntax_valid": 1.0,
+        "normalized_similarity": 0.9996969696969696,
+        "fraction_n": 60,
+        "numerator_exact": 1.0,
+        "denominator_exact": 0.9833333333333333,
+        "groups": {
+          "linear": {
+            "n": 60,
+            "semantic_exact": 1.0,
+            "semantic_count": 60,
+            "string_exact": 1.0,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 1.0,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "fraction": {
+            "n": 60,
+            "semantic_exact": 0.9833333333333333,
+            "semantic_count": 59,
+            "string_exact": 0.9833333333333333,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.9984848484848484,
+            "fraction_n": 60,
+            "numerator_exact": 1.0,
+            "denominator_exact": 0.9833333333333333
+          },
+          "scripts": {
+            "n": 120,
+            "semantic_exact": 1.0,
+            "semantic_count": 120,
+            "string_exact": 1.0,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 1.0,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "radical": {
+            "n": 60,
+            "semantic_exact": 1.0,
+            "semantic_count": 60,
+            "string_exact": 1.0,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 1.0,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          }
+        }
+      },
+      "test": {
+        "n": 500,
+        "semantic_exact": 0.96,
+        "semantic_count": 480,
+        "string_exact": 0.96,
+        "syntax_valid": 1.0,
+        "normalized_similarity": 0.9935878787878787,
+        "fraction_n": 100,
+        "numerator_exact": 0.84,
+        "denominator_exact": 0.99,
+        "groups": {
+          "linear": {
+            "n": 100,
+            "semantic_exact": 0.97,
+            "semantic_count": 97,
+            "string_exact": 0.97,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.9840000000000001,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "fraction": {
+            "n": 100,
+            "semantic_exact": 0.83,
+            "semantic_count": 83,
+            "string_exact": 0.83,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.9839393939393938,
+            "fraction_n": 100,
+            "numerator_exact": 0.84,
+            "denominator_exact": 0.99
+          },
+          "scripts": {
+            "n": 200,
+            "semantic_exact": 1.0,
+            "semantic_count": 200,
+            "string_exact": 1.0,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 1.0,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "radical": {
+            "n": 100,
+            "semantic_exact": 1.0,
+            "semantic_count": 100,
+            "string_exact": 1.0,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 1.0,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          }
+        }
+      },
+      "long_test": {
+        "n": 200,
+        "semantic_exact": 0.0,
+        "semantic_count": 0,
+        "string_exact": 0.0,
+        "syntax_valid": 1.0,
+        "normalized_similarity": 0.12976190476190477,
+        "fraction_n": 200,
+        "numerator_exact": 0.0,
+        "denominator_exact": 0.0,
+        "groups": {
+          "linear": {
+            "n": 0
+          },
+          "fraction": {
+            "n": 200,
+            "semantic_exact": 0.0,
+            "semantic_count": 0,
+            "string_exact": 0.0,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.12976190476190477,
+            "fraction_n": 200,
+            "numerator_exact": 0.0,
+            "denominator_exact": 0.0
+          },
+          "scripts": {
+            "n": 0
+          },
+          "radical": {
+            "n": 0
+          }
+        }
+      },
+      "test_font": {
+        "n": 500,
+        "semantic_exact": 0.35,
+        "semantic_count": 175,
+        "string_exact": 0.35,
+        "syntax_valid": 1.0,
+        "normalized_similarity": 0.8451585858585858,
+        "fraction_n": 100,
+        "numerator_exact": 0.52,
+        "denominator_exact": 0.75,
+        "groups": {
+          "linear": {
+            "n": 100,
+            "semantic_exact": 0.51,
+            "semantic_count": 51,
+            "string_exact": 0.51,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.8639999999999999,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "fraction": {
+            "n": 100,
+            "semantic_exact": 0.31,
+            "semantic_count": 31,
+            "string_exact": 0.31,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.9126262626262625,
+            "fraction_n": 100,
+            "numerator_exact": 0.52,
+            "denominator_exact": 0.75
+          },
+          "scripts": {
+            "n": 200,
+            "semantic_exact": 0.415,
+            "semantic_count": 83,
+            "string_exact": 0.415,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.9033333333333334,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "radical": {
+            "n": 100,
+            "semantic_exact": 0.1,
+            "semantic_count": 10,
+            "string_exact": 0.1,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.6425,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          }
+        }
+      },
+      "test_capture": {
+        "n": 500,
+        "semantic_exact": 0.96,
+        "semantic_count": 480,
+        "string_exact": 0.96,
+        "syntax_valid": 1.0,
+        "normalized_similarity": 0.993341919191919,
+        "fraction_n": 100,
+        "numerator_exact": 0.85,
+        "denominator_exact": 1.0,
+        "groups": {
+          "linear": {
+            "n": 100,
+            "semantic_exact": 0.96,
+            "semantic_count": 96,
+            "string_exact": 0.96,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.982,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "fraction": {
+            "n": 100,
+            "semantic_exact": 0.85,
+            "semantic_count": 85,
+            "string_exact": 0.85,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.9859595959595958,
+            "fraction_n": 100,
+            "numerator_exact": 0.85,
+            "denominator_exact": 1.0
+          },
+          "scripts": {
+            "n": 200,
+            "semantic_exact": 1.0,
+            "semantic_count": 200,
+            "string_exact": 1.0,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 1.0,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "radical": {
+            "n": 100,
+            "semantic_exact": 0.99,
+            "semantic_count": 99,
+            "string_exact": 0.99,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.99875,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          }
+        }
+      },
+      "latency": {
+        "n": 60,
+        "batch_size": 1,
+        "median_ms": 8.676399971591309,
+        "p95_ms": 12.422315016738137,
+        "includes": "prepared CPU tensor -> GPU transfer -> output token IDs; excludes image preprocessing"
+      },
+      "robust_validation_exact": 0.8144444444444444,
+      "training_seconds": 271.90100970020285
+    },
+    "P": {
+      "name": "P: practical slash LSTM",
+      "view": "P_practical",
+      "checkpoint": "runs/slash_practical/best.pt",
+      "input": "slash",
+      "output": "slash",
+      "kind": "seq2seq",
+      "epoch": 21,
+      "parameters": 3528006,
+      "val": {
+        "n": 300,
+        "semantic_exact": 0.9866666666666667,
+        "semantic_count": 296,
+        "string_exact": 0.9866666666666667,
+        "syntax_valid": 1.0,
+        "normalized_similarity": 0.9985858585858586,
+        "fraction_n": 60,
+        "numerator_exact": 0.9666666666666667,
+        "denominator_exact": 1.0,
+        "groups": {
+          "linear": {
+            "n": 60,
+            "semantic_exact": 1.0,
+            "semantic_count": 60,
+            "string_exact": 1.0,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 1.0,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "fraction": {
+            "n": 60,
+            "semantic_exact": 0.95,
+            "semantic_count": 57,
+            "string_exact": 0.95,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.9947811447811448,
+            "fraction_n": 60,
+            "numerator_exact": 0.9666666666666667,
+            "denominator_exact": 1.0
+          },
+          "scripts": {
+            "n": 120,
+            "semantic_exact": 0.9916666666666667,
+            "semantic_count": 119,
+            "string_exact": 0.9916666666666667,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.999074074074074,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "radical": {
+            "n": 60,
+            "semantic_exact": 1.0,
+            "semantic_count": 60,
+            "string_exact": 1.0,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 1.0,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          }
+        }
+      },
+      "val_font": {
+        "n": 300,
+        "semantic_exact": 0.98,
+        "semantic_count": 294,
+        "string_exact": 0.98,
+        "syntax_valid": 1.0,
+        "normalized_similarity": 0.9971388888888888,
+        "fraction_n": 60,
+        "numerator_exact": 0.9833333333333333,
+        "denominator_exact": 1.0,
+        "groups": {
+          "linear": {
+            "n": 60,
+            "semantic_exact": 0.9666666666666667,
+            "semantic_count": 58,
+            "string_exact": 0.9666666666666667,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.9933333333333334,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "fraction": {
+            "n": 60,
+            "semantic_exact": 0.9833333333333333,
+            "semantic_count": 59,
+            "string_exact": 0.9833333333333333,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.9981481481481481,
+            "fraction_n": 60,
+            "numerator_exact": 0.9833333333333333,
+            "denominator_exact": 1.0
+          },
+          "scripts": {
+            "n": 120,
+            "semantic_exact": 0.9833333333333333,
+            "semantic_count": 118,
+            "string_exact": 0.9833333333333333,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.9981481481481481,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "radical": {
+            "n": 60,
+            "semantic_exact": 0.9833333333333333,
+            "semantic_count": 59,
+            "string_exact": 0.9833333333333333,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.9979166666666667,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          }
+        }
+      },
+      "val_capture": {
+        "n": 300,
+        "semantic_exact": 0.98,
+        "semantic_count": 294,
+        "string_exact": 0.98,
+        "syntax_valid": 1.0,
+        "normalized_similarity": 0.9979124579124579,
+        "fraction_n": 60,
+        "numerator_exact": 0.9666666666666667,
+        "denominator_exact": 0.9833333333333333,
+        "groups": {
+          "linear": {
+            "n": 60,
+            "semantic_exact": 1.0,
+            "semantic_count": 60,
+            "string_exact": 1.0,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 1.0,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "fraction": {
+            "n": 60,
+            "semantic_exact": 0.9333333333333333,
+            "semantic_count": 56,
+            "string_exact": 0.9333333333333333,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.9932659932659933,
+            "fraction_n": 60,
+            "numerator_exact": 0.9666666666666667,
+            "denominator_exact": 0.9833333333333333
+          },
+          "scripts": {
+            "n": 120,
+            "semantic_exact": 0.9833333333333333,
+            "semantic_count": 118,
+            "string_exact": 0.9833333333333333,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.9981481481481481,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "radical": {
+            "n": 60,
+            "semantic_exact": 1.0,
+            "semantic_count": 60,
+            "string_exact": 1.0,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 1.0,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          }
+        }
+      },
+      "test": {
+        "n": 500,
+        "semantic_exact": 0.956,
+        "semantic_count": 478,
+        "string_exact": 0.956,
+        "syntax_valid": 1.0,
+        "normalized_similarity": 0.9935636363636363,
+        "fraction_n": 100,
+        "numerator_exact": 0.89,
+        "denominator_exact": 0.99,
+        "groups": {
+          "linear": {
+            "n": 100,
+            "semantic_exact": 0.96,
+            "semantic_count": 96,
+            "string_exact": 0.96,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.986,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "fraction": {
+            "n": 100,
+            "semantic_exact": 0.88,
+            "semantic_count": 88,
+            "string_exact": 0.88,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.9884848484848484,
+            "fraction_n": 100,
+            "numerator_exact": 0.89,
+            "denominator_exact": 0.99
+          },
+          "scripts": {
+            "n": 200,
+            "semantic_exact": 0.97,
+            "semantic_count": 194,
+            "string_exact": 0.97,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.9966666666666666,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "radical": {
+            "n": 100,
+            "semantic_exact": 1.0,
+            "semantic_count": 100,
+            "string_exact": 1.0,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 1.0,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          }
+        }
+      },
+      "long_test": {
+        "n": 200,
+        "semantic_exact": 0.04,
+        "semantic_count": 8,
+        "string_exact": 0.04,
+        "syntax_valid": 1.0,
+        "normalized_similarity": 0.875952380952381,
+        "fraction_n": 200,
+        "numerator_exact": 0.08,
+        "denominator_exact": 0.05,
+        "groups": {
+          "linear": {
+            "n": 0
+          },
+          "fraction": {
+            "n": 200,
+            "semantic_exact": 0.04,
+            "semantic_count": 8,
+            "string_exact": 0.04,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.875952380952381,
+            "fraction_n": 200,
+            "numerator_exact": 0.08,
+            "denominator_exact": 0.05
+          },
+          "scripts": {
+            "n": 0
+          },
+          "radical": {
+            "n": 0
+          }
+        }
+      },
+      "test_font": {
+        "n": 500,
+        "semantic_exact": 0.95,
+        "semantic_count": 475,
+        "string_exact": 0.95,
+        "syntax_valid": 1.0,
+        "normalized_similarity": 0.9920136363636364,
+        "fraction_n": 100,
+        "numerator_exact": 0.87,
+        "denominator_exact": 1.0,
+        "groups": {
+          "linear": {
+            "n": 100,
+            "semantic_exact": 0.96,
+            "semantic_count": 96,
+            "string_exact": 0.96,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.9819999999999999,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "fraction": {
+            "n": 100,
+            "semantic_exact": 0.87,
+            "semantic_count": 87,
+            "string_exact": 0.87,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.9873737373737373,
+            "fraction_n": 100,
+            "numerator_exact": 0.87,
+            "denominator_exact": 1.0
+          },
+          "scripts": {
+            "n": 200,
+            "semantic_exact": 0.975,
+            "semantic_count": 195,
+            "string_exact": 0.975,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.9972222222222222,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "radical": {
+            "n": 100,
+            "semantic_exact": 0.97,
+            "semantic_count": 97,
+            "string_exact": 0.97,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.99625,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          }
+        }
+      },
+      "test_capture": {
+        "n": 500,
+        "semantic_exact": 0.96,
+        "semantic_count": 480,
+        "string_exact": 0.96,
+        "syntax_valid": 1.0,
+        "normalized_similarity": 0.9936853535353536,
+        "fraction_n": 100,
+        "numerator_exact": 0.9,
+        "denominator_exact": 0.99,
+        "groups": {
+          "linear": {
+            "n": 100,
+            "semantic_exact": 0.96,
+            "semantic_count": 96,
+            "string_exact": 0.96,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.9847272727272727,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "fraction": {
+            "n": 100,
+            "semantic_exact": 0.89,
+            "semantic_count": 89,
+            "string_exact": 0.89,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.9893939393939394,
+            "fraction_n": 100,
+            "numerator_exact": 0.9,
+            "denominator_exact": 0.99
+          },
+          "scripts": {
+            "n": 200,
+            "semantic_exact": 0.98,
+            "semantic_count": 196,
+            "string_exact": 0.98,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.9977777777777778,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          },
+          "radical": {
+            "n": 100,
+            "semantic_exact": 0.99,
+            "semantic_count": 99,
+            "string_exact": 0.99,
+            "syntax_valid": 1.0,
+            "normalized_similarity": 0.99875,
+            "fraction_n": 0,
+            "numerator_exact": null,
+            "denominator_exact": null
+          }
+        }
+      },
+      "latency": {
+        "n": 60,
+        "batch_size": 1,
+        "median_ms": 8.81045000278391,
+        "p95_ms": 13.367839969578196,
+        "includes": "prepared CPU tensor -> GPU transfer -> output token IDs; excludes image preprocessing"
+      },
+      "robust_validation_exact": 0.9822222222222222,
+      "training_seconds": 325.0349418000551
+    }
+  },
+  "winner": "P",
+  "winner_single_image_test": {
+    "n": 500,
+    "semantic_exact": 0.956,
+    "semantic_count": 478,
+    "string_exact": 0.956,
+    "syntax_valid": 1.0,
+    "normalized_similarity": 0.9935636363636363,
+    "fraction_n": 100,
+    "numerator_exact": 0.89,
+    "denominator_exact": 0.99,
+    "groups": {
+      "linear": {
+        "n": 100,
+        "semantic_exact": 0.96,
+        "semantic_count": 96,
+        "string_exact": 0.96,
+        "syntax_valid": 1.0,
+        "normalized_similarity": 0.986,
+        "fraction_n": 0,
+        "numerator_exact": null,
+        "denominator_exact": null
+      },
+      "fraction": {
+        "n": 100,
+        "semantic_exact": 0.88,
+        "semantic_count": 88,
+        "string_exact": 0.88,
+        "syntax_valid": 1.0,
+        "normalized_similarity": 0.9884848484848484,
+        "fraction_n": 100,
+        "numerator_exact": 0.89,
+        "denominator_exact": 0.99
+      },
+      "scripts": {
+        "n": 200,
+        "semantic_exact": 0.97,
+        "semantic_count": 194,
+        "string_exact": 0.97,
+        "syntax_valid": 1.0,
+        "normalized_similarity": 0.9966666666666666,
+        "fraction_n": 0,
+        "numerator_exact": null,
+        "denominator_exact": null
+      },
+      "radical": {
+        "n": 100,
+        "semantic_exact": 1.0,
+        "semantic_count": 100,
+        "string_exact": 1.0,
+        "syntax_valid": 1.0,
+        "normalized_similarity": 1.0,
+        "fraction_n": 0,
+        "numerator_exact": null,
+        "denominator_exact": null
+      }
+    }
+  }
+}

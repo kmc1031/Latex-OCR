@@ -1,0 +1,11711 @@
+[
+  {
+    "id": "3b1fed559896e1b6_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "3",
+      "\\times",
+      "1",
+      "=",
+      "4"
+    ],
+    "pred": [
+      "3",
+      "\\times",
+      "1",
+      "=",
+      "4"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "ebbf45ba66e27d64_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "b",
+      "-",
+      "x",
+      "=",
+      "b"
+    ],
+    "pred": [
+      "b",
+      "\\times",
+      "3",
+      "=",
+      "z"
+    ],
+    "exact": false,
+    "distance": 3,
+    "terminated": true
+  },
+  {
+    "id": "6010af9aedb3360c_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "b",
+      "-",
+      "6",
+      "=",
+      "6"
+    ],
+    "pred": [
+      "b",
+      "-",
+      "6",
+      "=",
+      "6"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "2820bc176e3e6753_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "a",
+      "-",
+      "y",
+      "=",
+      "6"
+    ],
+    "pred": [
+      "a",
+      "-",
+      "y",
+      "=",
+      "b"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "b10e35d9c5cf9ee1_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "a",
+      "+",
+      "6",
+      "=",
+      "a"
+    ],
+    "pred": [
+      "a",
+      "+",
+      "b",
+      "=",
+      "a"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "8502504d0a63970e_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "9",
+      "\\times",
+      "1",
+      "=",
+      "b"
+    ],
+    "pred": [
+      "9",
+      "\\times",
+      "1",
+      "=",
+      "b"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "b6ede0fd9bbe92fa_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "z",
+      "+",
+      "6",
+      "=",
+      "4"
+    ],
+    "pred": [
+      "2",
+      "+",
+      "b",
+      "=",
+      "4"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "ed8edead4c12a48b_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "x",
+      "-",
+      "l",
+      "=",
+      "7"
+    ],
+    "pred": [
+      "x",
+      "-",
+      "l",
+      "=",
+      "7"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "f7e795fb88aa8a99_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "2",
+      "\\times",
+      "z",
+      "=",
+      "5"
+    ],
+    "pred": [
+      "2",
+      "\\times",
+      "3",
+      "=",
+      "5"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "ff96f962f0a1fe05_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "a",
+      "+",
+      "l",
+      "=",
+      "1"
+    ],
+    "pred": [
+      "0",
+      "+",
+      "l",
+      "=",
+      "2"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "72bead2ed9d924bc_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "7",
+      "+",
+      "4",
+      "=",
+      "l"
+    ],
+    "pred": [
+      "7",
+      "+",
+      "4",
+      "=",
+      "l"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "2a178c33f9fe5dfb_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "8",
+      "-",
+      "3",
+      "=",
+      "a"
+    ],
+    "pred": [
+      "8",
+      "-",
+      "3",
+      "=",
+      "a"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "931e6fa501f1aca2_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "8",
+      "+",
+      "6",
+      "=",
+      "z"
+    ],
+    "pred": [
+      "8",
+      "+",
+      "6",
+      "=",
+      "z"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "8338bbc6dcd4a05c_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "8",
+      "\\times",
+      "5",
+      "=",
+      "y"
+    ],
+    "pred": [
+      "8",
+      "\\times",
+      "5",
+      "=",
+      "y"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "b8ac53d0636245ed_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "7",
+      "+",
+      "x",
+      "=",
+      "1"
+    ],
+    "pred": [
+      "7",
+      "+",
+      "x",
+      "=",
+      "5"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "4bfa23ba253c9871_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "2",
+      "+",
+      "3",
+      "=",
+      "b"
+    ],
+    "pred": [
+      "2",
+      "+",
+      "9",
+      "=",
+      "b"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "01727efec6774058_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "2",
+      "+",
+      "3",
+      "=",
+      "7"
+    ],
+    "pred": [
+      "1",
+      "+",
+      "3",
+      "=",
+      "7"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "438ec13d4b94210a_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "0",
+      "+",
+      "l",
+      "=",
+      "x"
+    ],
+    "pred": [
+      "0",
+      "+",
+      "l",
+      "=",
+      "x"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "d8d85d6f9430c4ad_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "8",
+      "\\times",
+      "a",
+      "=",
+      "2"
+    ],
+    "pred": [
+      "8",
+      "\\times",
+      "a",
+      "=",
+      "2"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "42420bf069ef81bf_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "y",
+      "-",
+      "1",
+      "=",
+      "0"
+    ],
+    "pred": [
+      "y",
+      "-",
+      "1",
+      "=",
+      "0"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "4ba02ff281828877_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "b",
+      "-",
+      "4",
+      "=",
+      "3"
+    ],
+    "pred": [
+      "b",
+      "-",
+      "8",
+      "=",
+      "3"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "36c4beab41f6c089_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "7",
+      "+",
+      "6",
+      "=",
+      "y"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "7",
+      "+",
+      "x",
+      "}"
+    ],
+    "exact": false,
+    "distance": 5,
+    "terminated": true
+  },
+  {
+    "id": "a69b620b3a860988_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "1",
+      "-",
+      "2",
+      "=",
+      "0"
+    ],
+    "pred": [
+      "1",
+      "-",
+      "2",
+      "=",
+      "0"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "7d1cf9e0fc51de38_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "5",
+      "+",
+      "9",
+      "=",
+      "1"
+    ],
+    "pred": [
+      "5",
+      "+",
+      "9",
+      "=",
+      "1"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "1d259e5cf5be1b60_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "8",
+      "-",
+      "3",
+      "=",
+      "y"
+    ],
+    "pred": [
+      "8",
+      "-",
+      "3",
+      "=",
+      "y"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "d91b768ba0a8eef3_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "3",
+      "\\times",
+      "y",
+      "=",
+      "a"
+    ],
+    "pred": [
+      "3",
+      "\\times",
+      "x",
+      "=",
+      "a"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "38b1828d6e8e6199_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "1",
+      "\\times",
+      "8",
+      "=",
+      "8"
+    ],
+    "pred": [
+      "9",
+      "\\times",
+      "8",
+      "=",
+      "8"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "5ecc42e04af6c9d8_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "b",
+      "+",
+      "2",
+      "=",
+      "9"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "5",
+      "+",
+      "x",
+      "}",
+      "{",
+      "9",
+      "}"
+    ],
+    "exact": false,
+    "distance": 7,
+    "terminated": true
+  },
+  {
+    "id": "722e125a93f2ff50_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "0",
+      "\\times",
+      "a",
+      "=",
+      "l"
+    ],
+    "pred": [
+      "0",
+      "\\times",
+      "l",
+      "=",
+      "x"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "25bf7101af9cdbc3_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "z",
+      "\\times",
+      "0",
+      "=",
+      "9"
+    ],
+    "pred": [
+      "z",
+      "\\times",
+      "0",
+      "=",
+      "9"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "423d4bf20a69d398_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "a",
+      "-",
+      "z",
+      "=",
+      "a"
+    ],
+    "pred": [
+      "z",
+      "-",
+      "z",
+      "=",
+      "6"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "febcde7b16319c0a_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "9",
+      "\\times",
+      "4",
+      "=",
+      "b"
+    ],
+    "pred": [
+      "9",
+      "\\times",
+      "4",
+      "=",
+      "b"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "d5ca2255928de33c_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "9",
+      "\\times",
+      "l",
+      "=",
+      "3"
+    ],
+    "pred": [
+      "9",
+      "\\times",
+      "l",
+      "=",
+      "3"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "c50527e8da019293_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "x",
+      "+",
+      "a",
+      "=",
+      "7"
+    ],
+    "pred": [
+      "x",
+      "+",
+      "a",
+      "=",
+      "7"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "f1a6488e5900472c_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "3",
+      "\\times",
+      "9",
+      "=",
+      "1"
+    ],
+    "pred": [
+      "3",
+      "\\times",
+      "9",
+      "=",
+      "1"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "b3e85a63cf75ce3c_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "a",
+      "+",
+      "x",
+      "=",
+      "z"
+    ],
+    "pred": [
+      "2",
+      "+",
+      "x",
+      "=",
+      "b"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "5dfa2cb9bd41bf28_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "4",
+      "+",
+      "8",
+      "=",
+      "2"
+    ],
+    "pred": [
+      "4",
+      "+",
+      "8",
+      "=",
+      "1"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "4faed085bd9a6ac5_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "6",
+      "\\times",
+      "2",
+      "=",
+      "4"
+    ],
+    "pred": [
+      "6",
+      "\\times",
+      "2",
+      "=",
+      "1"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "fc8243336ee1f936_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "1",
+      "+",
+      "8",
+      "=",
+      "b"
+    ],
+    "pred": [
+      "1",
+      "\\times",
+      "8",
+      "=",
+      "0"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "1dc070b0354e793b_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "7",
+      "+",
+      "7",
+      "=",
+      "l"
+    ],
+    "pred": [
+      "7",
+      "+",
+      "7",
+      "=",
+      "l"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "b912dc7a751e7b4f_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "6",
+      "-",
+      "y",
+      "=",
+      "b"
+    ],
+    "pred": [
+      "5",
+      "^",
+      "{",
+      "6",
+      "}",
+      "-",
+      "b"
+    ],
+    "exact": false,
+    "distance": 6,
+    "terminated": true
+  },
+  {
+    "id": "a40a14d14b91f855_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "x",
+      "\\times",
+      "y",
+      "=",
+      "3"
+    ],
+    "pred": [
+      "y",
+      "\\times",
+      "x",
+      "=",
+      "3"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "b3f49ffb48dd13f6_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "l",
+      "+",
+      "z",
+      "=",
+      "6"
+    ],
+    "pred": [
+      "l",
+      "+",
+      "z",
+      "=",
+      "6"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "3d560415883ac300_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "a",
+      "-",
+      "2",
+      "=",
+      "8"
+    ],
+    "pred": [
+      "4",
+      "-",
+      "2",
+      "=",
+      "2"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "9fbcf1f8445ea4c3_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "z",
+      "\\times",
+      "a",
+      "=",
+      "y"
+    ],
+    "pred": [
+      "z",
+      "\\times",
+      "a",
+      "=",
+      "y"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "ce8c53530a9cc50a_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "x",
+      "-",
+      "z",
+      "=",
+      "0"
+    ],
+    "pred": [
+      "x",
+      "-",
+      "z",
+      "=",
+      "0"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "e42ddecb1fd5fe1e_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "l",
+      "+",
+      "4",
+      "=",
+      "0"
+    ],
+    "pred": [
+      "l",
+      "+",
+      "4",
+      "=",
+      "0"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "ee786754f494b2eb_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "l",
+      "+",
+      "b",
+      "=",
+      "5"
+    ],
+    "pred": [
+      "l",
+      "+",
+      "b",
+      "=",
+      "4"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "d5b6fe4124f78081_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "9",
+      "-",
+      "5",
+      "=",
+      "2"
+    ],
+    "pred": [
+      "9",
+      "-",
+      "5",
+      "=",
+      "z"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "d81beb8d2c2cfc5b_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "x",
+      "-",
+      "1",
+      "=",
+      "y"
+    ],
+    "pred": [
+      "x",
+      "-",
+      "l",
+      "=",
+      "1"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "dd245c6e75a13f39_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "l",
+      "+",
+      "3",
+      "=",
+      "a"
+    ],
+    "pred": [
+      "l",
+      "+",
+      "3",
+      "=",
+      "a"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "b0793f6847c0b30e_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "b",
+      "\\times",
+      "y",
+      "=",
+      "1"
+    ],
+    "pred": [
+      "b",
+      "\\times",
+      "x",
+      "=",
+      "l"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "357441016eec0397_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "a",
+      "+",
+      "7",
+      "=",
+      "x"
+    ],
+    "pred": [
+      "a",
+      "+",
+      "7",
+      "=",
+      "x"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "d960374a2843677d_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "a",
+      "\\times",
+      "b",
+      "=",
+      "9"
+    ],
+    "pred": [
+      "a",
+      "\\times",
+      "b",
+      "=",
+      "9"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "e8f8ce997238cdc9_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "b",
+      "+",
+      "x",
+      "=",
+      "l"
+    ],
+    "pred": [
+      "b",
+      "+",
+      "x",
+      "=",
+      "l"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "7f765a9394e355dc_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "a",
+      "+",
+      "8",
+      "=",
+      "5"
+    ],
+    "pred": [
+      "a",
+      "+",
+      "8",
+      "=",
+      "5"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "b179bad7b4c75daa_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "y",
+      "\\times",
+      "z",
+      "=",
+      "7"
+    ],
+    "pred": [
+      "y",
+      "\\times",
+      "z",
+      "=",
+      "z"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "46461b3f8f72b827_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "3",
+      "\\times",
+      "7",
+      "=",
+      "3"
+    ],
+    "pred": [
+      "1",
+      "\\times",
+      "7",
+      "=",
+      "3"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "02e3849de876391e_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "x",
+      "+",
+      "1",
+      "=",
+      "a"
+    ],
+    "pred": [
+      "x",
+      "+",
+      "1",
+      "=",
+      "x"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "6849a0d40a7264f5_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "l",
+      "+",
+      "a",
+      "=",
+      "b"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "l",
+      "+",
+      "4",
+      "}",
+      "{",
+      "0",
+      "}"
+    ],
+    "exact": false,
+    "distance": 7,
+    "terminated": true
+  },
+  {
+    "id": "b6e7bae324a6b9ee_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "4",
+      "\\times",
+      "x",
+      "=",
+      "y"
+    ],
+    "pred": [
+      "4",
+      "\\times",
+      "x",
+      "=",
+      "x"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "afefb25f16c12d36_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "b",
+      "-",
+      "b",
+      "=",
+      "x"
+    ],
+    "pred": [
+      "b",
+      "-",
+      "x",
+      "=",
+      "6"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "46b656e7c2e24ba7_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "6",
+      "+",
+      "a",
+      "=",
+      "x"
+    ],
+    "pred": [
+      "6",
+      "+",
+      "a",
+      "=",
+      "x"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "9cb8ac890e0210bb_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "1",
+      "\\times",
+      "5",
+      "=",
+      "4"
+    ],
+    "pred": [
+      "1",
+      "\\times",
+      "5",
+      "=",
+      "4"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "f13fe2fe6f0536c2_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "3",
+      "\\times",
+      "3",
+      "=",
+      "l"
+    ],
+    "pred": [
+      "3",
+      "\\times",
+      "3",
+      "=",
+      "y"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "52b9c94970e9613e_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "2",
+      "-",
+      "9",
+      "=",
+      "7"
+    ],
+    "pred": [
+      "2",
+      "-",
+      "9",
+      "=",
+      "7"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "d6ac4466f27da460_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "9",
+      "-",
+      "x",
+      "=",
+      "z"
+    ],
+    "pred": [
+      "4",
+      "-",
+      "z",
+      "=",
+      "x"
+    ],
+    "exact": false,
+    "distance": 3,
+    "terminated": true
+  },
+  {
+    "id": "2f8d3d647a163cda_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "l",
+      "\\times",
+      "a",
+      "=",
+      "0"
+    ],
+    "pred": [
+      "l",
+      "\\times",
+      "x",
+      "=",
+      "0"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "bf61e7cdb5cc7b19_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "3",
+      "+",
+      "8",
+      "=",
+      "a"
+    ],
+    "pred": [
+      "3",
+      "+",
+      "5",
+      "=",
+      "a"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "59bd22fb87052b75_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "9",
+      "+",
+      "0",
+      "=",
+      "6"
+    ],
+    "pred": [
+      "9",
+      "+",
+      "0",
+      "=",
+      "6"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "5fe2fc923594ada5_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "z",
+      "\\times",
+      "9",
+      "=",
+      "3"
+    ],
+    "pred": [
+      "z",
+      "\\times",
+      "9",
+      "=",
+      "x"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "f0b66e0795a356be_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "0",
+      "+",
+      "b",
+      "=",
+      "7"
+    ],
+    "pred": [
+      "0",
+      "+",
+      "b",
+      "=",
+      "7"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "40f751ea324d4e92_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "5",
+      "+",
+      "2",
+      "=",
+      "8"
+    ],
+    "pred": [
+      "5",
+      "+",
+      "2",
+      "=",
+      "5"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "dbef5df7d97c11a5_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "9",
+      "\\times",
+      "b",
+      "=",
+      "9"
+    ],
+    "pred": [
+      "9",
+      "\\times",
+      "b",
+      "=",
+      "9"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "0a4267e44fe67327_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "7",
+      "+",
+      "5",
+      "=",
+      "x"
+    ],
+    "pred": [
+      "7",
+      "+",
+      "5",
+      "=",
+      "3"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "16000ab75377bf15_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "1",
+      "\\times",
+      "x",
+      "=",
+      "y"
+    ],
+    "pred": [
+      "1",
+      "\\times",
+      "y",
+      "=",
+      "x"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "11602377c0c17b05_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "5",
+      "-",
+      "0",
+      "=",
+      "4"
+    ],
+    "pred": [
+      "5",
+      "-",
+      "0",
+      "=",
+      "4"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "71a10d7a21db9e13_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "x",
+      "-",
+      "x",
+      "=",
+      "a"
+    ],
+    "pred": [
+      "x",
+      "-",
+      "a",
+      "=",
+      "x"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "078905f76d3ccd79_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "y",
+      "+",
+      "5",
+      "=",
+      "2"
+    ],
+    "pred": [
+      "9",
+      "+",
+      "5",
+      "=",
+      "2"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "fd55ea3863a202e8_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "y",
+      "\\times",
+      "z",
+      "=",
+      "x"
+    ],
+    "pred": [
+      "y",
+      "\\times",
+      "z",
+      "=",
+      "x"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "5b8b06f33c9001b7_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "8",
+      "-",
+      "z",
+      "=",
+      "7"
+    ],
+    "pred": [
+      "8",
+      "-",
+      "z",
+      "=",
+      "7"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "306c725cec10a1f8_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "4",
+      "-",
+      "8",
+      "=",
+      "6"
+    ],
+    "pred": [
+      "1",
+      "-",
+      "8",
+      "=",
+      "6"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "10bb492c87da001f_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "8",
+      "+",
+      "6",
+      "=",
+      "4"
+    ],
+    "pred": [
+      "8",
+      "+",
+      "6",
+      "=",
+      "b"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "25ec05026f334f6b_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "6",
+      "+",
+      "b",
+      "=",
+      "b"
+    ],
+    "pred": [
+      "b",
+      "+",
+      "b",
+      "=",
+      "b"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "b6554dd4d3b4c49b_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "8",
+      "-",
+      "5",
+      "=",
+      "6"
+    ],
+    "pred": [
+      "8",
+      "-",
+      "5",
+      "=",
+      "5"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "cedfcee71c868628_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "7",
+      "\\times",
+      "3",
+      "=",
+      "8"
+    ],
+    "pred": [
+      "7",
+      "\\times",
+      "3",
+      "=",
+      "8"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "5e14ec56c3f7d08b_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "b",
+      "\\times",
+      "5",
+      "=",
+      "a"
+    ],
+    "pred": [
+      "b",
+      "\\times",
+      "5",
+      "=",
+      "a"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "05b5c50735300b61_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "5",
+      "\\times",
+      "2",
+      "=",
+      "l"
+    ],
+    "pred": [
+      "5",
+      "\\times",
+      "1",
+      "=",
+      "4"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "6edf18248ff8a249_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "y",
+      "\\times",
+      "z",
+      "=",
+      "9"
+    ],
+    "pred": [
+      "y",
+      "\\times",
+      "z",
+      "=",
+      "9"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "6c3fb72b2ecc93ad_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "l",
+      "+",
+      "l",
+      "=",
+      "8"
+    ],
+    "pred": [
+      "l",
+      "+",
+      "1",
+      "=",
+      "8"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "371827fb505b9b8b_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "1",
+      "+",
+      "y",
+      "=",
+      "2"
+    ],
+    "pred": [
+      "1",
+      "+",
+      "9",
+      "=",
+      "6"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "2871f18bc3e608ca_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "8",
+      "+",
+      "5",
+      "=",
+      "2"
+    ],
+    "pred": [
+      "8",
+      "+",
+      "5",
+      "=",
+      "2"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "f39c74736abe770f_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "7",
+      "+",
+      "b",
+      "=",
+      "2"
+    ],
+    "pred": [
+      "7",
+      "+",
+      "b",
+      "=",
+      "2"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "1c8223dc68d7048b_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "y",
+      "+",
+      "y",
+      "=",
+      "3"
+    ],
+    "pred": [
+      "4",
+      "+",
+      "y",
+      "=",
+      "3"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "1b08138294ba5407_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "0",
+      "+",
+      "2",
+      "=",
+      "a"
+    ],
+    "pred": [
+      "0",
+      "+",
+      "z",
+      "=",
+      "4"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "55f5723f74b8e370_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "5",
+      "-",
+      "l",
+      "=",
+      "y"
+    ],
+    "pred": [
+      "5",
+      "-",
+      "l",
+      "=",
+      "y"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "b47b44fd0fbbaa43_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "l",
+      "+",
+      "3",
+      "=",
+      "2"
+    ],
+    "pred": [
+      "1",
+      "+",
+      "3",
+      "=",
+      "5"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "bf13a4f54da34e0c_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "2",
+      "\\times",
+      "y",
+      "=",
+      "6"
+    ],
+    "pred": [
+      "2",
+      "\\times",
+      "y",
+      "=",
+      "6"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "4afb3d6ef9814db7_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "6",
+      "\\times",
+      "l",
+      "=",
+      "a"
+    ],
+    "pred": [
+      "b",
+      "\\times",
+      "l",
+      "=",
+      "a"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "df5ca404be6a9e5f_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "6",
+      "+",
+      "0",
+      "=",
+      "x"
+    ],
+    "pred": [
+      "b",
+      "+",
+      "0",
+      "=",
+      "x"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "d975c72e20829fc7_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "l",
+      "-",
+      "1",
+      "=",
+      "1"
+    ],
+    "pred": [
+      "1",
+      "-",
+      "1",
+      "=",
+      "1"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "9852ed8a016d2d88_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "y",
+      "-",
+      "0",
+      "=",
+      "x"
+    ],
+    "pred": [
+      "x",
+      "-",
+      "0",
+      "=",
+      "x"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "40028ff9072a0cfb_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "8",
+      "-",
+      "l",
+      "=",
+      "b"
+    ],
+    "pred": [
+      "8",
+      "-",
+      "x",
+      "=",
+      "1"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "438dca94fb1e915e_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "7",
+      "-",
+      "x",
+      "=",
+      "6"
+    ],
+    "pred": [
+      "7",
+      "-",
+      "x",
+      "=",
+      "6"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "8b4b2d6ccd7e9e43_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "9",
+      "-",
+      "7",
+      "=",
+      "8"
+    ],
+    "pred": [
+      "9",
+      "-",
+      "7",
+      "=",
+      "x"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "a950c6bc09625fa6_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "3",
+      "+",
+      "y",
+      "=",
+      "6"
+    ],
+    "pred": [
+      "3",
+      "+",
+      "y",
+      "=",
+      "b"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "2afeb820e525fcfc_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "x",
+      "-",
+      "3",
+      "=",
+      "3"
+    ],
+    "pred": [
+      "x",
+      "-",
+      "3",
+      "=",
+      "2"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "4416f5cd0653fcf4_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "4",
+      "-",
+      "b",
+      "=",
+      "b"
+    ],
+    "pred": [
+      "4",
+      "-",
+      "b",
+      "=",
+      "b"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "c79199c99c206fdf_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "y",
+      "\\times",
+      "b",
+      "=",
+      "3"
+    ],
+    "pred": [
+      "y",
+      "\\times",
+      "b",
+      "=",
+      "3"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "a5f3b94f08eee825_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "3",
+      "\\times",
+      "l",
+      "=",
+      "l"
+    ],
+    "pred": [
+      "3",
+      "\\times",
+      "1",
+      "=",
+      "b"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "9bdbb35ac4c2f123_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "3",
+      "\\times",
+      "9",
+      "=",
+      "4"
+    ],
+    "pred": [
+      "3",
+      "\\times",
+      "9",
+      "=",
+      "4"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "6cd068917018ed5e_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "8",
+      "-",
+      "b",
+      "=",
+      "7"
+    ],
+    "pred": [
+      "z",
+      "-",
+      "b",
+      "=",
+      "7"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "e038cf3383a8e6f5_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "5",
+      "-",
+      "3",
+      "=",
+      "5"
+    ],
+    "pred": [
+      "5",
+      "-",
+      "3",
+      "=",
+      "5"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "427c568d09004a41_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "0",
+      "+",
+      "3",
+      "=",
+      "a"
+    ],
+    "pred": [
+      "0",
+      "+",
+      "3",
+      "=",
+      "a"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "6fdf3146c948c074_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "2",
+      "+",
+      "3",
+      "=",
+      "2"
+    ],
+    "pred": [
+      "2",
+      "+",
+      "3",
+      "=",
+      "5"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "bfe0f0d1f08de1d1_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "z",
+      "-",
+      "7",
+      "=",
+      "4"
+    ],
+    "pred": [
+      "z",
+      "^",
+      "{",
+      "7",
+      "}",
+      "-",
+      "7"
+    ],
+    "exact": false,
+    "distance": 5,
+    "terminated": true
+  },
+  {
+    "id": "f18905358b4367af_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "b",
+      "\\times",
+      "2",
+      "=",
+      "0"
+    ],
+    "pred": [
+      "b",
+      "\\times",
+      "2",
+      "=",
+      "0"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "7218ce1d0ba0a251_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "7",
+      "-",
+      "9",
+      "=",
+      "9"
+    ],
+    "pred": [
+      "7",
+      "-",
+      "9",
+      "=",
+      "9"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "b6b701424598b002_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "4",
+      "-",
+      "4",
+      "=",
+      "l"
+    ],
+    "pred": [
+      "4",
+      "\\times",
+      "l",
+      "=",
+      "3"
+    ],
+    "exact": false,
+    "distance": 3,
+    "terminated": true
+  },
+  {
+    "id": "a5e56e5e7958d969_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "3",
+      "+",
+      "2",
+      "=",
+      "6"
+    ],
+    "pred": [
+      "3",
+      "+",
+      "2",
+      "=",
+      "6"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "a3344f31f757a661_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "z",
+      "\\times",
+      "7",
+      "=",
+      "b"
+    ],
+    "pred": [
+      "z",
+      "\\times",
+      "7",
+      "=",
+      "b"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "948559e9d2c9c71d_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "6",
+      "+",
+      "9",
+      "=",
+      "4"
+    ],
+    "pred": [
+      "b",
+      "+",
+      "9",
+      "=",
+      "7"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "361c0e11c0b649f2_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "y",
+      "\\times",
+      "x",
+      "=",
+      "y"
+    ],
+    "pred": [
+      "y",
+      "\\times",
+      "z",
+      "=",
+      "x"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "9425f77a0a7adde8_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "9",
+      "+",
+      "7",
+      "=",
+      "2"
+    ],
+    "pred": [
+      "9",
+      "+",
+      "4",
+      "=",
+      "2"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "519f88d8aa5a9091_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "b",
+      "\\times",
+      "x",
+      "=",
+      "4"
+    ],
+    "pred": [
+      "b",
+      "\\times",
+      "a",
+      "=",
+      "4"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "14d448b32644e623_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "a",
+      "\\times",
+      "y",
+      "=",
+      "3"
+    ],
+    "pred": [
+      "x",
+      "\\times",
+      "y",
+      "=",
+      "z"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "2657dbb2410a157b_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "7",
+      "-",
+      "0",
+      "=",
+      "5"
+    ],
+    "pred": [
+      "7",
+      "-",
+      "0",
+      "=",
+      "5"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "65173bfc23e62fc0_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "b",
+      "\\times",
+      "a",
+      "=",
+      "8"
+    ],
+    "pred": [
+      "0",
+      "\\times",
+      "a",
+      "=",
+      "8"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "871b034745566f8d_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "b",
+      "\\times",
+      "6",
+      "=",
+      "a"
+    ],
+    "pred": [
+      "6",
+      "\\times",
+      "b",
+      "=",
+      "a"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "b3db95bded1917fd_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "6",
+      "\\times",
+      "a",
+      "=",
+      "y"
+    ],
+    "pred": [
+      "4",
+      "\\times",
+      "a",
+      "=",
+      "x"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "0adccd5f3730db38_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "y",
+      "\\times",
+      "8",
+      "=",
+      "l"
+    ],
+    "pred": [
+      "y",
+      "\\times",
+      "8",
+      "=",
+      "l"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "d25480b5b6b7ed21_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "l",
+      "+",
+      "2",
+      "=",
+      "0"
+    ],
+    "pred": [
+      "l",
+      "+",
+      "2",
+      "=",
+      "0"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "c37db38d3203cfd3_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "3",
+      "-",
+      "y",
+      "=",
+      "8"
+    ],
+    "pred": [
+      "3",
+      "-",
+      "y",
+      "=",
+      "8"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "43b6165505a78aab_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "x",
+      "-",
+      "6",
+      "=",
+      "3"
+    ],
+    "pred": [
+      "x",
+      "-",
+      "b",
+      "=",
+      "7"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "82ee06677c3a13a9_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "9",
+      "-",
+      "2",
+      "=",
+      "8"
+    ],
+    "pred": [
+      "9",
+      "-",
+      "2",
+      "=",
+      "8"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "1e2634c790010b74_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "2",
+      "+",
+      "y",
+      "=",
+      "4"
+    ],
+    "pred": [
+      "2",
+      "+",
+      "y",
+      "=",
+      "4"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "c0fc645b845c5bb9_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "7",
+      "\\times",
+      "3",
+      "=",
+      "2"
+    ],
+    "pred": [
+      "7",
+      "\\times",
+      "3",
+      "=",
+      "x"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "d9301743a330521f_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "0",
+      "\\times",
+      "x",
+      "=",
+      "l"
+    ],
+    "pred": [
+      "0",
+      "\\times",
+      "x",
+      "=",
+      "l"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "015410b26a0c71e3_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "3",
+      "+",
+      "a",
+      "=",
+      "y"
+    ],
+    "pred": [
+      "3",
+      "+",
+      "a",
+      "=",
+      "y"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "4e3d04df102da1c0_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "9",
+      "+",
+      "y",
+      "=",
+      "z"
+    ],
+    "pred": [
+      "9",
+      "+",
+      "5",
+      "=",
+      "z"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "e5a116ba8e46dd2c_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "b",
+      "-",
+      "7",
+      "=",
+      "1"
+    ],
+    "pred": [
+      "b",
+      "-",
+      "-",
+      "=",
+      "3"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "34b8ff6f95df0ded_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "6",
+      "-",
+      "2",
+      "=",
+      "5"
+    ],
+    "pred": [
+      "6",
+      "-",
+      "2",
+      "=",
+      "5"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "2bab1893ae9fc2ec_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "6",
+      "+",
+      "b",
+      "=",
+      "y"
+    ],
+    "pred": [
+      "6",
+      "+",
+      "b",
+      "=",
+      "y"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "e4ae8c1f530df9fd_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "l",
+      "-",
+      "7",
+      "=",
+      "a"
+    ],
+    "pred": [
+      "l",
+      "-",
+      "7",
+      "=",
+      "a"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "190b43e84229aca6_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "7",
+      "+",
+      "z",
+      "=",
+      "1"
+    ],
+    "pred": [
+      "z",
+      "+",
+      "3",
+      "=",
+      "1"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "81c03a5c61a6476d_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "b",
+      "\\times",
+      "9",
+      "=",
+      "y"
+    ],
+    "pred": [
+      "b",
+      "\\times",
+      "9",
+      "=",
+      "y"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "6aa7da1303311c3d_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "3",
+      "-",
+      "5",
+      "=",
+      "3"
+    ],
+    "pred": [
+      "3",
+      "-",
+      "5",
+      "=",
+      "3"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "cee4ba0aa9c34d79_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "a",
+      "+",
+      "z",
+      "=",
+      "z"
+    ],
+    "pred": [
+      "a",
+      "+",
+      "z",
+      "=",
+      "z"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "5336e0898c67cde8_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "2",
+      "-",
+      "4",
+      "=",
+      "z"
+    ],
+    "pred": [
+      "2",
+      "-",
+      "4",
+      "=",
+      "z"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "598ae18d0928e704_normal",
+    "kind": "basic",
+    "style": "normal",
+    "truth": [
+      "a",
+      "\\times",
+      "5",
+      "=",
+      "2"
+    ],
+    "pred": [
+      "a",
+      "\\times",
+      "5",
+      "=",
+      "2"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "be4e3a4894e3c1c1_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "1",
+      "^",
+      "{",
+      "1",
+      "}",
+      "\\times",
+      "5"
+    ],
+    "pred": [
+      "l",
+      "^",
+      "{",
+      "1",
+      "}",
+      "\\times",
+      "5"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "177b5f8393b88062_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "8",
+      "^",
+      "{",
+      "5",
+      "}",
+      "\\times",
+      "x"
+    ],
+    "pred": [
+      "z",
+      "^",
+      "{",
+      "5",
+      "}",
+      "\\times",
+      "a"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "0938a00cf84cba4a_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "3",
+      "^",
+      "{",
+      "9",
+      "}",
+      "-",
+      "7"
+    ],
+    "pred": [
+      "3",
+      "^",
+      "{",
+      "9",
+      "}",
+      "-",
+      "7"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "d6217506b650e881_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "1",
+      "^",
+      "{",
+      "5",
+      "}",
+      "+",
+      "5"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "l",
+      "+",
+      "5",
+      "}",
+      "{",
+      "2",
+      "}"
+    ],
+    "exact": false,
+    "distance": 7,
+    "terminated": true
+  },
+  {
+    "id": "44798903856e9bd6_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "y",
+      "^",
+      "{",
+      "3",
+      "}",
+      "-",
+      "6"
+    ],
+    "pred": [
+      "7",
+      "^",
+      "{",
+      "3",
+      "}",
+      "-",
+      "6"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "f0d5814bf2840d16_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "z",
+      "^",
+      "{",
+      "2",
+      "}",
+      "+",
+      "6"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "2",
+      "+",
+      "6",
+      "}",
+      "{",
+      "x",
+      "}"
+    ],
+    "exact": false,
+    "distance": 7,
+    "terminated": true
+  },
+  {
+    "id": "e8d19cfa4c713ec6_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "l",
+      "^",
+      "{",
+      "4",
+      "}",
+      "\\times",
+      "0"
+    ],
+    "pred": [
+      "l",
+      "^",
+      "{",
+      "4",
+      "}",
+      "\\times",
+      "0"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "a9ae198c8475a927_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "b",
+      "^",
+      "{",
+      "3",
+      "}",
+      "\\times",
+      "1"
+    ],
+    "pred": [
+      "b",
+      "^",
+      "{",
+      "3",
+      "}",
+      "\\times",
+      "5"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "7b68b5a276312074_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "5",
+      "^",
+      "{",
+      "8",
+      "}",
+      "-",
+      "2"
+    ],
+    "pred": [
+      "5",
+      "^",
+      "{",
+      "8",
+      "}",
+      "-",
+      "2"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "7f0ce3e4636c43c6_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "2",
+      "^",
+      "{",
+      "7",
+      "}",
+      "-",
+      "3"
+    ],
+    "pred": [
+      "2",
+      "^",
+      "{",
+      "7",
+      "}",
+      "-",
+      "3"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "a872b2f137e006b1_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "8",
+      "^",
+      "{",
+      "4",
+      "}",
+      "+",
+      "0"
+    ],
+    "pred": [
+      "8",
+      "^",
+      "{",
+      "4",
+      "}",
+      "+",
+      "0"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "b62a816846252c0f_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "7",
+      "^",
+      "{",
+      "1",
+      "}",
+      "+",
+      "7"
+    ],
+    "pred": [
+      "x",
+      "_",
+      "{",
+      "1",
+      "}",
+      "+",
+      "9"
+    ],
+    "exact": false,
+    "distance": 3,
+    "terminated": true
+  },
+  {
+    "id": "bf1a42598907c2b4_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "9",
+      "^",
+      "{",
+      "6",
+      "}",
+      "\\times",
+      "a"
+    ],
+    "pred": [
+      "9",
+      "^",
+      "{",
+      "6",
+      "}",
+      "\\times",
+      "a"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "f50e7077acc2a4d5_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "4",
+      "^",
+      "{",
+      "9",
+      "}",
+      "+",
+      "x"
+    ],
+    "pred": [
+      "4",
+      "^",
+      "{",
+      "9",
+      "}",
+      "\\times",
+      "7"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "898f793ae14a05f9_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "6",
+      "^",
+      "{",
+      "8",
+      "}",
+      "-",
+      "l"
+    ],
+    "pred": [
+      "6",
+      "^",
+      "{",
+      "8",
+      "}",
+      "-",
+      "l"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "94e5a0c82aa2d889_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "7",
+      "^",
+      "{",
+      "4",
+      "}",
+      "-",
+      "3"
+    ],
+    "pred": [
+      "4",
+      "^",
+      "{",
+      "7",
+      "}",
+      "-",
+      "3"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "4b1e7d349cb62fab_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "z",
+      "^",
+      "{",
+      "5",
+      "}",
+      "-",
+      "a"
+    ],
+    "pred": [
+      "3",
+      "^",
+      "{",
+      "5",
+      "}",
+      "-",
+      "a"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "0a6192a8c688af20_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "0",
+      "^",
+      "{",
+      "2",
+      "}",
+      "+",
+      "8"
+    ],
+    "pred": [
+      "0",
+      "^",
+      "{",
+      "2",
+      "}",
+      "+",
+      "8"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "00af456cee12b94e_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "9",
+      "^",
+      "{",
+      "7",
+      "}",
+      "-",
+      "x"
+    ],
+    "pred": [
+      "9",
+      "^",
+      "{",
+      "7",
+      "}",
+      "-",
+      "x"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "5562e5804be4c1d8_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "4",
+      "^",
+      "{",
+      "3",
+      "}",
+      "\\times",
+      "l"
+    ],
+    "pred": [
+      "4",
+      "^",
+      "{",
+      "3",
+      "}",
+      "\\times",
+      "l"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "7414be3d9f225057_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "b",
+      "^",
+      "{",
+      "6",
+      "}",
+      "-",
+      "5"
+    ],
+    "pred": [
+      "b",
+      "^",
+      "{",
+      "4",
+      "}",
+      "-",
+      "5"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "72b1587771b8fb58_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "l",
+      "^",
+      "{",
+      "1",
+      "}",
+      "-",
+      "8"
+    ],
+    "pred": [
+      "l",
+      "_",
+      "{",
+      "1",
+      "}",
+      "-",
+      "8"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "64493b6eb23f20ba_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "7",
+      "^",
+      "{",
+      "3",
+      "}",
+      "-",
+      "0"
+    ],
+    "pred": [
+      "7",
+      "^",
+      "{",
+      "3",
+      "}",
+      "-",
+      "0"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "9f5f668843059f45_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "1",
+      "^",
+      "{",
+      "9",
+      "}",
+      "\\times",
+      "z"
+    ],
+    "pred": [
+      "1",
+      "^",
+      "{",
+      "9",
+      "}",
+      "\\times",
+      "z"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "ac6ba02eede55b32_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "9",
+      "^",
+      "{",
+      "2",
+      "}",
+      "+",
+      "x"
+    ],
+    "pred": [
+      "9",
+      "^",
+      "{",
+      "9",
+      "}",
+      "+",
+      "x"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "fa093353a5c6184a_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "a",
+      "^",
+      "{",
+      "3",
+      "}",
+      "+",
+      "z"
+    ],
+    "pred": [
+      "a",
+      "^",
+      "{",
+      "3",
+      "}",
+      "+",
+      "z"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "7d7c9a6e8d6fb0b2_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "a",
+      "^",
+      "{",
+      "6",
+      "}",
+      "-",
+      "8"
+    ],
+    "pred": [
+      "a",
+      "^",
+      "{",
+      "6",
+      "}",
+      "-",
+      "8"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "e5797911bb7f30ad_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "4",
+      "^",
+      "{",
+      "9",
+      "}",
+      "-",
+      "z"
+    ],
+    "pred": [
+      "4",
+      "^",
+      "{",
+      "1",
+      "}",
+      "-",
+      "z"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "cebe9c1768c6137e_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "1",
+      "^",
+      "{",
+      "1",
+      "}",
+      "-",
+      "b"
+    ],
+    "pred": [
+      "1",
+      "^",
+      "{",
+      "1",
+      "}",
+      "-",
+      "b"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "e09e12eb5f77c145_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "8",
+      "^",
+      "{",
+      "9",
+      "}",
+      "-",
+      "l"
+    ],
+    "pred": [
+      "8",
+      "^",
+      "{",
+      "2",
+      "}",
+      "-",
+      "l"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "500c0e54ee02fc67_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "0",
+      "^",
+      "{",
+      "1",
+      "}",
+      "+",
+      "z"
+    ],
+    "pred": [
+      "0",
+      "^",
+      "{",
+      "1",
+      "}",
+      "+",
+      "z"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "a6b94077995d9122_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "z",
+      "^",
+      "{",
+      "2",
+      "}",
+      "-",
+      "l"
+    ],
+    "pred": [
+      "z",
+      "^",
+      "{",
+      "2",
+      "}",
+      "-",
+      "l"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "d7efefe8bb5eb7d1_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "4",
+      "^",
+      "{",
+      "5",
+      "}",
+      "\\times",
+      "8"
+    ],
+    "pred": [
+      "4",
+      "^",
+      "{",
+      "5",
+      "}",
+      "\\times",
+      "8"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "76d7c33953c4c336_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "1",
+      "^",
+      "{",
+      "8",
+      "}",
+      "-",
+      "2"
+    ],
+    "pred": [
+      "1",
+      "^",
+      "{",
+      "8",
+      "}",
+      "-",
+      "2"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "b5bbca2980af5051_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "0",
+      "^",
+      "{",
+      "1",
+      "}",
+      "+",
+      "y"
+    ],
+    "pred": [
+      "0",
+      "^",
+      "{",
+      "1",
+      "}",
+      "+",
+      "8"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "b24abf8609418451_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "z",
+      "^",
+      "{",
+      "5",
+      "}",
+      "\\times",
+      "2"
+    ],
+    "pred": [
+      "b",
+      "^",
+      "{",
+      "5",
+      "}",
+      "\\times",
+      "2"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "a795f71269d23bda_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "z",
+      "^",
+      "{",
+      "9",
+      "}",
+      "+",
+      "l"
+    ],
+    "pred": [
+      "z",
+      "^",
+      "{",
+      "9",
+      "}",
+      "+",
+      "l"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "09c60b2bd05e5498_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "6",
+      "^",
+      "{",
+      "8",
+      "}",
+      "-",
+      "6"
+    ],
+    "pred": [
+      "6",
+      "^",
+      "{",
+      "3",
+      "}",
+      "-",
+      "b"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "31ca1d6d51b2d4a1_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "l",
+      "^",
+      "{",
+      "1",
+      "}",
+      "+",
+      "b"
+    ],
+    "pred": [
+      "l",
+      "^",
+      "{",
+      "4",
+      "}",
+      "+",
+      "b"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "9dc84f16a8ae1eda_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "5",
+      "^",
+      "{",
+      "1",
+      "}",
+      "\\times",
+      "l"
+    ],
+    "pred": [
+      "5",
+      "^",
+      "{",
+      "1",
+      "}",
+      "\\times",
+      "1"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "5fe84bcab1024a67_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "z",
+      "^",
+      "{",
+      "2",
+      "}",
+      "+",
+      "9"
+    ],
+    "pred": [
+      "2",
+      "^",
+      "{",
+      "9",
+      "}",
+      "+",
+      "9"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "2478b4b46fca78da_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "3",
+      "^",
+      "{",
+      "1",
+      "}",
+      "+",
+      "0"
+    ],
+    "pred": [
+      "3",
+      "^",
+      "{",
+      "4",
+      "}",
+      "+",
+      "0"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "568049a90a280785_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "b",
+      "^",
+      "{",
+      "9",
+      "}",
+      "+",
+      "1"
+    ],
+    "pred": [
+      "b",
+      "_",
+      "{",
+      "9",
+      "}",
+      "+",
+      "5"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "4c01e22210a8be8b_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "7",
+      "^",
+      "{",
+      "6",
+      "}",
+      "+",
+      "1"
+    ],
+    "pred": [
+      "z",
+      "^",
+      "{",
+      "6",
+      "}",
+      "+",
+      "1"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "004e3797d1183ea1_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "9",
+      "^",
+      "{",
+      "2",
+      "}",
+      "+",
+      "8"
+    ],
+    "pred": [
+      "9",
+      "^",
+      "{",
+      "2",
+      "}",
+      "+",
+      "8"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "152fb1a80c42b14d_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "3",
+      "^",
+      "{",
+      "5",
+      "}",
+      "-",
+      "9"
+    ],
+    "pred": [
+      "3",
+      "^",
+      "{",
+      "5",
+      "}",
+      "-",
+      "9"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "f3f5ae4f83fce36d_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "5",
+      "^",
+      "{",
+      "7",
+      "}",
+      "+",
+      "x"
+    ],
+    "pred": [
+      "5",
+      "^",
+      "{",
+      "7",
+      "}",
+      "+",
+      "x"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "9f9d6aee2b8960d1_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "z",
+      "^",
+      "{",
+      "8",
+      "}",
+      "+",
+      "l"
+    ],
+    "pred": [
+      "z",
+      "^",
+      "{",
+      "8",
+      "}",
+      "+",
+      "l"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "9a1ab69edeb5a1d5_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "l",
+      "^",
+      "{",
+      "9",
+      "}",
+      "-",
+      "2"
+    ],
+    "pred": [
+      "1",
+      "+",
+      "3",
+      "=",
+      "2"
+    ],
+    "exact": false,
+    "distance": 6,
+    "terminated": true
+  },
+  {
+    "id": "3bf8976603c21da1_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "8",
+      "^",
+      "{",
+      "4",
+      "}",
+      "+",
+      "x"
+    ],
+    "pred": [
+      "8",
+      "^",
+      "{",
+      "4",
+      "}",
+      "+",
+      "x"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "aa84fe3748cd2f2c_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "2",
+      "^",
+      "{",
+      "4",
+      "}",
+      "+",
+      "7"
+    ],
+    "pred": [
+      "2",
+      "^",
+      "{",
+      "7",
+      "}",
+      "+",
+      "7"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "946e6fc10429dc45_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "y",
+      "^",
+      "{",
+      "3",
+      "}",
+      "-",
+      "y"
+    ],
+    "pred": [
+      "z",
+      "^",
+      "{",
+      "8",
+      "}",
+      "-",
+      "y"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "5d6bae18cf36859f_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "a",
+      "^",
+      "{",
+      "1",
+      "}",
+      "+",
+      "6"
+    ],
+    "pred": [
+      "a",
+      "^",
+      "{",
+      "1",
+      "}",
+      "+",
+      "6"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "2396883b1ece4d98_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "5",
+      "^",
+      "{",
+      "5",
+      "}",
+      "+",
+      "z"
+    ],
+    "pred": [
+      "5",
+      "^",
+      "{",
+      "5",
+      "}",
+      "+",
+      "z"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "69ccab790e39379d_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "0",
+      "^",
+      "{",
+      "4",
+      "}",
+      "\\times",
+      "7"
+    ],
+    "pred": [
+      "0",
+      "^",
+      "{",
+      "7",
+      "}",
+      "\\times",
+      "7"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "fd632e5488466fe1_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "2",
+      "^",
+      "{",
+      "2",
+      "}",
+      "+",
+      "5"
+    ],
+    "pred": [
+      "2",
+      "^",
+      "{",
+      "2",
+      "}",
+      "+",
+      "5"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "37fbff22bbce271f_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "l",
+      "^",
+      "{",
+      "6",
+      "}",
+      "-",
+      "b"
+    ],
+    "pred": [
+      "l",
+      "^",
+      "{",
+      "4",
+      "}",
+      "-",
+      "b"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "f740b77bcf22fb1f_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "2",
+      "^",
+      "{",
+      "6",
+      "}",
+      "-",
+      "7"
+    ],
+    "pred": [
+      "2",
+      "^",
+      "{",
+      "6",
+      "}",
+      "-",
+      "7"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "5f4d2354948f4638_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "b",
+      "^",
+      "{",
+      "9",
+      "}",
+      "-",
+      "a"
+    ],
+    "pred": [
+      "b",
+      "^",
+      "{",
+      "4",
+      "}",
+      "-",
+      "a"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "0f80a8a9b2ed48f4_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "3",
+      "^",
+      "{",
+      "7",
+      "}",
+      "\\times",
+      "4"
+    ],
+    "pred": [
+      "3",
+      "^",
+      "{",
+      "7",
+      "}",
+      "\\times",
+      "4"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "76479ca4d309f86b_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "4",
+      "^",
+      "{",
+      "4",
+      "}",
+      "-",
+      "b"
+    ],
+    "pred": [
+      "4",
+      "^",
+      "{",
+      "1",
+      "}",
+      "-",
+      "b"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "2410b8cd744a97e1_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "3",
+      "^",
+      "{",
+      "3",
+      "}",
+      "\\times",
+      "7"
+    ],
+    "pred": [
+      "3",
+      "^",
+      "{",
+      "3",
+      "}",
+      "\\times",
+      "1"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "2441b912d52c0209_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "y",
+      "^",
+      "{",
+      "3",
+      "}",
+      "-",
+      "b"
+    ],
+    "pred": [
+      "y",
+      "^",
+      "{",
+      "3",
+      "}",
+      "-",
+      "b"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "dfcb858c4a40e2d3_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "6",
+      "^",
+      "{",
+      "8",
+      "}",
+      "+",
+      "7"
+    ],
+    "pred": [
+      "b",
+      "^",
+      "{",
+      "1",
+      "}",
+      "+",
+      "z"
+    ],
+    "exact": false,
+    "distance": 3,
+    "terminated": true
+  },
+  {
+    "id": "e8af642df48096aa_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "a",
+      "^",
+      "{",
+      "9",
+      "}",
+      "-",
+      "l"
+    ],
+    "pred": [
+      "a",
+      "^",
+      "{",
+      "9",
+      "}",
+      "-",
+      "1"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "2f5e268e3be9f37a_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "9",
+      "^",
+      "{",
+      "8",
+      "}",
+      "-",
+      "4"
+    ],
+    "pred": [
+      "9",
+      "^",
+      "{",
+      "4",
+      "}",
+      "-",
+      "6"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "23a1204301936753_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "8",
+      "^",
+      "{",
+      "4",
+      "}",
+      "+",
+      "9"
+    ],
+    "pred": [
+      "8",
+      "^",
+      "{",
+      "4",
+      "}",
+      "+",
+      "9"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "ca9328e6a2cf76e5_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "2",
+      "^",
+      "{",
+      "3",
+      "}",
+      "\\times",
+      "x"
+    ],
+    "pred": [
+      "2",
+      "^",
+      "{",
+      "x",
+      "}",
+      "\\times",
+      "a"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "2b4fe5b3d3ef1e97_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "4",
+      "^",
+      "{",
+      "4",
+      "}",
+      "\\times",
+      "0"
+    ],
+    "pred": [
+      "4",
+      "^",
+      "{",
+      "1",
+      "}",
+      "\\times",
+      "9"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "1a16103bc0e9ad9a_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "8",
+      "^",
+      "{",
+      "5",
+      "}",
+      "\\times",
+      "9"
+    ],
+    "pred": [
+      "8",
+      "^",
+      "{",
+      "7",
+      "}",
+      "\\times",
+      "9"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "de1fbefc50bbb5b3_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "7",
+      "^",
+      "{",
+      "8",
+      "}",
+      "-",
+      "8"
+    ],
+    "pred": [
+      "a",
+      "^",
+      "{",
+      "9",
+      "}",
+      "-",
+      "8"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "582aa4ce1e7f15a5_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "9",
+      "^",
+      "{",
+      "9",
+      "}",
+      "\\times",
+      "4"
+    ],
+    "pred": [
+      "3",
+      "^",
+      "{",
+      "9",
+      "}",
+      "\\times",
+      "l"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "8aad5aefad759f75_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "7",
+      "^",
+      "{",
+      "4",
+      "}",
+      "+",
+      "8"
+    ],
+    "pred": [
+      "x",
+      "^",
+      "{",
+      "4",
+      "}",
+      "+",
+      "5"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "60c70cc3fa973364_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "2",
+      "^",
+      "{",
+      "1",
+      "}",
+      "\\times",
+      "6"
+    ],
+    "pred": [
+      "2",
+      "^",
+      "{",
+      "1",
+      "}",
+      "\\times",
+      "6"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "eb3085bda0557a0e_normal",
+    "kind": "sup",
+    "style": "normal",
+    "truth": [
+      "5",
+      "^",
+      "{",
+      "9",
+      "}",
+      "+",
+      "b"
+    ],
+    "pred": [
+      "5",
+      "^",
+      "{",
+      "9",
+      "}",
+      "+",
+      "0"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "46b3c817991142cf_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "0",
+      "_",
+      "{",
+      "9",
+      "}",
+      "\\times",
+      "0"
+    ],
+    "pred": [
+      "0",
+      "_",
+      "{",
+      "9",
+      "}",
+      "\\times",
+      "0"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "ac615351b18717e2_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "9",
+      "_",
+      "{",
+      "2",
+      "}",
+      "\\times",
+      "z"
+    ],
+    "pred": [
+      "9",
+      "_",
+      "{",
+      "2",
+      "}",
+      "\\times",
+      "3"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "fb85601f45e36adc_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "6",
+      "_",
+      "{",
+      "2",
+      "}",
+      "\\times",
+      "8"
+    ],
+    "pred": [
+      "6",
+      "_",
+      "{",
+      "2",
+      "}",
+      "\\times",
+      "z"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "5d1041902335a236_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "z",
+      "_",
+      "{",
+      "2",
+      "}",
+      "\\times",
+      "9"
+    ],
+    "pred": [
+      "z",
+      "_",
+      "{",
+      "2",
+      "}",
+      "\\times",
+      "9"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "1a4c700d5340dcec_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "a",
+      "_",
+      "{",
+      "3",
+      "}",
+      "\\times",
+      "x"
+    ],
+    "pred": [
+      "a",
+      "_",
+      "{",
+      "3",
+      "}",
+      "\\times",
+      "0"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "d19ac24447452ea6_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "9",
+      "_",
+      "{",
+      "7",
+      "}",
+      "+",
+      "2"
+    ],
+    "pred": [
+      "9",
+      "_",
+      "{",
+      "7",
+      "}",
+      "+",
+      "2"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "6c3ca1f8a2d937ac_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "3",
+      "_",
+      "{",
+      "6",
+      "}",
+      "\\times",
+      "b"
+    ],
+    "pred": [
+      "3",
+      "_",
+      "{",
+      "6",
+      "}",
+      "\\times",
+      "b"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "c442dd3a5d98cb1f_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "1",
+      "_",
+      "{",
+      "9",
+      "}",
+      "\\times",
+      "1"
+    ],
+    "pred": [
+      "1",
+      "_",
+      "{",
+      "9",
+      "}",
+      "\\times",
+      "1"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "f5125db441e9f6e9_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "l",
+      "_",
+      "{",
+      "6",
+      "}",
+      "-",
+      "6"
+    ],
+    "pred": [
+      "l",
+      "_",
+      "{",
+      "4",
+      "}",
+      "-",
+      "b"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "8d967e608ab05d31_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "z",
+      "_",
+      "{",
+      "1",
+      "}",
+      "\\times",
+      "y"
+    ],
+    "pred": [
+      "z",
+      "_",
+      "{",
+      "1",
+      "}",
+      "+",
+      "x"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "155febd969c34643_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "5",
+      "_",
+      "{",
+      "4",
+      "}",
+      "+",
+      "y"
+    ],
+    "pred": [
+      "5",
+      "_",
+      "{",
+      "2",
+      "}",
+      "+",
+      "y"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "cd44b91491a67020_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "x",
+      "_",
+      "{",
+      "9",
+      "}",
+      "\\times",
+      "y"
+    ],
+    "pred": [
+      "x",
+      "_",
+      "{",
+      "1",
+      "}",
+      "\\times",
+      "z"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "43fd648f44a2ceb4_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "9",
+      "_",
+      "{",
+      "3",
+      "}",
+      "-",
+      "8"
+    ],
+    "pred": [
+      "9",
+      "_",
+      "{",
+      "3",
+      "}",
+      "-",
+      "8"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "bcd91bece6007a97_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "l",
+      "_",
+      "{",
+      "9",
+      "}",
+      "-",
+      "4"
+    ],
+    "pred": [
+      "l",
+      "_",
+      "{",
+      "9",
+      "}",
+      "-",
+      "4"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "3350b078f0c2254f_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "7",
+      "_",
+      "{",
+      "3",
+      "}",
+      "\\times",
+      "7"
+    ],
+    "pred": [
+      "7",
+      "_",
+      "{",
+      "3",
+      "}",
+      "\\times",
+      "z"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "b38f0b7d86a7f3b5_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "l",
+      "_",
+      "{",
+      "2",
+      "}",
+      "+",
+      "9"
+    ],
+    "pred": [
+      "l",
+      "_",
+      "{",
+      "2",
+      "}",
+      "+",
+      "9"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "5d071e2100adacd3_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "6",
+      "_",
+      "{",
+      "9",
+      "}",
+      "-",
+      "0"
+    ],
+    "pred": [
+      "6",
+      "_",
+      "{",
+      "5",
+      "}",
+      "-",
+      "0"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "6a65d177db3cb10e_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "z",
+      "_",
+      "{",
+      "4",
+      "}",
+      "\\times",
+      "8"
+    ],
+    "pred": [
+      "z",
+      "-",
+      "4",
+      "=",
+      "x"
+    ],
+    "exact": false,
+    "distance": 5,
+    "terminated": true
+  },
+  {
+    "id": "396ccb1abdf65cbd_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "3",
+      "_",
+      "{",
+      "8",
+      "}",
+      "\\times",
+      "a"
+    ],
+    "pred": [
+      "3",
+      "_",
+      "{",
+      "8",
+      "}",
+      "\\times",
+      "a"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "a97d39b79b634965_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "9",
+      "_",
+      "{",
+      "3",
+      "}",
+      "\\times",
+      "9"
+    ],
+    "pred": [
+      "9",
+      "_",
+      "{",
+      "3",
+      "}",
+      "\\times",
+      "9"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "6ba6e5aaa817896f_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "2",
+      "_",
+      "{",
+      "6",
+      "}",
+      "+",
+      "z"
+    ],
+    "pred": [
+      "2",
+      "_",
+      "{",
+      "4",
+      "}",
+      "+",
+      "2"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "6524d7284cd0f39c_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "x",
+      "_",
+      "{",
+      "9",
+      "}",
+      "+",
+      "8"
+    ],
+    "pred": [
+      "2",
+      "_",
+      "{",
+      "9",
+      "}",
+      "+",
+      "8"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "15299d2694f35765_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "8",
+      "_",
+      "{",
+      "9",
+      "}",
+      "+",
+      "2"
+    ],
+    "pred": [
+      "8",
+      "_",
+      "{",
+      "5",
+      "}",
+      "+",
+      "2"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "42d1b4310f476540_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "y",
+      "_",
+      "{",
+      "5",
+      "}",
+      "\\times",
+      "y"
+    ],
+    "pred": [
+      "2",
+      "_",
+      "{",
+      "4",
+      "}",
+      "\\times",
+      "z"
+    ],
+    "exact": false,
+    "distance": 3,
+    "terminated": true
+  },
+  {
+    "id": "2a5393db9af7768c_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "b",
+      "_",
+      "{",
+      "9",
+      "}",
+      "-",
+      "7"
+    ],
+    "pred": [
+      "b",
+      "_",
+      "{",
+      "9",
+      "}",
+      "-",
+      "7"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "63188fef43546727_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "8",
+      "_",
+      "{",
+      "5",
+      "}",
+      "-",
+      "8"
+    ],
+    "pred": [
+      "z",
+      "_",
+      "{",
+      "5",
+      "}",
+      "-",
+      "z"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "cce5e3743a37038a_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "5",
+      "_",
+      "{",
+      "1",
+      "}",
+      "+",
+      "a"
+    ],
+    "pred": [
+      "5",
+      "_",
+      "{",
+      "1",
+      "}",
+      "+",
+      "x"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "a760cb6fb3c7955d_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "4",
+      "_",
+      "{",
+      "7",
+      "}",
+      "-",
+      "3"
+    ],
+    "pred": [
+      "4",
+      "_",
+      "{",
+      "1",
+      "}",
+      "-",
+      "3"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "f4557c74438090c6_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "x",
+      "_",
+      "{",
+      "8",
+      "}",
+      "-",
+      "9"
+    ],
+    "pred": [
+      "x",
+      "_",
+      "{",
+      "8",
+      "}",
+      "-",
+      "7"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "1773cd6e783fadfd_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "b",
+      "_",
+      "{",
+      "1",
+      "}",
+      "-",
+      "9"
+    ],
+    "pred": [
+      "0",
+      "_",
+      "{",
+      "9",
+      "}",
+      "-",
+      "9"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "3f66f489194ea20e_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "3",
+      "_",
+      "{",
+      "5",
+      "}",
+      "-",
+      "6"
+    ],
+    "pred": [
+      "3",
+      "_",
+      "{",
+      "5",
+      "}",
+      "-",
+      "4"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "739a7694b4d224ae_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "y",
+      "_",
+      "{",
+      "1",
+      "}",
+      "+",
+      "3"
+    ],
+    "pred": [
+      "2",
+      "_",
+      "{",
+      "9",
+      "}",
+      "+",
+      "3"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "0102180bbb6a0350_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "b",
+      "_",
+      "{",
+      "6",
+      "}",
+      "\\times",
+      "9"
+    ],
+    "pred": [
+      "b",
+      "_",
+      "{",
+      "6",
+      "}",
+      "\\times",
+      "9"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "e8705691b5bbb614_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "y",
+      "_",
+      "{",
+      "7",
+      "}",
+      "\\times",
+      "1"
+    ],
+    "pred": [
+      "y",
+      "_",
+      "{",
+      "7",
+      "}",
+      "\\times",
+      "1"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "0b7f667a00a1ae69_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "l",
+      "_",
+      "{",
+      "3",
+      "}",
+      "-",
+      "a"
+    ],
+    "pred": [
+      "l",
+      "_",
+      "{",
+      "2",
+      "}",
+      "-",
+      "a"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "7fc03ba15a2d5dba_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "x",
+      "_",
+      "{",
+      "2",
+      "}",
+      "\\times",
+      "3"
+    ],
+    "pred": [
+      "x",
+      "_",
+      "{",
+      "2",
+      "}",
+      "\\times",
+      "3"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "03f5b451011bad29_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "z",
+      "_",
+      "{",
+      "7",
+      "}",
+      "\\times",
+      "y"
+    ],
+    "pred": [
+      "z",
+      "_",
+      "{",
+      "4",
+      "}",
+      "\\times",
+      "8"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "12c4bc918f58382f_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "2",
+      "_",
+      "{",
+      "8",
+      "}",
+      "+",
+      "4"
+    ],
+    "pred": [
+      "2",
+      "_",
+      "{",
+      "1",
+      "}",
+      "+",
+      "4"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "96cddff014d63236_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "y",
+      "_",
+      "{",
+      "6",
+      "}",
+      "+",
+      "1"
+    ],
+    "pred": [
+      "2",
+      "_",
+      "{",
+      "9",
+      "}",
+      "+",
+      "1"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "52c1f6d96fbe4593_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "0",
+      "_",
+      "{",
+      "2",
+      "}",
+      "+",
+      "8"
+    ],
+    "pred": [
+      "0",
+      "_",
+      "{",
+      "2",
+      "}",
+      "+",
+      "8"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "294088406de9664e_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "a",
+      "_",
+      "{",
+      "5",
+      "}",
+      "+",
+      "l"
+    ],
+    "pred": [
+      "a",
+      "^",
+      "{",
+      "5",
+      "}",
+      "+",
+      "5"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "aae5be542bf68dfd_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "b",
+      "_",
+      "{",
+      "5",
+      "}",
+      "-",
+      "2"
+    ],
+    "pred": [
+      "b",
+      "_",
+      "{",
+      "5",
+      "}",
+      "-",
+      "b"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "182932d63e15874f_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "3",
+      "_",
+      "{",
+      "4",
+      "}",
+      "+",
+      "2"
+    ],
+    "pred": [
+      "3",
+      "+",
+      "1",
+      "=",
+      "2"
+    ],
+    "exact": false,
+    "distance": 5,
+    "terminated": true
+  },
+  {
+    "id": "42fbcec3d783e29b_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "8",
+      "_",
+      "{",
+      "1",
+      "}",
+      "-",
+      "5"
+    ],
+    "pred": [
+      "z",
+      "_",
+      "{",
+      "1",
+      "}",
+      "-",
+      "5"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "22d7703f5af6f584_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "4",
+      "_",
+      "{",
+      "6",
+      "}",
+      "+",
+      "9"
+    ],
+    "pred": [
+      "4",
+      "_",
+      "{",
+      "6",
+      "}",
+      "+",
+      "9"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "237c700042ace170_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "4",
+      "_",
+      "{",
+      "7",
+      "}",
+      "\\times",
+      "4"
+    ],
+    "pred": [
+      "4",
+      "_",
+      "{",
+      "7",
+      "}",
+      "\\times",
+      "1"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "1771ebee71f1cdd9_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "x",
+      "_",
+      "{",
+      "2",
+      "}",
+      "+",
+      "3"
+    ],
+    "pred": [
+      "x",
+      "_",
+      "{",
+      "2",
+      "}",
+      "+",
+      "3"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "500c276ee52c16e8_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "3",
+      "_",
+      "{",
+      "5",
+      "}",
+      "+",
+      "8"
+    ],
+    "pred": [
+      "3",
+      "_",
+      "{",
+      "5",
+      "}",
+      "+",
+      "8"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "41977fe56fd0309b_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "l",
+      "_",
+      "{",
+      "9",
+      "}",
+      "+",
+      "b"
+    ],
+    "pred": [
+      "l",
+      "_",
+      "{",
+      "9",
+      "}",
+      "+",
+      "b"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "89bdda83d4c5ea52_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "x",
+      "_",
+      "{",
+      "8",
+      "}",
+      "-",
+      "a"
+    ],
+    "pred": [
+      "x",
+      "_",
+      "{",
+      "8",
+      "}",
+      "-",
+      "a"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "89754d635e8c1532_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "1",
+      "_",
+      "{",
+      "5",
+      "}",
+      "-",
+      "3"
+    ],
+    "pred": [
+      "1",
+      "_",
+      "{",
+      "5",
+      "}",
+      "-",
+      "3"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "a7df085a6b8d790e_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "9",
+      "_",
+      "{",
+      "5",
+      "}",
+      "\\times",
+      "4"
+    ],
+    "pred": [
+      "7",
+      "_",
+      "{",
+      "5",
+      "}",
+      "\\times",
+      "4"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "cd8e6a6a2b1e44fd_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "l",
+      "_",
+      "{",
+      "1",
+      "}",
+      "+",
+      "5"
+    ],
+    "pred": [
+      "l",
+      "^",
+      "{",
+      "4",
+      "}",
+      "+",
+      "3"
+    ],
+    "exact": false,
+    "distance": 3,
+    "terminated": true
+  },
+  {
+    "id": "8127aca838d8cb2a_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "b",
+      "_",
+      "{",
+      "1",
+      "}",
+      "+",
+      "4"
+    ],
+    "pred": [
+      "b",
+      "_",
+      "{",
+      "1",
+      "}",
+      "+",
+      "4"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "06811fcf2eb32920_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "a",
+      "_",
+      "{",
+      "4",
+      "}",
+      "\\times",
+      "6"
+    ],
+    "pred": [
+      "a",
+      "_",
+      "{",
+      "4",
+      "}",
+      "\\times",
+      "b"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "96db51ec5a87f049_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "x",
+      "_",
+      "{",
+      "6",
+      "}",
+      "+",
+      "z"
+    ],
+    "pred": [
+      "x",
+      "_",
+      "{",
+      "4",
+      "}",
+      "+",
+      "z"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "b9d264523698f2fd_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "2",
+      "_",
+      "{",
+      "8",
+      "}",
+      "\\times",
+      "7"
+    ],
+    "pred": [
+      "2",
+      "_",
+      "{",
+      "2",
+      "}",
+      "\\times",
+      "y"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "47887454d4eec773_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "l",
+      "_",
+      "{",
+      "6",
+      "}",
+      "+",
+      "l"
+    ],
+    "pred": [
+      "l",
+      "_",
+      "{",
+      "5",
+      "}",
+      "+",
+      "1"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "9774ec33c87258cf_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "7",
+      "_",
+      "{",
+      "7",
+      "}",
+      "\\times",
+      "2"
+    ],
+    "pred": [
+      "7",
+      "_",
+      "{",
+      "1",
+      "}",
+      "\\times",
+      "z"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "25f6e486827b09f7_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "y",
+      "_",
+      "{",
+      "9",
+      "}",
+      "\\times",
+      "y"
+    ],
+    "pred": [
+      "5",
+      "_",
+      "{",
+      "2",
+      "}",
+      "\\times",
+      "x"
+    ],
+    "exact": false,
+    "distance": 3,
+    "terminated": true
+  },
+  {
+    "id": "26b7ad6009c35335_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "l",
+      "_",
+      "{",
+      "3",
+      "}",
+      "-",
+      "1"
+    ],
+    "pred": [
+      "l",
+      "_",
+      "{",
+      "3",
+      "}",
+      "-",
+      "1"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "94ca2c4acd93dfae_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "l",
+      "_",
+      "{",
+      "2",
+      "}",
+      "+",
+      "6"
+    ],
+    "pred": [
+      "l",
+      "_",
+      "{",
+      "2",
+      "}",
+      "+",
+      "6"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "b874e96be32a6f10_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "y",
+      "_",
+      "{",
+      "5",
+      "}",
+      "+",
+      "2"
+    ],
+    "pred": [
+      "5",
+      "_",
+      "{",
+      "2",
+      "}",
+      "+",
+      "z"
+    ],
+    "exact": false,
+    "distance": 3,
+    "terminated": true
+  },
+  {
+    "id": "68215934956cf4c0_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "a",
+      "_",
+      "{",
+      "2",
+      "}",
+      "\\times",
+      "1"
+    ],
+    "pred": [
+      "a",
+      "_",
+      "{",
+      "5",
+      "}",
+      "\\times",
+      "1"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "1953b8271217c8b4_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "2",
+      "_",
+      "{",
+      "9",
+      "}",
+      "\\times",
+      "a"
+    ],
+    "pred": [
+      "2",
+      "_",
+      "{",
+      "2",
+      "}",
+      "\\times",
+      "a"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "5e3745ea8e378b95_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "7",
+      "_",
+      "{",
+      "4",
+      "}",
+      "\\times",
+      "1"
+    ],
+    "pred": [
+      "7",
+      "_",
+      "{",
+      "4",
+      "}",
+      "\\times",
+      "1"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "ce587c75b933827a_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "0",
+      "_",
+      "{",
+      "4",
+      "}",
+      "-",
+      "6"
+    ],
+    "pred": [
+      "0",
+      "_",
+      "{",
+      "4",
+      "}",
+      "-",
+      "b"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "d4d85a9ac9093ca7_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "0",
+      "_",
+      "{",
+      "3",
+      "}",
+      "\\times",
+      "9"
+    ],
+    "pred": [
+      "0",
+      "_",
+      "{",
+      "3",
+      "}",
+      "\\times",
+      "9"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "903ff61ee59a7c01_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "6",
+      "_",
+      "{",
+      "3",
+      "}",
+      "\\times",
+      "3"
+    ],
+    "pred": [
+      "b",
+      "_",
+      "{",
+      "3",
+      "}",
+      "\\times",
+      "3"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "28585ab9e08509e3_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "y",
+      "_",
+      "{",
+      "8",
+      "}",
+      "+",
+      "a"
+    ],
+    "pred": [
+      "1",
+      "_",
+      "{",
+      "8",
+      "}",
+      "+",
+      "a"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "9253498b1c5b234f_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "l",
+      "_",
+      "{",
+      "9",
+      "}",
+      "-",
+      "1"
+    ],
+    "pred": [
+      "l",
+      "_",
+      "{",
+      "5",
+      "}",
+      "-",
+      "1"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "7980615d80beb78c_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "b",
+      "_",
+      "{",
+      "2",
+      "}",
+      "\\times",
+      "b"
+    ],
+    "pred": [
+      "b",
+      "_",
+      "{",
+      "2",
+      "}",
+      "\\times",
+      "b"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "c9c969783d589e67_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "y",
+      "_",
+      "{",
+      "7",
+      "}",
+      "\\times",
+      "b"
+    ],
+    "pred": [
+      "7",
+      "_",
+      "{",
+      "1",
+      "}",
+      "\\times",
+      "l"
+    ],
+    "exact": false,
+    "distance": 3,
+    "terminated": true
+  },
+  {
+    "id": "723d88a7b6c43b12_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "1",
+      "_",
+      "{",
+      "2",
+      "}",
+      "+",
+      "2"
+    ],
+    "pred": [
+      "1",
+      "_",
+      "{",
+      "1",
+      "}",
+      "+",
+      "2"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "9b9dc5a578e098bf_normal",
+    "kind": "sub",
+    "style": "normal",
+    "truth": [
+      "4",
+      "_",
+      "{",
+      "5",
+      "}",
+      "\\times",
+      "8"
+    ],
+    "pred": [
+      "4",
+      "_",
+      "{",
+      "5",
+      "}",
+      "\\times",
+      "8"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "869f18075bcd545f_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "3",
+      "+",
+      "l",
+      "}",
+      "{",
+      "z",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "3",
+      "+",
+      "z",
+      "}",
+      "{",
+      "b",
+      "}"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "869f18075bcd545f_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "3",
+      "+",
+      "l",
+      "}",
+      "{",
+      "z",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "y",
+      "+",
+      "l",
+      "}",
+      "{",
+      "7",
+      "}"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "8eab4a86cfab2be1_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "4",
+      "+",
+      "8",
+      "}",
+      "{",
+      "1",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "4",
+      "+",
+      "1",
+      "}",
+      "{",
+      "8",
+      "}"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "8eab4a86cfab2be1_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "4",
+      "+",
+      "8",
+      "}",
+      "{",
+      "1",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "4",
+      "+",
+      "8",
+      "}",
+      "{",
+      "7",
+      "}"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "35ee3451702ac516_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "6",
+      "+",
+      "9",
+      "}",
+      "{",
+      "b",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "6",
+      "+",
+      "9",
+      "}",
+      "{",
+      "b",
+      "}"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "35ee3451702ac516_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "6",
+      "+",
+      "9",
+      "}",
+      "{",
+      "b",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "b",
+      "+",
+      "4",
+      "}",
+      "{",
+      "0",
+      "}"
+    ],
+    "exact": false,
+    "distance": 3,
+    "terminated": true
+  },
+  {
+    "id": "01815e9675a200f3_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "y",
+      "+",
+      "9",
+      "}",
+      "{",
+      "2",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "z",
+      "+",
+      "9",
+      "}",
+      "{",
+      "2",
+      "}"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "01815e9675a200f3_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "y",
+      "+",
+      "9",
+      "}",
+      "{",
+      "2",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "5",
+      "+",
+      "8",
+      "}",
+      "{",
+      "7",
+      "}"
+    ],
+    "exact": false,
+    "distance": 3,
+    "terminated": true
+  },
+  {
+    "id": "ef0d232f45327496_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "7",
+      "+",
+      "z",
+      "}",
+      "{",
+      "8",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "z",
+      "+",
+      "2",
+      "}",
+      "{",
+      "8",
+      "}"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "ef0d232f45327496_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "7",
+      "+",
+      "z",
+      "}",
+      "{",
+      "8",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "7",
+      "+",
+      "2",
+      "}",
+      "{",
+      "8",
+      "}"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "5ab5847a65461bc3_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "l",
+      "+",
+      "l",
+      "}",
+      "{",
+      "x",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "l",
+      "+",
+      "l",
+      "}",
+      "{",
+      "z",
+      "}"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "5ab5847a65461bc3_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "l",
+      "+",
+      "l",
+      "}",
+      "{",
+      "x",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "l",
+      "+",
+      "7",
+      "}",
+      "{",
+      "x",
+      "}"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "c0fbdd2deb122e1d_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "1",
+      "+",
+      "4",
+      "}",
+      "{",
+      "z",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "1",
+      "+",
+      "4",
+      "}",
+      "{",
+      "z",
+      "}"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "c0fbdd2deb122e1d_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "1",
+      "+",
+      "4",
+      "}",
+      "{",
+      "z",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "a",
+      "+",
+      "l",
+      "}",
+      "{",
+      "z",
+      "}"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "2d7363998c9ebcc4_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "8",
+      "+",
+      "3",
+      "}",
+      "{",
+      "2",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "8",
+      "+",
+      "3",
+      "}",
+      "{",
+      "2",
+      "}"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "2d7363998c9ebcc4_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "8",
+      "+",
+      "3",
+      "}",
+      "{",
+      "2",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "8",
+      "+",
+      "3",
+      "}",
+      "{",
+      "b",
+      "}"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "8097250bfdcd3e9e_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "b",
+      "+",
+      "4",
+      "}",
+      "{",
+      "3",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "b",
+      "+",
+      "3",
+      "}",
+      "{",
+      "4",
+      "}"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "8097250bfdcd3e9e_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "b",
+      "+",
+      "4",
+      "}",
+      "{",
+      "3",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "b",
+      "+",
+      "1",
+      "}",
+      "{",
+      "9",
+      "}"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "d305b841a3c1032f_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "z",
+      "+",
+      "5",
+      "}",
+      "{",
+      "z",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "z",
+      "+",
+      "5",
+      "}",
+      "{",
+      "4",
+      "}"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "d305b841a3c1032f_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "z",
+      "+",
+      "5",
+      "}",
+      "{",
+      "z",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "z",
+      "+",
+      "5",
+      "}",
+      "{",
+      "3",
+      "}"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "28adbcff2df0f095_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "x",
+      "+",
+      "a",
+      "}",
+      "{",
+      "z",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "z",
+      "+",
+      "a",
+      "}",
+      "{",
+      "7",
+      "}"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "28adbcff2df0f095_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "x",
+      "+",
+      "a",
+      "}",
+      "{",
+      "z",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "4",
+      "+",
+      "x",
+      "}",
+      "{",
+      "z",
+      "}"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "5e88238a28d3ad71_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "1",
+      "+",
+      "1",
+      "}",
+      "{",
+      "x",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "4",
+      "+",
+      "1",
+      "}",
+      "{",
+      "x",
+      "}"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "5e88238a28d3ad71_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "1",
+      "+",
+      "1",
+      "}",
+      "{",
+      "x",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "1",
+      "+",
+      "x",
+      "}",
+      "{",
+      "1",
+      "}"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "2ee99aab37e2b598_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "z",
+      "+",
+      "8",
+      "}",
+      "{",
+      "l",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "z",
+      "+",
+      "8",
+      "}",
+      "{",
+      "6",
+      "}"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "2ee99aab37e2b598_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "z",
+      "+",
+      "8",
+      "}",
+      "{",
+      "l",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "z",
+      "+",
+      "a",
+      "}",
+      "{",
+      "3",
+      "}"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "efa201d133dcf30d_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "l",
+      "+",
+      "3",
+      "}",
+      "{",
+      "b",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "l",
+      "+",
+      "8",
+      "}",
+      "{",
+      "l",
+      "}"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "efa201d133dcf30d_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "l",
+      "+",
+      "3",
+      "}",
+      "{",
+      "b",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "l",
+      "+",
+      "7",
+      "}",
+      "{",
+      "a",
+      "}"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "74676fbe53678707_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "1",
+      "+",
+      "x",
+      "}",
+      "{",
+      "z",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "1",
+      "+",
+      "z",
+      "}",
+      "{",
+      "x",
+      "}"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "74676fbe53678707_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "1",
+      "+",
+      "x",
+      "}",
+      "{",
+      "z",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "1",
+      "+",
+      "x",
+      "}",
+      "{",
+      "z",
+      "}"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "a0f669a8a459d50c_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "7",
+      "+",
+      "y",
+      "}",
+      "{",
+      "a",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "3",
+      "+",
+      "b",
+      "}",
+      "{",
+      "a",
+      "}"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "a0f669a8a459d50c_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "7",
+      "+",
+      "y",
+      "}",
+      "{",
+      "a",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "7",
+      "+",
+      "7",
+      "}",
+      "{",
+      "a",
+      "}"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "c1a8d6bd45ba63e8_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "3",
+      "+",
+      "4",
+      "}",
+      "{",
+      "x",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "3",
+      "+",
+      "y",
+      "}",
+      "{",
+      "2",
+      "}"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "c1a8d6bd45ba63e8_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "3",
+      "+",
+      "4",
+      "}",
+      "{",
+      "x",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "9",
+      "+",
+      "8",
+      "}",
+      "{",
+      "x",
+      "}"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "2b6b02d04fd525cf_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "4",
+      "+",
+      "0",
+      "}",
+      "{",
+      "y",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "1",
+      "+",
+      "a",
+      "}",
+      "{",
+      "1",
+      "}"
+    ],
+    "exact": false,
+    "distance": 3,
+    "terminated": true
+  },
+  {
+    "id": "2b6b02d04fd525cf_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "4",
+      "+",
+      "0",
+      "}",
+      "{",
+      "y",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "4",
+      "+",
+      "a",
+      "}",
+      "{",
+      "y",
+      "}"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "a12dca4ee00c52ab_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "8",
+      "+",
+      "6",
+      "}",
+      "{",
+      "z",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "z",
+      "+",
+      "6",
+      "}",
+      "{",
+      "z",
+      "}"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "a12dca4ee00c52ab_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "8",
+      "+",
+      "6",
+      "}",
+      "{",
+      "z",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "8",
+      "+",
+      "6",
+      "}",
+      "{",
+      "z",
+      "}"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "469a2f00334874cc_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "0",
+      "+",
+      "a",
+      "}",
+      "{",
+      "y",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "0",
+      "+",
+      "a",
+      "}",
+      "{",
+      "y",
+      "}"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "469a2f00334874cc_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "0",
+      "+",
+      "a",
+      "}",
+      "{",
+      "y",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "0",
+      "+",
+      "a",
+      "}",
+      "{",
+      "x",
+      "}"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "742c4d5288141be5_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "0",
+      "+",
+      "y",
+      "}",
+      "{",
+      "l",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "l",
+      "+",
+      "l",
+      "}",
+      "{",
+      "z",
+      "}"
+    ],
+    "exact": false,
+    "distance": 3,
+    "terminated": true
+  },
+  {
+    "id": "742c4d5288141be5_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "0",
+      "+",
+      "y",
+      "}",
+      "{",
+      "l",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "0",
+      "+",
+      "1",
+      "}",
+      "{",
+      "4",
+      "}"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "24a427dbc7cd639e_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "a",
+      "+",
+      "b",
+      "}",
+      "{",
+      "y",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "a",
+      "+",
+      "4",
+      "}",
+      "{",
+      "8",
+      "}"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "24a427dbc7cd639e_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "a",
+      "+",
+      "b",
+      "}",
+      "{",
+      "y",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "a",
+      "+",
+      "b",
+      "}",
+      "{",
+      "4",
+      "}"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "e5ac0d611f33e682_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "l",
+      "+",
+      "7",
+      "}",
+      "{",
+      "9",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "l",
+      "+",
+      "7",
+      "}",
+      "{",
+      "9",
+      "}"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "e5ac0d611f33e682_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "l",
+      "+",
+      "7",
+      "}",
+      "{",
+      "9",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "l",
+      "+",
+      "7",
+      "}",
+      "{",
+      "9",
+      "}"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "5a6dd3e0adb4266e_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "z",
+      "+",
+      "z",
+      "}",
+      "{",
+      "a",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "z",
+      "+",
+      "b",
+      "}",
+      "{",
+      "0",
+      "}"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "5a6dd3e0adb4266e_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "z",
+      "+",
+      "z",
+      "}",
+      "{",
+      "a",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "z",
+      "+",
+      "a",
+      "}",
+      "{",
+      "2",
+      "}"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "43444980c9816558_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "b",
+      "+",
+      "9",
+      "}",
+      "{",
+      "z",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "b",
+      "+",
+      "9",
+      "}",
+      "{",
+      "9",
+      "}"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "43444980c9816558_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "b",
+      "+",
+      "9",
+      "}",
+      "{",
+      "z",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "b",
+      "+",
+      "9",
+      "}",
+      "{",
+      "9",
+      "}"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "f2258052b2bfa17f_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "4",
+      "+",
+      "0",
+      "}",
+      "{",
+      "b",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "4",
+      "+",
+      "0",
+      "}",
+      "{",
+      "b",
+      "}"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "f2258052b2bfa17f_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "4",
+      "+",
+      "0",
+      "}",
+      "{",
+      "b",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "x",
+      "+",
+      "0",
+      "}",
+      "{",
+      "4",
+      "}"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "627b9cbe9575f731_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "2",
+      "+",
+      "a",
+      "}",
+      "{",
+      "x",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "2",
+      "+",
+      "x",
+      "}",
+      "{",
+      "a",
+      "}"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "627b9cbe9575f731_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "2",
+      "+",
+      "a",
+      "}",
+      "{",
+      "x",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "2",
+      "+",
+      "a",
+      "}",
+      "{",
+      "x",
+      "}"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "240f5d52c2ebbc16_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "5",
+      "+",
+      "b",
+      "}",
+      "{",
+      "7",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "5",
+      "+",
+      "4",
+      "}",
+      "{",
+      "7",
+      "}"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "240f5d52c2ebbc16_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "5",
+      "+",
+      "b",
+      "}",
+      "{",
+      "7",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "5",
+      "+",
+      "x",
+      "}",
+      "{",
+      "z",
+      "}"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "18094f8c5ee8613e_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "z",
+      "+",
+      "8",
+      "}",
+      "{",
+      "9",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "z",
+      "+",
+      "8",
+      "}",
+      "{",
+      "7",
+      "}"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "18094f8c5ee8613e_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "z",
+      "+",
+      "8",
+      "}",
+      "{",
+      "9",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "2",
+      "+",
+      "9",
+      "}",
+      "{",
+      "2",
+      "}"
+    ],
+    "exact": false,
+    "distance": 3,
+    "terminated": true
+  },
+  {
+    "id": "4a2b5dcacef70c70_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "3",
+      "+",
+      "1",
+      "}",
+      "{",
+      "0",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "3",
+      "+",
+      "l",
+      "}",
+      "{",
+      "0",
+      "}"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "4a2b5dcacef70c70_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "3",
+      "+",
+      "1",
+      "}",
+      "{",
+      "0",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "3",
+      "+",
+      "l",
+      "}",
+      "{",
+      "0",
+      "}"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "2032712f1de0dae3_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "x",
+      "+",
+      "8",
+      "}",
+      "{",
+      "l",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "a",
+      "+",
+      "8",
+      "}",
+      "{",
+      "l",
+      "}"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "2032712f1de0dae3_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "x",
+      "+",
+      "8",
+      "}",
+      "{",
+      "l",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "x",
+      "+",
+      "l",
+      "}",
+      "{",
+      "l",
+      "}"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "897756c219da1284_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "5",
+      "+",
+      "8",
+      "}",
+      "{",
+      "5",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "5",
+      "+",
+      "8",
+      "}",
+      "{",
+      "3",
+      "}"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "897756c219da1284_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "5",
+      "+",
+      "8",
+      "}",
+      "{",
+      "5",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "5",
+      "+",
+      "8",
+      "}",
+      "{",
+      "5",
+      "}"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "88f53cf2de671936_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "2",
+      "+",
+      "3",
+      "}",
+      "{",
+      "6",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "2",
+      "+",
+      "5",
+      "}",
+      "{",
+      "3",
+      "}"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "88f53cf2de671936_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "2",
+      "+",
+      "3",
+      "}",
+      "{",
+      "6",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "2",
+      "+",
+      "3",
+      "}",
+      "{",
+      "b",
+      "}"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "dc09d078c8f507a4_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "4",
+      "+",
+      "8",
+      "}",
+      "{",
+      "8",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "4",
+      "+",
+      "8",
+      "}",
+      "{",
+      "x",
+      "}"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "dc09d078c8f507a4_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "4",
+      "+",
+      "8",
+      "}",
+      "{",
+      "8",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "1",
+      "+",
+      "8",
+      "}",
+      "{",
+      "5",
+      "}"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "30dfa1503f11a951_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "3",
+      "+",
+      "a",
+      "}",
+      "{",
+      "9",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "3",
+      "+",
+      "z",
+      "}",
+      "{",
+      "9",
+      "}"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "30dfa1503f11a951_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "3",
+      "+",
+      "a",
+      "}",
+      "{",
+      "9",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "3",
+      "+",
+      "1",
+      "}",
+      "{",
+      "9",
+      "}"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "fec8d3cf067dc762_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "0",
+      "+",
+      "8",
+      "}",
+      "{",
+      "b",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "0",
+      "+",
+      "8",
+      "}",
+      "{",
+      "x",
+      "}"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "fec8d3cf067dc762_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "0",
+      "+",
+      "8",
+      "}",
+      "{",
+      "b",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "0",
+      "+",
+      "8",
+      "}",
+      "{",
+      "a",
+      "}"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "8a5ae24f70fef46c_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "6",
+      "+",
+      "z",
+      "}",
+      "{",
+      "a",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "6",
+      "+",
+      "z",
+      "}",
+      "{",
+      "a",
+      "}"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "8a5ae24f70fef46c_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "6",
+      "+",
+      "z",
+      "}",
+      "{",
+      "a",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "4",
+      "+",
+      "7",
+      "}",
+      "{",
+      "a",
+      "}"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "e663a65ae35e961a_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "2",
+      "+",
+      "a",
+      "}",
+      "{",
+      "4",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "2",
+      "+",
+      "7",
+      "}",
+      "{",
+      "z",
+      "}"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "e663a65ae35e961a_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "2",
+      "+",
+      "a",
+      "}",
+      "{",
+      "4",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "2",
+      "+",
+      "a",
+      "}",
+      "{",
+      "4",
+      "}"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "3a20c342d00a8979_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "9",
+      "+",
+      "2",
+      "}",
+      "{",
+      "2",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "9",
+      "+",
+      "2",
+      "}",
+      "{",
+      "2",
+      "}"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "3a20c342d00a8979_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "9",
+      "+",
+      "2",
+      "}",
+      "{",
+      "2",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "9",
+      "+",
+      "2",
+      "}",
+      "{",
+      "z",
+      "}"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "f6a67301e59c72e8_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "7",
+      "+",
+      "5",
+      "}",
+      "{",
+      "x",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "7",
+      "+",
+      "5",
+      "}",
+      "{",
+      "2",
+      "}"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "f6a67301e59c72e8_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "7",
+      "+",
+      "5",
+      "}",
+      "{",
+      "x",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "z",
+      "+",
+      "7",
+      "}",
+      "{",
+      "x",
+      "}"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "3be16e615464d3cd_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "2",
+      "+",
+      "l",
+      "}",
+      "{",
+      "9",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "z",
+      "+",
+      "9",
+      "}",
+      "{",
+      "1",
+      "}"
+    ],
+    "exact": false,
+    "distance": 3,
+    "terminated": true
+  },
+  {
+    "id": "3be16e615464d3cd_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "2",
+      "+",
+      "l",
+      "}",
+      "{",
+      "9",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "a",
+      "+",
+      "1",
+      "}",
+      "{",
+      "9",
+      "}"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "9c72236c8257ce24_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "8",
+      "+",
+      "5",
+      "}",
+      "{",
+      "7",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "8",
+      "+",
+      "5",
+      "}",
+      "{",
+      "5",
+      "}"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "9c72236c8257ce24_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "8",
+      "+",
+      "5",
+      "}",
+      "{",
+      "7",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "5",
+      "+",
+      "7",
+      "}",
+      "{",
+      "8",
+      "}"
+    ],
+    "exact": false,
+    "distance": 3,
+    "terminated": true
+  },
+  {
+    "id": "71da0117e805db9c_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "3",
+      "+",
+      "1",
+      "}",
+      "{",
+      "a",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "3",
+      "+",
+      "1",
+      "}",
+      "{",
+      "a",
+      "}"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "71da0117e805db9c_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "3",
+      "+",
+      "1",
+      "}",
+      "{",
+      "a",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "3",
+      "+",
+      "l",
+      "}",
+      "{",
+      "a",
+      "}"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "77463aea29183a75_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "l",
+      "+",
+      "6",
+      "}",
+      "{",
+      "4",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "1",
+      "+",
+      "6",
+      "}",
+      "{",
+      "4",
+      "}"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "77463aea29183a75_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "l",
+      "+",
+      "6",
+      "}",
+      "{",
+      "4",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "l",
+      "+",
+      "6",
+      "}",
+      "{",
+      "1",
+      "}"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "4987e02e1fa7337c_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "7",
+      "+",
+      "3",
+      "}",
+      "{",
+      "0",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "7",
+      "+",
+      "3",
+      "}",
+      "{",
+      "0",
+      "}"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "4987e02e1fa7337c_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "7",
+      "+",
+      "3",
+      "}",
+      "{",
+      "0",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "7",
+      "+",
+      "5",
+      "}",
+      "{",
+      "l",
+      "}"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "4fbdd5205c3ad08e_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "7",
+      "+",
+      "3",
+      "}",
+      "{",
+      "a",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "1",
+      "+",
+      "3",
+      "}",
+      "{",
+      "a",
+      "}"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "4fbdd5205c3ad08e_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "7",
+      "+",
+      "3",
+      "}",
+      "{",
+      "a",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "z",
+      "+",
+      "a",
+      "}",
+      "{",
+      "3",
+      "}"
+    ],
+    "exact": false,
+    "distance": 3,
+    "terminated": true
+  },
+  {
+    "id": "9e05121bd54a93e8_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "b",
+      "+",
+      "b",
+      "}",
+      "{",
+      "x",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "b",
+      "+",
+      "b",
+      "}",
+      "{",
+      "0",
+      "}"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "9e05121bd54a93e8_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "b",
+      "+",
+      "b",
+      "}",
+      "{",
+      "x",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "b",
+      "+",
+      "x",
+      "}",
+      "{",
+      "1",
+      "}"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "967cc4a86fbcbfc5_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "2",
+      "+",
+      "5",
+      "}",
+      "{",
+      "a",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "2",
+      "+",
+      "5",
+      "}",
+      "{",
+      "a",
+      "}"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "967cc4a86fbcbfc5_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "2",
+      "+",
+      "5",
+      "}",
+      "{",
+      "a",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "2",
+      "+",
+      "5",
+      "}",
+      "{",
+      "a",
+      "}"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "9e21cb8b9a63e53e_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "3",
+      "+",
+      "7",
+      "}",
+      "{",
+      "6",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "3",
+      "+",
+      "4",
+      "}",
+      "{",
+      "7",
+      "}"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "9e21cb8b9a63e53e_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "3",
+      "+",
+      "7",
+      "}",
+      "{",
+      "6",
+      "}"
+    ],
+    "pred": [
+      "3",
+      "^",
+      "{",
+      "7",
+      "}",
+      "+",
+      "y"
+    ],
+    "exact": false,
+    "distance": 7,
+    "terminated": true
+  },
+  {
+    "id": "3f5335cf422ec291_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "0",
+      "+",
+      "2",
+      "}",
+      "{",
+      "b",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "0",
+      "+",
+      "2",
+      "}",
+      "{",
+      "x",
+      "}"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "3f5335cf422ec291_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "0",
+      "+",
+      "2",
+      "}",
+      "{",
+      "b",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "0",
+      "+",
+      "1",
+      "}",
+      "{",
+      "z",
+      "}"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "f864bf33b84c1dec_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "y",
+      "+",
+      "6",
+      "}",
+      "{",
+      "b",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "y",
+      "+",
+      "b",
+      "}",
+      "{",
+      "b",
+      "}"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "f864bf33b84c1dec_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "y",
+      "+",
+      "6",
+      "}",
+      "{",
+      "b",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "8",
+      "+",
+      "b",
+      "}",
+      "{",
+      "b",
+      "}"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "87b7e224912c2792_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "9",
+      "+",
+      "x",
+      "}",
+      "{",
+      "b",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "9",
+      "+",
+      "x",
+      "}",
+      "{",
+      "2",
+      "}"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "87b7e224912c2792_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "9",
+      "+",
+      "x",
+      "}",
+      "{",
+      "b",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "9",
+      "+",
+      "7",
+      "}",
+      "{",
+      "a",
+      "}"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "e17bc291e4eaac68_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "5",
+      "+",
+      "x",
+      "}",
+      "{",
+      "7",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "5",
+      "+",
+      "x",
+      "}",
+      "{",
+      "z",
+      "}"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "e17bc291e4eaac68_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "5",
+      "+",
+      "x",
+      "}",
+      "{",
+      "7",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "5",
+      "+",
+      "x",
+      "}",
+      "{",
+      "b",
+      "}"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "9c15dce5c734af88_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "l",
+      "+",
+      "7",
+      "}",
+      "{",
+      "a",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "l",
+      "+",
+      "a",
+      "}",
+      "{",
+      "y",
+      "}"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "9c15dce5c734af88_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "l",
+      "+",
+      "7",
+      "}",
+      "{",
+      "a",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "1",
+      "+",
+      "1",
+      "}",
+      "{",
+      "a",
+      "}"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "ec22baf8bf977287_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "3",
+      "+",
+      "9",
+      "}",
+      "{",
+      "9",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "3",
+      "+",
+      "9",
+      "}",
+      "{",
+      "9",
+      "}"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "ec22baf8bf977287_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "3",
+      "+",
+      "9",
+      "}",
+      "{",
+      "9",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "3",
+      "+",
+      "9",
+      "}",
+      "{",
+      "9",
+      "}"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "ae1c4203d9124ff3_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "8",
+      "+",
+      "x",
+      "}",
+      "{",
+      "x",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "5",
+      "+",
+      "x",
+      "}",
+      "{",
+      "x",
+      "}"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "ae1c4203d9124ff3_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "8",
+      "+",
+      "x",
+      "}",
+      "{",
+      "x",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "7",
+      "+",
+      "x",
+      "}",
+      "{",
+      "z",
+      "}"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "91d3d52702386a7b_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "2",
+      "+",
+      "x",
+      "}",
+      "{",
+      "b",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "2",
+      "+",
+      "x",
+      "}",
+      "{",
+      "x",
+      "}"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "91d3d52702386a7b_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "2",
+      "+",
+      "x",
+      "}",
+      "{",
+      "b",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "2",
+      "+",
+      "5",
+      "}",
+      "{",
+      "b",
+      "}"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "5a9084f8d940e0dd_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "l",
+      "+",
+      "4",
+      "}",
+      "{",
+      "l",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "l",
+      "+",
+      "4",
+      "}",
+      "{",
+      "1",
+      "}"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "5a9084f8d940e0dd_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "l",
+      "+",
+      "4",
+      "}",
+      "{",
+      "l",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "4",
+      "+",
+      "y",
+      "}",
+      "{",
+      "7",
+      "}"
+    ],
+    "exact": false,
+    "distance": 3,
+    "terminated": true
+  },
+  {
+    "id": "0cc74d5f25cb1caa_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "b",
+      "+",
+      "9",
+      "}",
+      "{",
+      "9",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "b",
+      "+",
+      "9",
+      "}",
+      "{",
+      "9",
+      "}"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "0cc74d5f25cb1caa_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "b",
+      "+",
+      "9",
+      "}",
+      "{",
+      "9",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "4",
+      "+",
+      "9",
+      "}",
+      "{",
+      "9",
+      "}"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "68e44002c8dd81a1_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "9",
+      "+",
+      "5",
+      "}",
+      "{",
+      "z",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "9",
+      "+",
+      "5",
+      "}",
+      "{",
+      "z",
+      "}"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "68e44002c8dd81a1_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "9",
+      "+",
+      "5",
+      "}",
+      "{",
+      "z",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "7",
+      "+",
+      "5",
+      "}",
+      "{",
+      "z",
+      "}"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "58e86388ccb7c4c9_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "x",
+      "+",
+      "z",
+      "}",
+      "{",
+      "6",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "8",
+      "+",
+      "6",
+      "}",
+      "{",
+      "z",
+      "}"
+    ],
+    "exact": false,
+    "distance": 3,
+    "terminated": true
+  },
+  {
+    "id": "58e86388ccb7c4c9_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "x",
+      "+",
+      "z",
+      "}",
+      "{",
+      "6",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "l",
+      "+",
+      "2",
+      "}",
+      "{",
+      "6",
+      "}"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "89a762c2d377a68c_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "7",
+      "+",
+      "2",
+      "}",
+      "{",
+      "a",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "7",
+      "+",
+      "x",
+      "}",
+      "{",
+      "0",
+      "}"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "89a762c2d377a68c_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "7",
+      "+",
+      "2",
+      "}",
+      "{",
+      "a",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "7",
+      "+",
+      "2",
+      "}",
+      "{",
+      "a",
+      "}"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "f80edd8b331d287f_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "6",
+      "+",
+      "z",
+      "}",
+      "{",
+      "3",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "6",
+      "+",
+      "3",
+      "}",
+      "{",
+      "z",
+      "}"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "f80edd8b331d287f_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "6",
+      "+",
+      "z",
+      "}",
+      "{",
+      "3",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "b",
+      "+",
+      "3",
+      "}",
+      "{",
+      "x",
+      "}"
+    ],
+    "exact": false,
+    "distance": 3,
+    "terminated": true
+  },
+  {
+    "id": "f139c4c8863e7956_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "4",
+      "+",
+      "1",
+      "}",
+      "{",
+      "6",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "4",
+      "+",
+      "0",
+      "}",
+      "{",
+      "9",
+      "}"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "f139c4c8863e7956_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "4",
+      "+",
+      "1",
+      "}",
+      "{",
+      "6",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "4",
+      "+",
+      "1",
+      "}",
+      "{",
+      "6",
+      "}",
+      "\\times",
+      "a"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "b908d87d78dbe6dc_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "8",
+      "+",
+      "x",
+      "}",
+      "{",
+      "8",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "z",
+      "+",
+      "x",
+      "}",
+      "{",
+      "8",
+      "}"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "b908d87d78dbe6dc_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "8",
+      "+",
+      "x",
+      "}",
+      "{",
+      "8",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "8",
+      "+",
+      "x",
+      "}",
+      "{",
+      "2",
+      "}"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "7bb950f9bd61fc19_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "9",
+      "+",
+      "9",
+      "}",
+      "{",
+      "2",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "9",
+      "+",
+      "8",
+      "}",
+      "{",
+      "x",
+      "}"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "7bb950f9bd61fc19_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "9",
+      "+",
+      "9",
+      "}",
+      "{",
+      "2",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "9",
+      "+",
+      "9",
+      "}",
+      "{",
+      "2",
+      "}"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "2b5fc2e84fe25147_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "6",
+      "+",
+      "8",
+      "}",
+      "{",
+      "6",
+      "}"
+    ],
+    "pred": [
+      "b",
+      "^",
+      "{",
+      "6",
+      "}",
+      "+",
+      "8"
+    ],
+    "exact": false,
+    "distance": 7,
+    "terminated": true
+  },
+  {
+    "id": "2b5fc2e84fe25147_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "6",
+      "+",
+      "8",
+      "}",
+      "{",
+      "6",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "6",
+      "+",
+      "8",
+      "}",
+      "{",
+      "6",
+      "}"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "004a310f95d2b993_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "4",
+      "+",
+      "b",
+      "}",
+      "{",
+      "4",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "4",
+      "+",
+      "4",
+      "}",
+      "{",
+      "a",
+      "}"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "004a310f95d2b993_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "4",
+      "+",
+      "b",
+      "}",
+      "{",
+      "4",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "4",
+      "+",
+      "b",
+      "}",
+      "{",
+      "4",
+      "}"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "9ffec42468d49c7b_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "z",
+      "+",
+      "6",
+      "}",
+      "{",
+      "9",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "z",
+      "+",
+      "8",
+      "}",
+      "{",
+      "9",
+      "}"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "9ffec42468d49c7b_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "z",
+      "+",
+      "6",
+      "}",
+      "{",
+      "9",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "z",
+      "+",
+      "y",
+      "}",
+      "{",
+      "5",
+      "}"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "6ec34fb1ce06cce9_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "l",
+      "+",
+      "7",
+      "}",
+      "{",
+      "2",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "l",
+      "+",
+      "4",
+      "}",
+      "{",
+      "7",
+      "}"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "6ec34fb1ce06cce9_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "l",
+      "+",
+      "7",
+      "}",
+      "{",
+      "2",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "l",
+      "+",
+      "7",
+      "}",
+      "{",
+      "2",
+      "}"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "112e4f1de55dfea2_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "4",
+      "+",
+      "2",
+      "}",
+      "{",
+      "1",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "4",
+      "+",
+      "2",
+      "}",
+      "{",
+      "1",
+      "}"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "112e4f1de55dfea2_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "4",
+      "+",
+      "2",
+      "}",
+      "{",
+      "1",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "1",
+      "+",
+      "1",
+      "}",
+      "{",
+      "z",
+      "}"
+    ],
+    "exact": false,
+    "distance": 3,
+    "terminated": true
+  },
+  {
+    "id": "727b3dfa6adf1c0e_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "2",
+      "+",
+      "5",
+      "}",
+      "{",
+      "9",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "2",
+      "+",
+      "9",
+      "}",
+      "{",
+      "5",
+      "}"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "727b3dfa6adf1c0e_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "2",
+      "+",
+      "5",
+      "}",
+      "{",
+      "9",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "2",
+      "+",
+      "5",
+      "}",
+      "{",
+      "9",
+      "}"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  },
+  {
+    "id": "06c5dec9f409bfb5_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "1",
+      "+",
+      "3",
+      "}",
+      "{",
+      "1",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "1",
+      "+",
+      "3",
+      "}",
+      "{",
+      "l",
+      "}"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "06c5dec9f409bfb5_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "1",
+      "+",
+      "3",
+      "}",
+      "{",
+      "1",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "1",
+      "+",
+      "3",
+      "}",
+      "{",
+      "l",
+      "}"
+    ],
+    "exact": false,
+    "distance": 1,
+    "terminated": true
+  },
+  {
+    "id": "80a6e2499624a600_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "4",
+      "+",
+      "3",
+      "}",
+      "{",
+      "6",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "1",
+      "+",
+      "1",
+      "}",
+      "{",
+      "y",
+      "}"
+    ],
+    "exact": false,
+    "distance": 3,
+    "terminated": true
+  },
+  {
+    "id": "80a6e2499624a600_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "4",
+      "+",
+      "3",
+      "}",
+      "{",
+      "6",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "z",
+      "+",
+      "5",
+      "}",
+      "{",
+      "8",
+      "}"
+    ],
+    "exact": false,
+    "distance": 3,
+    "terminated": true
+  },
+  {
+    "id": "28697879acd05d79_vertical",
+    "kind": "fraction",
+    "style": "vertical",
+    "truth": [
+      "\\frac",
+      "{",
+      "x",
+      "+",
+      "a",
+      "}",
+      "{",
+      "a",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "x",
+      "+",
+      "x",
+      "}",
+      "{",
+      "x",
+      "}"
+    ],
+    "exact": false,
+    "distance": 2,
+    "terminated": true
+  },
+  {
+    "id": "28697879acd05d79_slash",
+    "kind": "fraction",
+    "style": "slash",
+    "truth": [
+      "\\frac",
+      "{",
+      "x",
+      "+",
+      "a",
+      "}",
+      "{",
+      "a",
+      "}"
+    ],
+    "pred": [
+      "\\frac",
+      "{",
+      "x",
+      "+",
+      "a",
+      "}",
+      "{",
+      "a",
+      "}"
+    ],
+    "exact": true,
+    "distance": 0,
+    "terminated": true
+  }
+]

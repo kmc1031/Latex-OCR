@@ -1,0 +1,7 @@
+{
+  "python": "3.13.1 (main, Jan 14 2025, 22:47:35) [MSC v.1942 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "torch": "2.7.1+cu128",
+  "cuda": "12.8",
+  "gpu": "NVIDIA GeForce RTX 3050 Ti Laptop GPU"
+}

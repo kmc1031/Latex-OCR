@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "checks": [
+    "formula and pixel isolation",
+    "source glyph isolation",
+    "fraction target pairing",
+    "box bounds",
+    "token coverage",
+    "one-to-one matching",
+    "equals merging",
+    "L0 position invariance"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "expression_counts": {
+    "train": 6197,
+    "val": 1020,
+    "test": 482
+  },
+  "glyph_counts": {
+    "test": 4100,
+    "train": 54412,
+    "val": 8896
+  },
+  "train_val_formula_overlap": 0,
+  "cross_split_ink_overlap": 0,
+  "cross_split_pixel_overlap": 0,
+  "official_test_retained": true,
+  "test_formula_overlap_allowed_and_reported": true
+}

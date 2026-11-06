@@ -1,0 +1,48 @@
+{
+  "trials": [
+    {
+      "beam_width": 1,
+      "length_alpha": 0,
+      "semantic": {
+        "val": 0.255,
+        "val_greek": 0.095,
+        "val_capture": 0.255,
+        "val_print": 0.36
+      },
+      "score": 0.2255
+    },
+    {
+      "beam_width": 3,
+      "length_alpha": 0.6,
+      "semantic": {
+        "val": 0.25,
+        "val_greek": 0.1,
+        "val_capture": 0.255,
+        "val_print": 0.365
+      },
+      "score": 0.22475
+    },
+    {
+      "beam_width": 5,
+      "length_alpha": 0.6,
+      "semantic": {
+        "val": 0.25,
+        "val_greek": 0.1,
+        "val_capture": 0.255,
+        "val_print": 0.365
+      },
+      "score": 0.22475
+    }
+  ],
+  "selected": {
+    "beam_width": 1,
+    "length_alpha": 0,
+    "semantic": {
+      "val": 0.255,
+      "val_greek": 0.095,
+      "val_capture": 0.255,
+      "val_print": 0.36
+    },
+    "score": 0.2255
+  }
+}

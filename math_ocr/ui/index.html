@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Formula Studio · 수식 OCR</title>
+  <meta name="description" content="수식 영역을 자르고 보정하여 LaTeX로 변환하는 로컬 수식 OCR 작업실">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/styles.css"><script type="module" src="/app.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/" aria-label="Formula Studio 홈"><span class="brand-mark">ƒ</span><span>Formula<span class="brand-light"> Studio</span></span><span class="beta">LOCAL</span></a>
+    <div class="connection" id="connection" role="status"><i></i><span>모델 연결 중</span></div>
+  </header>
+  <main>
+    <div class="page-heading"><div><p class="eyebrow">IMAGE TO FORMULA</p><h1>수식만 남기면, 준비 끝.</h1><p class="lead">필요한 영역을 자르고 가볍게 보정한 뒤, LaTeX로 가져가세요.</p></div><button class="button upload-top" id="open-file"><span data-icon="upload"></span> 이미지 불러오기</button></div>
+    <div class="steps" aria-label="사용 순서"><span class="step active"><b>1</b> 이미지 편집</span><span class="step-line"></span><span class="step"><b>2</b> 수식 인식</span><span class="step-line"></span><span class="step"><b>3</b> LaTeX 복사</span><span class="local-note"><span data-icon="shield"></span> 이 컴퓨터에서 처리</span></div>
+    <div class="workspace">
+      <section class="editor-card" aria-label="이미지 편집기">
+        <div class="card-header"><div class="section-label"><span class="section-number">01</span><h2>이미지 편집</h2></div><div class="header-actions"><button id="undo" class="icon-button" aria-label="실행 취소" title="실행 취소 (Ctrl+Z)" disabled><span data-icon="undo"></span></button><button id="reset" class="text-button" disabled>원본으로</button></div></div>
+        <div class="editor-body">
+          <aside class="tools" aria-label="이미지 보정 도구">
+            <div class="tool-section"><h3>영역 선택</h3><p>드래그하여 수식만 선택하세요.</p><button class="button tool-button selected" id="crop-tool" disabled><span data-icon="crop"></span> 영역 선택</button><div class="two-buttons"><button id="apply-crop" disabled>자르기 적용</button><button id="clear-crop" disabled>선택 해제</button></div></div>
+            <div class="tool-section"><div class="tool-title"><h3>회전</h3><button class="tiny-button" id="reset-angle" disabled>초기화</button></div><div class="two-buttons rotate-buttons"><button id="rotate-left" aria-label="왼쪽으로 90도 회전" disabled><span data-icon="rotate-left"></span> −90°</button><button id="rotate-right" aria-label="오른쪽으로 90도 회전" disabled><span data-icon="rotate-right"></span> +90°</button></div><label class="control-label" for="angle">미세 회전 <output id="angle-value">0°</output></label><input id="angle" type="range" min="-45" max="45" step="0.1" value="0" disabled></div>
+            <div class="tool-section"><div class="tool-title"><h3>형태 보정</h3><span class="micro-label">AFFINE</span></div><label class="control-label" for="shear-x">가로 기울이기 <output id="shear-x-value">0°</output></label><input id="shear-x" type="range" min="-30" max="30" step="0.5" value="0" disabled><label class="control-label" for="shear-y">세로 기울이기 <output id="shear-y-value">0°</output></label><input id="shear-y" type="range" min="-30" max="30" step="0.5" value="0" disabled><label class="control-label" for="scale-x">가로 비율 <output id="scale-x-value">100%</output></label><input id="scale-x" type="range" min="50" max="150" step="1" value="100" disabled><label class="control-label" for="scale-y">세로 비율 <output id="scale-y-value">100%</output></label><input id="scale-y" type="range" min="50" max="150" step="1" value="100" disabled></div>
+            <button class="text-button reset-adjust" id="reset-adjust" disabled><span data-icon="reset"></span> 보정값 초기화</button>
+          </aside>
+          <div class="canvas-column">
+            <div id="drop-zone" class="stage">
+              <div id="empty-state" class="empty-state"><div class="empty-icon"><span data-icon="image"></span><span class="mini-plus">+</span></div><h3>수식 이미지를 놓아 주세요</h3><p>이미지를 드래그하거나 클립보드에서 붙여넣기</p><button id="choose-file" class="button primary">이미지 선택 <span data-icon="arrow-right"></span></button><span class="file-hint">PNG, JPG, WebP · 최대 20MB</span><div class="sample-divider"><span>먼저 사용해 보기</span></div><div class="samples"><button data-sample="test_00269" aria-label="근호 예제 열기"><span>√</span> 근호</button><button data-sample="test_00002" aria-label="첨자 예제 열기"><span>x<sub>n</sub></span> 첨자</button><button data-sample="test_00378" aria-label="분수 예제 열기"><span>a / b</span> 분수</button></div></div>
+              <div class="canvas-scroll" id="canvas-scroll" hidden><div class="canvas-frame" id="canvas-frame"><canvas id="editor-canvas" aria-label="편집할 수식 이미지"></canvas><svg id="crop-overlay" aria-label="수식 영역 선택" role="img"><defs><mask id="crop-mask"><rect width="100%" height="100%" fill="white"/><rect id="mask-hole" fill="black"/></mask></defs><rect width="100%" height="100%" fill="rgba(15,23,42,0.46)" mask="url(#crop-mask)" id="crop-dim"/><g id="crop-guides"><rect id="crop-outline"/><path id="crop-grid"/><g id="crop-handles"></g></g></svg></div></div>
+              <div class="drag-indicator">이미지를 놓아 바꾸기</div>
+            </div>
+            <div class="canvas-toolbar"><span id="image-info">아직 불러온 이미지가 없습니다</span><div class="zoom-controls"><button class="icon-button" id="zoom-out" aria-label="축소" disabled>−</button><button id="zoom-fit" class="text-button" disabled>화면 맞춤</button><button class="icon-button" id="zoom-in" aria-label="확대" disabled>+</button></div></div>
+            <div class="input-strip"><span class="small-icon" data-icon="scan"></span><div><strong id="selection-title">인식할 영역</strong><span id="selection-info">선택한 수식만 모델에 전달됩니다.</span></div><img id="selection-preview" alt="인식할 영역 미리보기" hidden></div>
+          </div>
+        </div>
+        <div class="editor-footer"><span id="editor-hint"><span data-icon="info"></span> 수식 한 줄을 여백과 함께 선택해 주세요.</span><button class="button primary recognize" id="recognize" disabled><span data-icon="spark"></span><span id="recognize-label">수식 인식하기</span><span data-icon="arrow-right"></span></button></div>
+      </section>
+      <aside class="result-column">
+        <section class="result-card">
+          <div class="card-header"><div class="section-label"><span class="section-number">02</span><h2>인식 결과</h2></div><span class="status-pill" id="result-status">대기 중</span></div>
+          <div class="result-body">
+            <div class="model-choice"><label for="model-profile">인식 모델</label><select id="model-profile" disabled><option>연결 중…</option></select></div>
+            <div class="formula-preview" id="formula-preview"><span class="preview-placeholder">인식한 수식이 여기에 표시됩니다.</span></div><div class="result-meta" id="result-meta" hidden></div><div class="code-heading"><label for="latex-output">LaTeX</label><button class="text-button copy-button" id="copy-latex" disabled><span data-icon="copy"></span> 복사</button></div><textarea id="latex-output" aria-label="LaTeX 인식 결과" placeholder="수식을 인식하면 LaTeX 코드가 나타납니다." spellcheck="false" disabled></textarea><p class="edit-hint" id="edit-hint">인식 후 코드를 직접 수정할 수 있어요.</p><details class="raw-details"><summary>원시 인식 결과 · 모델 입력</summary><pre id="raw-output">아직 결과가 없습니다.</pre><div class="prepared-frame"><img id="prepared-image" alt="모델에 실제로 전달한 64픽셀 높이 이미지" hidden></div><span id="prepared-size"></span></details>
+          </div>
+          <div class="result-footer"><button id="download-image" class="button secondary" disabled><span data-icon="download"></span> 편집 이미지 저장</button><button id="download-tex" class="icon-button" aria-label="LaTeX 파일 저장" title="LaTeX 파일 저장" disabled><span data-icon="file"></span></button></div>
+        </section>
+        <section class="guide-card"><span class="guide-symbol" id="guide-symbol">a / b</span><h3>잘 인식되는 입력은?</h3><p id="guide-copy">현재 모델은 짧은 인쇄 수식을 학습했어요. 분수는 (a+b)/(c)처럼 슬래시로 적힌 이미지에 맞춰져 있습니다.</p><details><summary>지원 기호와 모델 정보</summary><p id="guide-details">숫자 1–9, x·y·z·a·b·c, + − = /, 괄호, 위·아래 첨자, 제곱근. 손글씨와 복잡한 수식은 후속 학습이 필요합니다.</p><p id="guide-model">CNN + BiLSTM + LSTM · 모델 P<br>Attention / CTC 미사용</p></details></section>
+      </aside>
+    </div>
+    <footer class="page-footer"><span>FORMULA STUDIO <span class="footer-dot">·</span> 수식 OCR 프로젝트</span><span>Ctrl+V 붙여넣기 <span class="footer-dot">/</span> Ctrl+Z 실행 취소</span></footer>
+  </main>
+  <input id="file-input" type="file" accept="image/png,image/jpeg,image/webp" hidden>
+  <div id="toast" class="toast" role="status" hidden></div>
+</body>
+</html>

@@ -1,0 +1,63 @@
+{
+  "source": "data_controlled, unchanged expression splits",
+  "views": {
+    "A_stack_tex": {
+      "input": "stack",
+      "output": "tex",
+      "vocab": 28,
+      "samples": {
+        "train": 3000,
+        "val": 300,
+        "test": 500,
+        "long_test": 200,
+        "test_font": 500,
+        "test_capture": 500
+      }
+    },
+    "B_stack_slash": {
+      "input": "stack",
+      "output": "slash",
+      "vocab": 30,
+      "samples": {
+        "train": 3000,
+        "val": 300,
+        "test": 500,
+        "long_test": 200,
+        "test_font": 500,
+        "test_capture": 500
+      }
+    },
+    "C_slash_tex": {
+      "input": "slash",
+      "output": "tex",
+      "vocab": 28,
+      "samples": {
+        "train": 3000,
+        "val": 300,
+        "test": 500,
+        "long_test": 200,
+        "test_font": 500,
+        "test_capture": 500
+      }
+    },
+    "D_slash_slash": {
+      "input": "slash",
+      "output": "slash",
+      "vocab": 30,
+      "samples": {
+        "train": 3000,
+        "val": 300,
+        "test": 500,
+        "long_test": 200,
+        "test_font": 500,
+        "test_capture": 500
+      }
+    }
+  },
+  "semantic_conversion_checks": 4000,
+  "train_test_formula_overlap": 0,
+  "font_shift": "STIX -> DejaVu Sans, no training on shifted font",
+  "capture_shift": "rotation +/-1 degree, Gaussian blur 0.35px, intensity noise sigma 4/255",
+  "paired_shift_tests_share_test_formulas": true,
+  "baseline_A": "runs/controlled/best.pt, already trained 40 epochs on these exact expressions"
+}

@@ -1,0 +1,16 @@
+{
+  "device": "CPU",
+  "threads": 1,
+  "n": 450,
+  "warmup": 10,
+  "median_seconds": 0.004267550015356392,
+  "p95_seconds": 0.005912269995314997,
+  "stage_means": {
+    "read": 0.00047922888887114824,
+    "segment": 0.00035683777700695724,
+    "classify": 0.001842627334796513,
+    "decode": 0.001779697998556205
+  },
+  "inference_parity_passed": true,
+  "note": "One timing pass rather than three; input file reads included; model load and display excluded."
+}

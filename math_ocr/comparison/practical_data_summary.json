@@ -1,0 +1,13 @@
+{
+  "train_formulas": 4000,
+  "base_formulas": 3000,
+  "added_nested_formulas": 1000,
+  "training_fonts": [
+    "stix",
+    "dejavusans",
+    "cm"
+  ],
+  "font_selection": "One random font per formula per epoch",
+  "nested_test_training_overlap": 0,
+  "validation_shifts_use_validation_identities": true
+}

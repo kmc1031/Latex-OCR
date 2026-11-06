@@ -1,0 +1,11 @@
+{
+  "python": "3.13.1 (main, Jan 14 2025, 22:47:35) [MSC v.1942 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "packages": {
+    "torch": "2.7.1+cu128",
+    "numpy": "2.5.4",
+    "Pillow": "13.0.0",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2"
+  }
+}

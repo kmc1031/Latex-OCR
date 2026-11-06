@@ -1,0 +1,6 @@
+{
+  "name": "formula-studio-local",
+  "private": true,
+  "type": "module",
+  "scripts": {"test": "node --test editor.test.js"}
+}

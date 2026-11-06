@@ -1,0 +1,33 @@
+# Local environments, original corpora and training caches
+**/.venv/
+**/__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+**/node_modules/
+**/plot_cache/
+**/tmp/
+**/data/**
+**/data_*/**
+!**/data/README.md
+!**/data/audit.json
+!**/data/vocab.json
+!math_ocr/data_mathwriting/raw/*.json
+!math_ocr/data_handwriting/README.md
+!math_ocr/data_handwriting/summary.json
+*.npz
+*.npy
+*.tgz
+*.zip
+*.parquet
+*.pt
+!math_ocr/unified_experiment/final_model.pt
+*.log
+*.docx
+*.pptx
+
+# Keep public provenance and label dictionaries only.
+!math_ocr/data_mathwriting/raw/
+!math_ocr/data_handwriting/
+!math_ocr/segmentation/data/

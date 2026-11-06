@@ -1,0 +1,132 @@
+{
+  "data": {
+    "samples": {
+      "train": 6000,
+      "val": 500,
+      "test": 500,
+      "long_test": 250
+    },
+    "all_saved_pixel_checksums_match": true,
+    "split_overlaps": [
+      {
+        "a": "train",
+        "b": "val",
+        "overlap": {
+          "latex": 0,
+          "source_filename": 0,
+          "image_sha256": 0
+        }
+      },
+      {
+        "a": "train",
+        "b": "test",
+        "overlap": {
+          "latex": 0,
+          "source_filename": 0,
+          "image_sha256": 0
+        }
+      },
+      {
+        "a": "train",
+        "b": "long_test",
+        "overlap": {
+          "latex": 0,
+          "source_filename": 0,
+          "image_sha256": 0
+        }
+      },
+      {
+        "a": "val",
+        "b": "test",
+        "overlap": {
+          "latex": 0,
+          "source_filename": 0,
+          "image_sha256": 0
+        }
+      },
+      {
+        "a": "val",
+        "b": "long_test",
+        "overlap": {
+          "latex": 0,
+          "source_filename": 0,
+          "image_sha256": 0
+        }
+      },
+      {
+        "a": "test",
+        "b": "long_test",
+        "overlap": {
+          "latex": 0,
+          "source_filename": 0,
+          "image_sha256": 0
+        }
+      }
+    ]
+  },
+  "data_controlled": {
+    "samples": {
+      "train": 3000,
+      "val": 300,
+      "test": 500,
+      "long_test": 200
+    },
+    "all_saved_pixel_checksums_match": true,
+    "split_overlaps": [
+      {
+        "a": "train",
+        "b": "val",
+        "overlap": {
+          "latex": 0,
+          "source_filename": 0,
+          "image_sha256": 0
+        }
+      },
+      {
+        "a": "train",
+        "b": "test",
+        "overlap": {
+          "latex": 0,
+          "source_filename": 0,
+          "image_sha256": 0
+        }
+      },
+      {
+        "a": "train",
+        "b": "long_test",
+        "overlap": {
+          "latex": 0,
+          "source_filename": 0,
+          "image_sha256": 0
+        }
+      },
+      {
+        "a": "val",
+        "b": "test",
+        "overlap": {
+          "latex": 0,
+          "source_filename": 0,
+          "image_sha256": 0
+        }
+      },
+      {
+        "a": "val",
+        "b": "long_test",
+        "overlap": {
+          "latex": 0,
+          "source_filename": 0,
+          "image_sha256": 0
+        }
+      },
+      {
+        "a": "test",
+        "b": "long_test",
+        "overlap": {
+          "latex": 0,
+          "source_filename": 0,
+          "image_sha256": 0
+        }
+      }
+    ]
+  }
+}

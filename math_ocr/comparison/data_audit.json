@@ -1,0 +1,72 @@
+{
+  "A_stack_tex": {
+    "counts": {
+      "train": 3000,
+      "val": 300,
+      "test": 500,
+      "long_test": 200,
+      "test_font": 500,
+      "test_capture": 500,
+      "val_font": 300,
+      "val_capture": 300
+    },
+    "core_split_pair_overlap": 0,
+    "image_hashes_verified": true
+  },
+  "B_stack_slash": {
+    "counts": {
+      "train": 3000,
+      "val": 300,
+      "test": 500,
+      "long_test": 200,
+      "test_font": 500,
+      "test_capture": 500,
+      "val_font": 300,
+      "val_capture": 300
+    },
+    "core_split_pair_overlap": 0,
+    "image_hashes_verified": true
+  },
+  "C_slash_tex": {
+    "counts": {
+      "train": 3000,
+      "val": 300,
+      "test": 500,
+      "long_test": 200,
+      "test_font": 500,
+      "test_capture": 500,
+      "val_font": 300,
+      "val_capture": 300
+    },
+    "core_split_pair_overlap": 0,
+    "image_hashes_verified": true
+  },
+  "D_slash_slash": {
+    "counts": {
+      "train": 3000,
+      "val": 300,
+      "test": 500,
+      "long_test": 200,
+      "test_font": 500,
+      "test_capture": 500,
+      "val_font": 300,
+      "val_capture": 300
+    },
+    "core_split_pair_overlap": 0,
+    "image_hashes_verified": true
+  },
+  "P_practical": {
+    "counts": {
+      "train": 4000,
+      "val": 300,
+      "test": 500,
+      "long_test": 200,
+      "test_font": 500,
+      "test_capture": 500,
+      "val_font": 300,
+      "val_capture": 300
+    },
+    "core_split_pair_overlap": 0,
+    "image_hashes_verified": true
+  }
+}

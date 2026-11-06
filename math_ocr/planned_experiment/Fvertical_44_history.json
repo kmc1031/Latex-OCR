@@ -1,0 +1,1052 @@
+[
+  {
+    "epoch": 1,
+    "loss": 2.3651221405376086,
+    "validation": {
+      "n": 375,
+      "exact_match": 0.0,
+      "token_error_rate": 0.9632323232323232,
+      "termination_rate": 1.0,
+      "by_type": {
+        "basic": {
+          "n": 150,
+          "exact_match": 0.0,
+          "token_error_rate": 1.524,
+          "termination_rate": 1.0
+        },
+        "sup": {
+          "n": 75,
+          "exact_match": 0.0,
+          "token_error_rate": 0.9828571428571429,
+          "termination_rate": 1.0
+        },
+        "sub": {
+          "n": 75,
+          "exact_match": 0.0,
+          "token_error_rate": 0.9885714285714285,
+          "termination_rate": 1.0
+        },
+        "vertical": {
+          "n": 75,
+          "exact_match": 0.0,
+          "token_error_rate": 0.30518518518518517,
+          "termination_rate": 1.0
+        },
+        "slash": {
+          "n": 0,
+          "exact_match": 0.0,
+          "token_error_rate": 0.0,
+          "termination_rate": 0.0
+        }
+      }
+    }
+  },
+  {
+    "epoch": 2,
+    "loss": 1.3500306855548512,
+    "validation": {
+      "n": 375,
+      "exact_match": 0.0,
+      "token_error_rate": 0.6,
+      "termination_rate": 1.0,
+      "by_type": {
+        "basic": {
+          "n": 150,
+          "exact_match": 0.0,
+          "token_error_rate": 0.66,
+          "termination_rate": 1.0
+        },
+        "sup": {
+          "n": 75,
+          "exact_match": 0.0,
+          "token_error_rate": 0.7066666666666667,
+          "termination_rate": 1.0
+        },
+        "sub": {
+          "n": 75,
+          "exact_match": 0.0,
+          "token_error_rate": 0.7771428571428571,
+          "termination_rate": 1.0
+        },
+        "vertical": {
+          "n": 75,
+          "exact_match": 0.0,
+          "token_error_rate": 0.3125925925925926,
+          "termination_rate": 1.0
+        },
+        "slash": {
+          "n": 0,
+          "exact_match": 0.0,
+          "token_error_rate": 0.0,
+          "termination_rate": 0.0
+        }
+      }
+    }
+  },
+  {
+    "epoch": 3,
+    "loss": 1.1967426245862787,
+    "validation": {
+      "n": 375,
+      "exact_match": 0.0,
+      "token_error_rate": 0.5296969696969697,
+      "termination_rate": 1.0,
+      "by_type": {
+        "basic": {
+          "n": 150,
+          "exact_match": 0.0,
+          "token_error_rate": 0.624,
+          "termination_rate": 1.0
+        },
+        "sup": {
+          "n": 75,
+          "exact_match": 0.0,
+          "token_error_rate": 0.6247619047619047,
+          "termination_rate": 1.0
+        },
+        "sub": {
+          "n": 75,
+          "exact_match": 0.0,
+          "token_error_rate": 0.5904761904761905,
+          "termination_rate": 1.0
+        },
+        "vertical": {
+          "n": 75,
+          "exact_match": 0.0,
+          "token_error_rate": 0.3037037037037037,
+          "termination_rate": 1.0
+        },
+        "slash": {
+          "n": 0,
+          "exact_match": 0.0,
+          "token_error_rate": 0.0,
+          "termination_rate": 0.0
+        }
+      }
+    }
+  },
+  {
+    "epoch": 4,
+    "loss": 1.1300122065977616,
+    "validation": {
+      "n": 375,
+      "exact_match": 0.0026666666666666666,
+      "token_error_rate": 0.477979797979798,
+      "termination_rate": 1.0,
+      "by_type": {
+        "basic": {
+          "n": 150,
+          "exact_match": 0.0,
+          "token_error_rate": 0.5653333333333334,
+          "termination_rate": 1.0
+        },
+        "sup": {
+          "n": 75,
+          "exact_match": 0.0,
+          "token_error_rate": 0.64,
+          "termination_rate": 1.0
+        },
+        "sub": {
+          "n": 75,
+          "exact_match": 0.013333333333333334,
+          "token_error_rate": 0.42857142857142855,
+          "termination_rate": 1.0
+        },
+        "vertical": {
+          "n": 75,
+          "exact_match": 0.0,
+          "token_error_rate": 0.29333333333333333,
+          "termination_rate": 1.0
+        },
+        "slash": {
+          "n": 0,
+          "exact_match": 0.0,
+          "token_error_rate": 0.0,
+          "termination_rate": 0.0
+        }
+      }
+    }
+  },
+  {
+    "epoch": 5,
+    "loss": 1.0332276024601676,
+    "validation": {
+      "n": 375,
+      "exact_match": 0.008,
+      "token_error_rate": 0.3519191919191919,
+      "termination_rate": 1.0,
+      "by_type": {
+        "basic": {
+          "n": 150,
+          "exact_match": 0.02,
+          "token_error_rate": 0.44133333333333336,
+          "termination_rate": 1.0
+        },
+        "sup": {
+          "n": 75,
+          "exact_match": 0.0,
+          "token_error_rate": 0.3619047619047619,
+          "termination_rate": 1.0
+        },
+        "sub": {
+          "n": 75,
+          "exact_match": 0.0,
+          "token_error_rate": 0.3352380952380952,
+          "termination_rate": 1.0
+        },
+        "vertical": {
+          "n": 75,
+          "exact_match": 0.0,
+          "token_error_rate": 0.2577777777777778,
+          "termination_rate": 1.0
+        },
+        "slash": {
+          "n": 0,
+          "exact_match": 0.0,
+          "token_error_rate": 0.0,
+          "termination_rate": 0.0
+        }
+      }
+    }
+  },
+  {
+    "epoch": 6,
+    "loss": 0.8819890260696411,
+    "validation": {
+      "n": 375,
+      "exact_match": 0.010666666666666666,
+      "token_error_rate": 0.3288888888888889,
+      "termination_rate": 1.0,
+      "by_type": {
+        "basic": {
+          "n": 150,
+          "exact_match": 0.013333333333333334,
+          "token_error_rate": 0.392,
+          "termination_rate": 1.0
+        },
+        "sup": {
+          "n": 75,
+          "exact_match": 0.0,
+          "token_error_rate": 0.34285714285714286,
+          "termination_rate": 1.0
+        },
+        "sub": {
+          "n": 75,
+          "exact_match": 0.013333333333333334,
+          "token_error_rate": 0.34285714285714286,
+          "termination_rate": 1.0
+        },
+        "vertical": {
+          "n": 75,
+          "exact_match": 0.013333333333333334,
+          "token_error_rate": 0.23703703703703705,
+          "termination_rate": 1.0
+        },
+        "slash": {
+          "n": 0,
+          "exact_match": 0.0,
+          "token_error_rate": 0.0,
+          "termination_rate": 0.0
+        }
+      }
+    }
+  },
+  {
+    "epoch": 7,
+    "loss": 0.7402582959695296,
+    "validation": {
+      "n": 375,
+      "exact_match": 0.048,
+      "token_error_rate": 0.2791919191919192,
+      "termination_rate": 1.0,
+      "by_type": {
+        "basic": {
+          "n": 150,
+          "exact_match": 0.04,
+          "token_error_rate": 0.3466666666666667,
+          "termination_rate": 1.0
+        },
+        "sup": {
+          "n": 75,
+          "exact_match": 0.08,
+          "token_error_rate": 0.2723809523809524,
+          "termination_rate": 1.0
+        },
+        "sub": {
+          "n": 75,
+          "exact_match": 0.08,
+          "token_error_rate": 0.25142857142857145,
+          "termination_rate": 1.0
+        },
+        "vertical": {
+          "n": 75,
+          "exact_match": 0.0,
+          "token_error_rate": 0.2311111111111111,
+          "termination_rate": 1.0
+        },
+        "slash": {
+          "n": 0,
+          "exact_match": 0.0,
+          "token_error_rate": 0.0,
+          "termination_rate": 0.0
+        }
+      }
+    }
+  },
+  {
+    "epoch": 8,
+    "loss": 0.6191390628164465,
+    "validation": {
+      "n": 375,
+      "exact_match": 0.136,
+      "token_error_rate": 0.24,
+      "termination_rate": 1.0,
+      "by_type": {
+        "basic": {
+          "n": 150,
+          "exact_match": 0.11333333333333333,
+          "token_error_rate": 0.32,
+          "termination_rate": 1.0
+        },
+        "sup": {
+          "n": 75,
+          "exact_match": 0.21333333333333335,
+          "token_error_rate": 0.2057142857142857,
+          "termination_rate": 1.0
+        },
+        "sub": {
+          "n": 75,
+          "exact_match": 0.17333333333333334,
+          "token_error_rate": 0.2019047619047619,
+          "termination_rate": 1.0
+        },
+        "vertical": {
+          "n": 75,
+          "exact_match": 0.06666666666666667,
+          "token_error_rate": 0.2074074074074074,
+          "termination_rate": 1.0
+        },
+        "slash": {
+          "n": 0,
+          "exact_match": 0.0,
+          "token_error_rate": 0.0,
+          "termination_rate": 0.0
+        }
+      }
+    }
+  },
+  {
+    "epoch": 9,
+    "loss": 0.5287802484902469,
+    "validation": {
+      "n": 375,
+      "exact_match": 0.19466666666666665,
+      "token_error_rate": 0.21616161616161617,
+      "termination_rate": 1.0,
+      "by_type": {
+        "basic": {
+          "n": 150,
+          "exact_match": 0.13333333333333333,
+          "token_error_rate": 0.304,
+          "termination_rate": 1.0
+        },
+        "sup": {
+          "n": 75,
+          "exact_match": 0.30666666666666664,
+          "token_error_rate": 0.17142857142857143,
+          "termination_rate": 1.0
+        },
+        "sub": {
+          "n": 75,
+          "exact_match": 0.30666666666666664,
+          "token_error_rate": 0.1580952380952381,
+          "termination_rate": 1.0
+        },
+        "vertical": {
+          "n": 75,
+          "exact_match": 0.09333333333333334,
+          "token_error_rate": 0.1985185185185185,
+          "termination_rate": 1.0
+        },
+        "slash": {
+          "n": 0,
+          "exact_match": 0.0,
+          "token_error_rate": 0.0,
+          "termination_rate": 0.0
+        }
+      }
+    }
+  },
+  {
+    "epoch": 10,
+    "loss": 0.45261950194835665,
+    "validation": {
+      "n": 375,
+      "exact_match": 0.256,
+      "token_error_rate": 0.20202020202020202,
+      "termination_rate": 1.0,
+      "by_type": {
+        "basic": {
+          "n": 150,
+          "exact_match": 0.22666666666666666,
+          "token_error_rate": 0.2733333333333333,
+          "termination_rate": 1.0
+        },
+        "sup": {
+          "n": 75,
+          "exact_match": 0.4,
+          "token_error_rate": 0.15428571428571428,
+          "termination_rate": 1.0
+        },
+        "sub": {
+          "n": 75,
+          "exact_match": 0.30666666666666664,
+          "token_error_rate": 0.16,
+          "termination_rate": 1.0
+        },
+        "vertical": {
+          "n": 75,
+          "exact_match": 0.12,
+          "token_error_rate": 0.1925925925925926,
+          "termination_rate": 1.0
+        },
+        "slash": {
+          "n": 0,
+          "exact_match": 0.0,
+          "token_error_rate": 0.0,
+          "termination_rate": 0.0
+        }
+      }
+    }
+  },
+  {
+    "epoch": 11,
+    "loss": 0.3897334018891508,
+    "validation": {
+      "n": 375,
+      "exact_match": 0.29333333333333333,
+      "token_error_rate": 0.18545454545454546,
+      "termination_rate": 1.0,
+      "by_type": {
+        "basic": {
+          "n": 150,
+          "exact_match": 0.24,
+          "token_error_rate": 0.25866666666666666,
+          "termination_rate": 1.0
+        },
+        "sup": {
+          "n": 75,
+          "exact_match": 0.38666666666666666,
+          "token_error_rate": 0.13333333333333333,
+          "termination_rate": 1.0
+        },
+        "sub": {
+          "n": 75,
+          "exact_match": 0.41333333333333333,
+          "token_error_rate": 0.13714285714285715,
+          "termination_rate": 1.0
+        },
+        "vertical": {
+          "n": 75,
+          "exact_match": 0.18666666666666668,
+          "token_error_rate": 0.18222222222222223,
+          "termination_rate": 1.0
+        },
+        "slash": {
+          "n": 0,
+          "exact_match": 0.0,
+          "token_error_rate": 0.0,
+          "termination_rate": 0.0
+        }
+      }
+    }
+  },
+  {
+    "epoch": 12,
+    "loss": 0.3391473958438093,
+    "validation": {
+      "n": 375,
+      "exact_match": 0.352,
+      "token_error_rate": 0.1713131313131313,
+      "termination_rate": 1.0,
+      "by_type": {
+        "basic": {
+          "n": 150,
+          "exact_match": 0.26666666666666666,
+          "token_error_rate": 0.248,
+          "termination_rate": 1.0
+        },
+        "sup": {
+          "n": 75,
+          "exact_match": 0.4666666666666667,
+          "token_error_rate": 0.14095238095238094,
+          "termination_rate": 1.0
+        },
+        "sub": {
+          "n": 75,
+          "exact_match": 0.4666666666666667,
+          "token_error_rate": 0.1180952380952381,
+          "termination_rate": 1.0
+        },
+        "vertical": {
+          "n": 75,
+          "exact_match": 0.29333333333333333,
+          "token_error_rate": 0.1511111111111111,
+          "termination_rate": 1.0
+        },
+        "slash": {
+          "n": 0,
+          "exact_match": 0.0,
+          "token_error_rate": 0.0,
+          "termination_rate": 0.0
+        }
+      }
+    }
+  },
+  {
+    "epoch": 13,
+    "loss": 0.2995604609901255,
+    "validation": {
+      "n": 375,
+      "exact_match": 0.3973333333333333,
+      "token_error_rate": 0.15151515151515152,
+      "termination_rate": 1.0,
+      "by_type": {
+        "basic": {
+          "n": 150,
+          "exact_match": 0.36666666666666664,
+          "token_error_rate": 0.20533333333333334,
+          "termination_rate": 1.0
+        },
+        "sup": {
+          "n": 75,
+          "exact_match": 0.48,
+          "token_error_rate": 0.11047619047619048,
+          "termination_rate": 1.0
+        },
+        "sub": {
+          "n": 75,
+          "exact_match": 0.48,
+          "token_error_rate": 0.11428571428571428,
+          "termination_rate": 1.0
+        },
+        "vertical": {
+          "n": 75,
+          "exact_match": 0.29333333333333333,
+          "token_error_rate": 0.15259259259259259,
+          "termination_rate": 1.0
+        },
+        "slash": {
+          "n": 0,
+          "exact_match": 0.0,
+          "token_error_rate": 0.0,
+          "termination_rate": 0.0
+        }
+      }
+    }
+  },
+  {
+    "epoch": 14,
+    "loss": 0.2635567247867584,
+    "validation": {
+      "n": 375,
+      "exact_match": 0.3893333333333333,
+      "token_error_rate": 0.1511111111111111,
+      "termination_rate": 1.0,
+      "by_type": {
+        "basic": {
+          "n": 150,
+          "exact_match": 0.3466666666666667,
+          "token_error_rate": 0.208,
+          "termination_rate": 1.0
+        },
+        "sup": {
+          "n": 75,
+          "exact_match": 0.52,
+          "token_error_rate": 0.10666666666666667,
+          "termination_rate": 1.0
+        },
+        "sub": {
+          "n": 75,
+          "exact_match": 0.49333333333333335,
+          "token_error_rate": 0.10476190476190476,
+          "termination_rate": 1.0
+        },
+        "vertical": {
+          "n": 75,
+          "exact_match": 0.24,
+          "token_error_rate": 0.15851851851851853,
+          "termination_rate": 1.0
+        },
+        "slash": {
+          "n": 0,
+          "exact_match": 0.0,
+          "token_error_rate": 0.0,
+          "termination_rate": 0.0
+        }
+      }
+    }
+  },
+  {
+    "epoch": 15,
+    "loss": 0.23964011493054302,
+    "validation": {
+      "n": 375,
+      "exact_match": 0.4053333333333333,
+      "token_error_rate": 0.1482828282828283,
+      "termination_rate": 1.0,
+      "by_type": {
+        "basic": {
+          "n": 150,
+          "exact_match": 0.36,
+          "token_error_rate": 0.20266666666666666,
+          "termination_rate": 1.0
+        },
+        "sup": {
+          "n": 75,
+          "exact_match": 0.56,
+          "token_error_rate": 0.09523809523809523,
+          "termination_rate": 1.0
+        },
+        "sub": {
+          "n": 75,
+          "exact_match": 0.48,
+          "token_error_rate": 0.12,
+          "termination_rate": 1.0
+        },
+        "vertical": {
+          "n": 75,
+          "exact_match": 0.26666666666666666,
+          "token_error_rate": 0.1511111111111111,
+          "termination_rate": 1.0
+        },
+        "slash": {
+          "n": 0,
+          "exact_match": 0.0,
+          "token_error_rate": 0.0,
+          "termination_rate": 0.0
+        }
+      }
+    }
+  },
+  {
+    "epoch": 16,
+    "loss": 0.21435730687596583,
+    "validation": {
+      "n": 375,
+      "exact_match": 0.4693333333333333,
+      "token_error_rate": 0.13252525252525252,
+      "termination_rate": 1.0,
+      "by_type": {
+        "basic": {
+          "n": 150,
+          "exact_match": 0.42,
+          "token_error_rate": 0.19066666666666668,
+          "termination_rate": 1.0
+        },
+        "sup": {
+          "n": 75,
+          "exact_match": 0.6,
+          "token_error_rate": 0.0838095238095238,
+          "termination_rate": 1.0
+        },
+        "sub": {
+          "n": 75,
+          "exact_match": 0.49333333333333335,
+          "token_error_rate": 0.10666666666666667,
+          "termination_rate": 1.0
+        },
+        "vertical": {
+          "n": 75,
+          "exact_match": 0.41333333333333333,
+          "token_error_rate": 0.1259259259259259,
+          "termination_rate": 1.0
+        },
+        "slash": {
+          "n": 0,
+          "exact_match": 0.0,
+          "token_error_rate": 0.0,
+          "termination_rate": 0.0
+        }
+      }
+    }
+  },
+  {
+    "epoch": 17,
+    "loss": 0.19286810647357594,
+    "validation": {
+      "n": 375,
+      "exact_match": 0.45066666666666666,
+      "token_error_rate": 0.13535353535353536,
+      "termination_rate": 1.0,
+      "by_type": {
+        "basic": {
+          "n": 150,
+          "exact_match": 0.38666666666666666,
+          "token_error_rate": 0.18533333333333332,
+          "termination_rate": 1.0
+        },
+        "sup": {
+          "n": 75,
+          "exact_match": 0.5733333333333334,
+          "token_error_rate": 0.09904761904761905,
+          "termination_rate": 1.0
+        },
+        "sub": {
+          "n": 75,
+          "exact_match": 0.56,
+          "token_error_rate": 0.08952380952380952,
+          "termination_rate": 1.0
+        },
+        "vertical": {
+          "n": 75,
+          "exact_match": 0.3466666666666667,
+          "token_error_rate": 0.1437037037037037,
+          "termination_rate": 1.0
+        },
+        "slash": {
+          "n": 0,
+          "exact_match": 0.0,
+          "token_error_rate": 0.0,
+          "termination_rate": 0.0
+        }
+      }
+    }
+  },
+  {
+    "epoch": 18,
+    "loss": 0.17518645220182158,
+    "validation": {
+      "n": 375,
+      "exact_match": 0.464,
+      "token_error_rate": 0.13090909090909092,
+      "termination_rate": 1.0,
+      "by_type": {
+        "basic": {
+          "n": 150,
+          "exact_match": 0.44,
+          "token_error_rate": 0.176,
+          "termination_rate": 1.0
+        },
+        "sup": {
+          "n": 75,
+          "exact_match": 0.5733333333333334,
+          "token_error_rate": 0.0838095238095238,
+          "termination_rate": 1.0
+        },
+        "sub": {
+          "n": 75,
+          "exact_match": 0.48,
+          "token_error_rate": 0.1180952380952381,
+          "termination_rate": 1.0
+        },
+        "vertical": {
+          "n": 75,
+          "exact_match": 0.38666666666666666,
+          "token_error_rate": 0.1274074074074074,
+          "termination_rate": 1.0
+        },
+        "slash": {
+          "n": 0,
+          "exact_match": 0.0,
+          "token_error_rate": 0.0,
+          "termination_rate": 0.0
+        }
+      }
+    }
+  },
+  {
+    "epoch": 19,
+    "loss": 0.15773518986322663,
+    "validation": {
+      "n": 375,
+      "exact_match": 0.49066666666666664,
+      "token_error_rate": 0.11757575757575757,
+      "termination_rate": 1.0,
+      "by_type": {
+        "basic": {
+          "n": 150,
+          "exact_match": 0.46,
+          "token_error_rate": 0.15866666666666668,
+          "termination_rate": 1.0
+        },
+        "sup": {
+          "n": 75,
+          "exact_match": 0.6133333333333333,
+          "token_error_rate": 0.06857142857142857,
+          "termination_rate": 1.0
+        },
+        "sub": {
+          "n": 75,
+          "exact_match": 0.5866666666666667,
+          "token_error_rate": 0.08571428571428572,
+          "termination_rate": 1.0
+        },
+        "vertical": {
+          "n": 75,
+          "exact_match": 0.3333333333333333,
+          "token_error_rate": 0.1348148148148148,
+          "termination_rate": 1.0
+        },
+        "slash": {
+          "n": 0,
+          "exact_match": 0.0,
+          "token_error_rate": 0.0,
+          "termination_rate": 0.0
+        }
+      }
+    }
+  },
+  {
+    "epoch": 20,
+    "loss": 0.1422913864932277,
+    "validation": {
+      "n": 375,
+      "exact_match": 0.49333333333333335,
+      "token_error_rate": 0.11757575757575757,
+      "termination_rate": 1.0,
+      "by_type": {
+        "basic": {
+          "n": 150,
+          "exact_match": 0.4666666666666667,
+          "token_error_rate": 0.15333333333333332,
+          "termination_rate": 1.0
+        },
+        "sup": {
+          "n": 75,
+          "exact_match": 0.6133333333333333,
+          "token_error_rate": 0.0761904761904762,
+          "termination_rate": 1.0
+        },
+        "sub": {
+          "n": 75,
+          "exact_match": 0.56,
+          "token_error_rate": 0.09333333333333334,
+          "termination_rate": 1.0
+        },
+        "vertical": {
+          "n": 75,
+          "exact_match": 0.36,
+          "token_error_rate": 0.1288888888888889,
+          "termination_rate": 1.0
+        },
+        "slash": {
+          "n": 0,
+          "exact_match": 0.0,
+          "token_error_rate": 0.0,
+          "termination_rate": 0.0
+        }
+      }
+    }
+  },
+  {
+    "epoch": 21,
+    "loss": 0.12842561318115756,
+    "validation": {
+      "n": 375,
+      "exact_match": 0.49066666666666664,
+      "token_error_rate": 0.12161616161616162,
+      "termination_rate": 1.0,
+      "by_type": {
+        "basic": {
+          "n": 150,
+          "exact_match": 0.44666666666666666,
+          "token_error_rate": 0.16,
+          "termination_rate": 1.0
+        },
+        "sup": {
+          "n": 75,
+          "exact_match": 0.5466666666666666,
+          "token_error_rate": 0.09333333333333334,
+          "termination_rate": 1.0
+        },
+        "sub": {
+          "n": 75,
+          "exact_match": 0.5866666666666667,
+          "token_error_rate": 0.09714285714285714,
+          "termination_rate": 1.0
+        },
+        "vertical": {
+          "n": 75,
+          "exact_match": 0.4266666666666667,
+          "token_error_rate": 0.12,
+          "termination_rate": 1.0
+        },
+        "slash": {
+          "n": 0,
+          "exact_match": 0.0,
+          "token_error_rate": 0.0,
+          "termination_rate": 0.0
+        }
+      }
+    }
+  },
+  {
+    "epoch": 22,
+    "loss": 0.11621933132410049,
+    "validation": {
+      "n": 375,
+      "exact_match": 0.472,
+      "token_error_rate": 0.12606060606060607,
+      "termination_rate": 1.0,
+      "by_type": {
+        "basic": {
+          "n": 150,
+          "exact_match": 0.4266666666666667,
+          "token_error_rate": 0.17733333333333334,
+          "termination_rate": 1.0
+        },
+        "sup": {
+          "n": 75,
+          "exact_match": 0.6,
+          "token_error_rate": 0.09714285714285714,
+          "termination_rate": 1.0
+        },
+        "sub": {
+          "n": 75,
+          "exact_match": 0.5066666666666667,
+          "token_error_rate": 0.09142857142857143,
+          "termination_rate": 1.0
+        },
+        "vertical": {
+          "n": 75,
+          "exact_match": 0.4,
+          "token_error_rate": 0.11851851851851852,
+          "termination_rate": 1.0
+        },
+        "slash": {
+          "n": 0,
+          "exact_match": 0.0,
+          "token_error_rate": 0.0,
+          "termination_rate": 0.0
+        }
+      }
+    }
+  },
+  {
+    "epoch": 23,
+    "loss": 0.10354655473069711,
+    "validation": {
+      "n": 375,
+      "exact_match": 0.4666666666666667,
+      "token_error_rate": 0.12323232323232323,
+      "termination_rate": 1.0,
+      "by_type": {
+        "basic": {
+          "n": 150,
+          "exact_match": 0.41333333333333333,
+          "token_error_rate": 0.17066666666666666,
+          "termination_rate": 1.0
+        },
+        "sup": {
+          "n": 75,
+          "exact_match": 0.6,
+          "token_error_rate": 0.08,
+          "termination_rate": 1.0
+        },
+        "sub": {
+          "n": 75,
+          "exact_match": 0.52,
+          "token_error_rate": 0.09523809523809523,
+          "termination_rate": 1.0
+        },
+        "vertical": {
+          "n": 75,
+          "exact_match": 0.38666666666666666,
+          "token_error_rate": 0.1259259259259259,
+          "termination_rate": 1.0
+        },
+        "slash": {
+          "n": 0,
+          "exact_match": 0.0,
+          "token_error_rate": 0.0,
+          "termination_rate": 0.0
+        }
+      }
+    }
+  },
+  {
+    "epoch": 24,
+    "loss": 0.09293604337356308,
+    "validation": {
+      "n": 375,
+      "exact_match": 0.472,
+      "token_error_rate": 0.11878787878787879,
+      "termination_rate": 1.0,
+      "by_type": {
+        "basic": {
+          "n": 150,
+          "exact_match": 0.4666666666666667,
+          "token_error_rate": 0.15733333333333333,
+          "termination_rate": 1.0
+        },
+        "sup": {
+          "n": 75,
+          "exact_match": 0.5866666666666667,
+          "token_error_rate": 0.0838095238095238,
+          "termination_rate": 1.0
+        },
+        "sub": {
+          "n": 75,
+          "exact_match": 0.49333333333333335,
+          "token_error_rate": 0.09333333333333334,
+          "termination_rate": 1.0
+        },
+        "vertical": {
+          "n": 75,
+          "exact_match": 0.3466666666666667,
+          "token_error_rate": 0.12296296296296297,
+          "termination_rate": 1.0
+        },
+        "slash": {
+          "n": 0,
+          "exact_match": 0.0,
+          "token_error_rate": 0.0,
+          "termination_rate": 0.0
+        }
+      }
+    }
+  },
+  {
+    "epoch": 25,
+    "loss": 0.08557255710051818,
+    "validation": {
+      "n": 375,
+      "exact_match": 0.48533333333333334,
+      "token_error_rate": 0.12242424242424242,
+      "termination_rate": 1.0,
+      "by_type": {
+        "basic": {
+          "n": 150,
+          "exact_match": 0.46,
+          "token_error_rate": 0.164,
+          "termination_rate": 1.0
+        },
+        "sup": {
+          "n": 75,
+          "exact_match": 0.6,
+          "token_error_rate": 0.09333333333333334,
+          "termination_rate": 1.0
+        },
+        "sub": {
+          "n": 75,
+          "exact_match": 0.5466666666666666,
+          "token_error_rate": 0.09142857142857143,
+          "termination_rate": 1.0
+        },
+        "vertical": {
+          "n": 75,
+          "exact_match": 0.36,
+          "token_error_rate": 0.12296296296296297,
+          "termination_rate": 1.0
+        },
+        "slash": {
+          "n": 0,
+          "exact_match": 0.0,
+          "token_error_rate": 0.0,
+          "termination_rate": 0.0
+        }
+      }
+    }
+  }
+]

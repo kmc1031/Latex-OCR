@@ -1,0 +1,12 @@
+{
+  "manifest_hash": "e2505bea293080f5616ef3946ec39cb51fbcbf86197a9e38dc1992a948bd64ea",
+  "real_counts": {
+    "train": 3872,
+    "val": 363,
+    "test": 317
+  },
+  "synthetic_training_count": 2000,
+  "photos_used": 0,
+  "authorization": "User: 직접 촬영 사진은 없이 진행해",
+  "selection": "MathWriting validation exact match, then normalized token edit distance"
+}

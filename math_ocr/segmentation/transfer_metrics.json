@@ -1,0 +1,11 @@
+{
+  "diagnostic_only_previously_used_test": true,
+  "settings_changed": false,
+  "n": 800,
+  "accuracy": 0.07,
+  "greek_n": 300,
+  "greek_accuracy": 0.03,
+  "previous_accuracy": 0.01375,
+  "source": "Same saved 64px MathWriting raster images as the previous experiment, not original high-resolution photos.",
+  "seconds": 13.75
+}

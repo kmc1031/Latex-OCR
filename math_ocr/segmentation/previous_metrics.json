@@ -1,0 +1,28 @@
+{
+  "n": 482,
+  "exact": 0.04979253112033195,
+  "semantic_exact": 0.05186721991701245,
+  "token_error_rate": 0.572992700729927,
+  "syntax_valid": 0.9564315352697096,
+  "eos_rate": 1.0,
+  "seconds": 14.998,
+  "greek": {
+    "n": 88,
+    "exact": 0.03409090909090909,
+    "semantic_exact": 0.03409090909090909,
+    "token_error_rate": 0.5779264214046823,
+    "syntax_valid": 0.9318181818181818,
+    "eos_rate": 1.0
+  },
+  "groups": {
+    "null": {
+      "n": 482,
+      "exact": 0.04979253112033195,
+      "semantic_exact": 0.05186721991701245,
+      "token_error_rate": 0.572992700729927,
+      "syntax_valid": 0.9564315352697096,
+      "eos_rate": 1.0
+    }
+  },
+  "layouts": {}
+}

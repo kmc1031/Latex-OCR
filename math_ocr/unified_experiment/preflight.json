@@ -1,0 +1,12 @@
+{
+  "parameter_count": 699285,
+  "sequence_loss_reaches_cnn": true,
+  "checkpoint_reload_exact": true,
+  "token_shapes": true,
+  "syntax_roundtrip": true,
+  "fraction_view_equivalence": true,
+  "case_and_digit_distinction": true,
+  "invalid_braces_not_repaired": true,
+  "passed": true,
+  "note": "Correctness/gradient/reload checks only; weights are untrained and were not exported as an OCR model."
+}

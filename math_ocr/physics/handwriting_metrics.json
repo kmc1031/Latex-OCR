@@ -1,0 +1,1266 @@
+{
+  "legacy": {
+    "checkpoint": "C:\\Users\\minchan\\Documents\\SSHS\\2학년\\2학기\\인지\\math_ocr\\comparison\\best_model.pt",
+    "epoch": null,
+    "beam_width": 1,
+    "test": {
+      "n": 800,
+      "exact": 0.0,
+      "semantic_exact": 0.0,
+      "token_error_rate": 0.947042589691952,
+      "syntax_valid": 0.82125,
+      "eos_rate": 1.0,
+      "seconds": 21.758,
+      "greek": {
+        "n": 300,
+        "exact": 0.0,
+        "semantic_exact": 0.0,
+        "token_error_rate": 0.9376477004181057,
+        "syntax_valid": 0.8466666666666667,
+        "eos_rate": 1.0
+      },
+      "groups": {
+        "human_handwriting": {
+          "n": 800,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 0.947042589691952,
+          "syntax_valid": 0.82125,
+          "eos_rate": 1.0
+        }
+      },
+      "layouts": {},
+      "lengths": {
+        "1-8": {
+          "n": 49,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 1.5271565495207668,
+          "syntax_valid": 0.9387755102040817,
+          "eos_rate": 1.0
+        },
+        "9-16": {
+          "n": 369,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 0.9626802374893978,
+          "syntax_valid": 0.8184281842818428,
+          "eos_rate": 1.0
+        },
+        "17-24": {
+          "n": 281,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 0.9064631956912029,
+          "syntax_valid": 0.7864768683274022,
+          "eos_rate": 1.0
+        },
+        "25-32": {
+          "n": 101,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 0.9366096866096866,
+          "syntax_valid": 0.8712871287128713,
+          "eos_rate": 1.0
+        },
+        "33-72": {
+          "n": 0
+        }
+      }
+    },
+    "test_greek": {
+      "n": 300,
+      "exact": 0.0,
+      "semantic_exact": 0.0,
+      "token_error_rate": 0.9376477004181057,
+      "syntax_valid": 0.8466666666666667,
+      "eos_rate": 1.0,
+      "seconds": 8.599,
+      "greek": {
+        "n": 300,
+        "exact": 0.0,
+        "semantic_exact": 0.0,
+        "token_error_rate": 0.9376477004181057,
+        "syntax_valid": 0.8466666666666667,
+        "eos_rate": 1.0
+      },
+      "groups": {
+        "human_handwriting": {
+          "n": 300,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 0.9376477004181057,
+          "syntax_valid": 0.8466666666666667,
+          "eos_rate": 1.0
+        }
+      },
+      "layouts": {},
+      "lengths": {
+        "1-8": {
+          "n": 9,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 1.3970588235294117,
+          "syntax_valid": 1.0,
+          "eos_rate": 1.0
+        },
+        "9-16": {
+          "n": 111,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 0.967741935483871,
+          "syntax_valid": 0.8468468468468469,
+          "eos_rate": 1.0
+        },
+        "17-24": {
+          "n": 135,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 0.9024569123579025,
+          "syntax_valid": 0.8074074074074075,
+          "eos_rate": 1.0
+        },
+        "25-32": {
+          "n": 45,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 0.9546875,
+          "syntax_valid": 0.9333333333333333,
+          "eos_rate": 1.0
+        },
+        "33-72": {
+          "n": 0
+        }
+      }
+    },
+    "test_capture": {
+      "n": 800,
+      "exact": 0.0,
+      "semantic_exact": 0.0,
+      "token_error_rate": 0.9581561870664578,
+      "syntax_valid": 0.86,
+      "eos_rate": 1.0,
+      "seconds": 18.04,
+      "greek": {
+        "n": 300,
+        "exact": 0.0,
+        "semantic_exact": 0.0,
+        "token_error_rate": 0.9452826758771132,
+        "syntax_valid": 0.88,
+        "eos_rate": 1.0
+      },
+      "groups": {
+        "human_handwriting": {
+          "n": 800,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 0.9581561870664578,
+          "syntax_valid": 0.86,
+          "eos_rate": 1.0
+        }
+      },
+      "layouts": {},
+      "lengths": {
+        "1-8": {
+          "n": 49,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 1.5015974440894568,
+          "syntax_valid": 0.8367346938775511,
+          "eos_rate": 1.0
+        },
+        "9-16": {
+          "n": 369,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 0.9881255301102629,
+          "syntax_valid": 0.8509485094850948,
+          "eos_rate": 1.0
+        },
+        "17-24": {
+          "n": 281,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 0.914721723518851,
+          "syntax_valid": 0.8718861209964412,
+          "eos_rate": 1.0
+        },
+        "25-32": {
+          "n": 101,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 0.9334045584045584,
+          "syntax_valid": 0.8712871287128713,
+          "eos_rate": 1.0
+        },
+        "33-72": {
+          "n": 0
+        }
+      }
+    },
+    "legacy_test": {
+      "n": 500,
+      "exact": 0.956,
+      "semantic_exact": 0.956,
+      "token_error_rate": 0.00602990834539315,
+      "syntax_valid": 1.0,
+      "eos_rate": 1.0,
+      "seconds": 12.488,
+      "greek": {
+        "n": 0
+      },
+      "groups": {
+        "fraction": {
+          "n": 100,
+          "exact": 0.88,
+          "semantic_exact": 0.88,
+          "token_error_rate": 0.011472275334608031,
+          "syntax_valid": 1.0,
+          "eos_rate": 1.0
+        },
+        "linear": {
+          "n": 100,
+          "exact": 0.96,
+          "semantic_exact": 0.96,
+          "token_error_rate": 0.014,
+          "syntax_valid": 1.0,
+          "eos_rate": 1.0
+        },
+        "radical": {
+          "n": 100,
+          "exact": 1.0,
+          "semantic_exact": 1.0,
+          "token_error_rate": 0.0,
+          "syntax_valid": 1.0,
+          "eos_rate": 1.0
+        },
+        "subscript": {
+          "n": 100,
+          "exact": 0.95,
+          "semantic_exact": 0.95,
+          "token_error_rate": 0.005555555555555556,
+          "syntax_valid": 1.0,
+          "eos_rate": 1.0
+        },
+        "superscript": {
+          "n": 100,
+          "exact": 0.99,
+          "semantic_exact": 0.99,
+          "token_error_rate": 0.0011111111111111111,
+          "syntax_valid": 1.0,
+          "eos_rate": 1.0
+        }
+      },
+      "layouts": {},
+      "lengths": {
+        "1-8": {
+          "n": 200,
+          "exact": 0.98,
+          "semantic_exact": 0.98,
+          "token_error_rate": 0.005384615384615384,
+          "syntax_valid": 1.0,
+          "eos_rate": 1.0
+        },
+        "9-16": {
+          "n": 300,
+          "exact": 0.94,
+          "semantic_exact": 0.94,
+          "token_error_rate": 0.006324666198172874,
+          "syntax_valid": 1.0,
+          "eos_rate": 1.0
+        },
+        "17-24": {
+          "n": 0
+        },
+        "25-32": {
+          "n": 0
+        },
+        "33-72": {
+          "n": 0
+        }
+      }
+    },
+    "physics_laws": {
+      "n": 213,
+      "exact": 0.0,
+      "semantic_exact": 0.0,
+      "token_error_rate": 0.9651464590285502,
+      "syntax_valid": 0.9530516431924883,
+      "eos_rate": 1.0,
+      "seconds": 4.11,
+      "greek": {
+        "n": 111,
+        "exact": 0.0,
+        "semantic_exact": 0.0,
+        "token_error_rate": 0.9922644163150492,
+        "syntax_valid": 0.9369369369369369,
+        "eos_rate": 1.0
+      },
+      "groups": {
+        "em": {
+          "n": 57,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 0.9516728624535316,
+          "syntax_valid": 0.9473684210526315,
+          "eos_rate": 1.0
+        },
+        "measurement": {
+          "n": 15,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 0.9371980676328503,
+          "syntax_valid": 1.0,
+          "eos_rate": 1.0
+        },
+        "mechanics": {
+          "n": 60,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 0.9328358208955224,
+          "syntax_valid": 0.95,
+          "eos_rate": 1.0
+        },
+        "modern": {
+          "n": 21,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 0.9803921568627451,
+          "syntax_valid": 0.9047619047619048,
+          "eos_rate": 1.0
+        },
+        "thermal": {
+          "n": 21,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 1.0555555555555556,
+          "syntax_valid": 1.0,
+          "eos_rate": 1.0
+        },
+        "waves": {
+          "n": 39,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 1.0147492625368733,
+          "syntax_valid": 0.9487179487179487,
+          "eos_rate": 1.0
+        }
+      },
+      "layouts": {
+        "native": {
+          "n": 87,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 1.0175438596491229,
+          "syntax_valid": 0.9770114942528736,
+          "eos_rate": 1.0
+        },
+        "slash": {
+          "n": 63,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 0.918200408997955,
+          "syntax_valid": 0.9206349206349206,
+          "eos_rate": 1.0
+        },
+        "stack": {
+          "n": 63,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 0.9723926380368099,
+          "syntax_valid": 0.9523809523809523,
+          "eos_rate": 1.0
+        }
+      },
+      "lengths": {
+        "1-8": {
+          "n": 54,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 1.2344322344322345,
+          "syntax_valid": 0.9814814814814815,
+          "eos_rate": 1.0
+        },
+        "9-16": {
+          "n": 114,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 0.9343657817109144,
+          "syntax_valid": 0.956140350877193,
+          "eos_rate": 1.0
+        },
+        "17-24": {
+          "n": 27,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 0.9229390681003584,
+          "syntax_valid": 0.8888888888888888,
+          "eos_rate": 1.0
+        },
+        "25-32": {
+          "n": 18,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 0.9490196078431372,
+          "syntax_valid": 0.9444444444444444,
+          "eos_rate": 1.0
+        },
+        "33-72": {
+          "n": 0
+        }
+      }
+    }
+  },
+  "printed_transfer": {
+    "checkpoint": "C:\\Users\\minchan\\Documents\\SSHS\\2학년\\2학기\\인지\\math_ocr\\runs\\physics_v1\\best.pt",
+    "epoch": 26,
+    "beam_width": 1,
+    "test": {
+      "n": 800,
+      "exact": 0.0,
+      "semantic_exact": 0.0,
+      "token_error_rate": 1.0809278734989185,
+      "syntax_valid": 0.83375,
+      "eos_rate": 1.0,
+      "seconds": 36.676,
+      "greek": {
+        "n": 300,
+        "exact": 0.0,
+        "semantic_exact": 0.0,
+        "token_error_rate": 1.07907653153972,
+        "syntax_valid": 0.82,
+        "eos_rate": 1.0
+      },
+      "groups": {
+        "human_handwriting": {
+          "n": 800,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 1.0809278734989185,
+          "syntax_valid": 0.83375,
+          "eos_rate": 1.0
+        }
+      },
+      "layouts": {},
+      "lengths": {
+        "1-8": {
+          "n": 49,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 1.718849840255591,
+          "syntax_valid": 0.9387755102040817,
+          "eos_rate": 1.0
+        },
+        "9-16": {
+          "n": 369,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 1.321882951653944,
+          "syntax_valid": 0.8509485094850948,
+          "eos_rate": 1.0
+        },
+        "17-24": {
+          "n": 281,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 1.0202872531418312,
+          "syntax_valid": 0.8042704626334519,
+          "eos_rate": 1.0
+        },
+        "25-32": {
+          "n": 101,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 0.7254273504273504,
+          "syntax_valid": 0.801980198019802,
+          "eos_rate": 1.0
+        },
+        "33-72": {
+          "n": 0
+        }
+      }
+    },
+    "test_greek": {
+      "n": 300,
+      "exact": 0.0,
+      "semantic_exact": 0.0,
+      "token_error_rate": 1.07907653153972,
+      "syntax_valid": 0.82,
+      "eos_rate": 1.0,
+      "seconds": 16.904,
+      "greek": {
+        "n": 300,
+        "exact": 0.0,
+        "semantic_exact": 0.0,
+        "token_error_rate": 1.07907653153972,
+        "syntax_valid": 0.82,
+        "eos_rate": 1.0
+      },
+      "groups": {
+        "human_handwriting": {
+          "n": 300,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 1.07907653153972,
+          "syntax_valid": 0.82,
+          "eos_rate": 1.0
+        }
+      },
+      "layouts": {},
+      "lengths": {
+        "1-8": {
+          "n": 9,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 1.6323529411764706,
+          "syntax_valid": 0.8888888888888888,
+          "eos_rate": 1.0
+        },
+        "9-16": {
+          "n": 111,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 1.4046283309957923,
+          "syntax_valid": 0.8558558558558559,
+          "eos_rate": 1.0
+        },
+        "17-24": {
+          "n": 135,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 1.0583058305830584,
+          "syntax_valid": 0.7851851851851852,
+          "eos_rate": 1.0
+        },
+        "25-32": {
+          "n": 45,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 0.73125,
+          "syntax_valid": 0.8222222222222222,
+          "eos_rate": 1.0
+        },
+        "33-72": {
+          "n": 0
+        }
+      }
+    },
+    "test_capture": {
+      "n": 800,
+      "exact": 0.0,
+      "semantic_exact": 0.0,
+      "token_error_rate": 1.0783918848362795,
+      "syntax_valid": 0.8625,
+      "eos_rate": 1.0,
+      "seconds": 38.606,
+      "greek": {
+        "n": 300,
+        "exact": 0.0,
+        "semantic_exact": 0.0,
+        "token_error_rate": 1.0616251590619887,
+        "syntax_valid": 0.8266666666666667,
+        "eos_rate": 1.0
+      },
+      "groups": {
+        "human_handwriting": {
+          "n": 800,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 1.0783918848362795,
+          "syntax_valid": 0.8625,
+          "eos_rate": 1.0
+        }
+      },
+      "layouts": {},
+      "lengths": {
+        "1-8": {
+          "n": 49,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 1.6773162939297124,
+          "syntax_valid": 0.8979591836734694,
+          "eos_rate": 1.0
+        },
+        "9-16": {
+          "n": 369,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 1.3189143341815097,
+          "syntax_valid": 0.8780487804878049,
+          "eos_rate": 1.0
+        },
+        "17-24": {
+          "n": 281,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 1.0141831238779173,
+          "syntax_valid": 0.8540925266903915,
+          "eos_rate": 1.0
+        },
+        "25-32": {
+          "n": 101,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 0.7350427350427351,
+          "syntax_valid": 0.8118811881188119,
+          "eos_rate": 1.0
+        },
+        "33-72": {
+          "n": 0
+        }
+      }
+    },
+    "legacy_test": {
+      "n": 500,
+      "exact": 0.998,
+      "semantic_exact": 0.998,
+      "token_error_rate": 0.000482392667631452,
+      "syntax_valid": 1.0,
+      "eos_rate": 1.0,
+      "seconds": 12.251,
+      "greek": {
+        "n": 0
+      },
+      "groups": {
+        "fraction": {
+          "n": 100,
+          "exact": 1.0,
+          "semantic_exact": 1.0,
+          "token_error_rate": 0.0,
+          "syntax_valid": 1.0,
+          "eos_rate": 1.0
+        },
+        "linear": {
+          "n": 100,
+          "exact": 0.99,
+          "semantic_exact": 0.99,
+          "token_error_rate": 0.004,
+          "syntax_valid": 1.0,
+          "eos_rate": 1.0
+        },
+        "radical": {
+          "n": 100,
+          "exact": 1.0,
+          "semantic_exact": 1.0,
+          "token_error_rate": 0.0,
+          "syntax_valid": 1.0,
+          "eos_rate": 1.0
+        },
+        "subscript": {
+          "n": 100,
+          "exact": 1.0,
+          "semantic_exact": 1.0,
+          "token_error_rate": 0.0,
+          "syntax_valid": 1.0,
+          "eos_rate": 1.0
+        },
+        "superscript": {
+          "n": 100,
+          "exact": 1.0,
+          "semantic_exact": 1.0,
+          "token_error_rate": 0.0,
+          "syntax_valid": 1.0,
+          "eos_rate": 1.0
+        }
+      },
+      "layouts": {},
+      "lengths": {
+        "1-8": {
+          "n": 200,
+          "exact": 0.995,
+          "semantic_exact": 0.995,
+          "token_error_rate": 0.0015384615384615385,
+          "syntax_valid": 1.0,
+          "eos_rate": 1.0
+        },
+        "9-16": {
+          "n": 300,
+          "exact": 1.0,
+          "semantic_exact": 1.0,
+          "token_error_rate": 0.0,
+          "syntax_valid": 1.0,
+          "eos_rate": 1.0
+        },
+        "17-24": {
+          "n": 0
+        },
+        "25-32": {
+          "n": 0
+        },
+        "33-72": {
+          "n": 0
+        }
+      }
+    },
+    "physics_laws": {
+      "n": 213,
+      "exact": 0.11267605633802817,
+      "semantic_exact": 0.11267605633802817,
+      "token_error_rate": 0.39970337411939194,
+      "syntax_valid": 0.9671361502347418,
+      "eos_rate": 1.0,
+      "seconds": 6.571,
+      "greek": {
+        "n": 111,
+        "exact": 0.10810810810810811,
+        "semantic_exact": 0.10810810810810811,
+        "token_error_rate": 0.43741209563994377,
+        "syntax_valid": 0.990990990990991,
+        "eos_rate": 1.0
+      },
+      "groups": {
+        "em": {
+          "n": 57,
+          "exact": 0.07017543859649122,
+          "semantic_exact": 0.07017543859649122,
+          "token_error_rate": 0.39281288723667906,
+          "syntax_valid": 0.9473684210526315,
+          "eos_rate": 1.0
+        },
+        "measurement": {
+          "n": 15,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 0.2753623188405797,
+          "syntax_valid": 1.0,
+          "eos_rate": 1.0
+        },
+        "mechanics": {
+          "n": 60,
+          "exact": 0.13333333333333333,
+          "semantic_exact": 0.13333333333333333,
+          "token_error_rate": 0.35696517412935325,
+          "syntax_valid": 0.95,
+          "eos_rate": 1.0
+        },
+        "modern": {
+          "n": 21,
+          "exact": 0.23809523809523808,
+          "semantic_exact": 0.23809523809523808,
+          "token_error_rate": 0.5490196078431373,
+          "syntax_valid": 0.9523809523809523,
+          "eos_rate": 1.0
+        },
+        "thermal": {
+          "n": 21,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 0.5769230769230769,
+          "syntax_valid": 1.0,
+          "eos_rate": 1.0
+        },
+        "waves": {
+          "n": 39,
+          "exact": 0.1794871794871795,
+          "semantic_exact": 0.1794871794871795,
+          "token_error_rate": 0.336283185840708,
+          "syntax_valid": 1.0,
+          "eos_rate": 1.0
+        }
+      },
+      "layouts": {
+        "native": {
+          "n": 87,
+          "exact": 0.13793103448275862,
+          "semantic_exact": 0.13793103448275862,
+          "token_error_rate": 0.340080971659919,
+          "syntax_valid": 1.0,
+          "eos_rate": 1.0
+        },
+        "slash": {
+          "n": 63,
+          "exact": 0.19047619047619047,
+          "semantic_exact": 0.19047619047619047,
+          "token_error_rate": 0.33537832310838445,
+          "syntax_valid": 0.9365079365079365,
+          "eos_rate": 1.0
+        },
+        "stack": {
+          "n": 63,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 0.50920245398773,
+          "syntax_valid": 0.9523809523809523,
+          "eos_rate": 1.0
+        }
+      },
+      "lengths": {
+        "1-8": {
+          "n": 54,
+          "exact": 0.16666666666666666,
+          "semantic_exact": 0.16666666666666666,
+          "token_error_rate": 0.4468864468864469,
+          "syntax_valid": 1.0,
+          "eos_rate": 1.0
+        },
+        "9-16": {
+          "n": 114,
+          "exact": 0.13157894736842105,
+          "semantic_exact": 0.13157894736842105,
+          "token_error_rate": 0.35914454277286134,
+          "syntax_valid": 0.9385964912280702,
+          "eos_rate": 1.0
+        },
+        "17-24": {
+          "n": 27,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 0.4103942652329749,
+          "syntax_valid": 1.0,
+          "eos_rate": 1.0
+        },
+        "25-32": {
+          "n": 18,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 0.47058823529411764,
+          "syntax_valid": 1.0,
+          "eos_rate": 1.0
+        },
+        "33-72": {
+          "n": 0
+        }
+      }
+    }
+  },
+  "handwriting": {
+    "checkpoint": "C:\\Users\\minchan\\Documents\\SSHS\\2학년\\2학기\\인지\\math_ocr\\physics\\best_model.pt",
+    "epoch": 35,
+    "beam_width": 1,
+    "test": {
+      "n": 800,
+      "exact": 0.01375,
+      "semantic_exact": 0.01375,
+      "token_error_rate": 0.5223390766017751,
+      "syntax_valid": 0.93375,
+      "eos_rate": 1.0,
+      "seconds": 58.604,
+      "greek": {
+        "n": 300,
+        "exact": 0.0033333333333333335,
+        "semantic_exact": 0.0033333333333333335,
+        "token_error_rate": 0.5489910925286312,
+        "syntax_valid": 0.95,
+        "eos_rate": 1.0
+      },
+      "groups": {
+        "human_handwriting": {
+          "n": 800,
+          "exact": 0.01375,
+          "semantic_exact": 0.01375,
+          "token_error_rate": 0.5223390766017751,
+          "syntax_valid": 0.93375,
+          "eos_rate": 1.0
+        }
+      },
+      "layouts": {},
+      "lengths": {
+        "1-8": {
+          "n": 49,
+          "exact": 0.10204081632653061,
+          "semantic_exact": 0.10204081632653061,
+          "token_error_rate": 0.5814696485623003,
+          "syntax_valid": 0.9795918367346939,
+          "eos_rate": 1.0
+        },
+        "9-16": {
+          "n": 369,
+          "exact": 0.01084010840108401,
+          "semantic_exact": 0.01084010840108401,
+          "token_error_rate": 0.5623409669211196,
+          "syntax_valid": 0.9186991869918699,
+          "eos_rate": 1.0
+        },
+        "17-24": {
+          "n": 281,
+          "exact": 0.0035587188612099642,
+          "semantic_exact": 0.0035587188612099642,
+          "token_error_rate": 0.5073608617594255,
+          "syntax_valid": 0.9395017793594306,
+          "eos_rate": 1.0
+        },
+        "25-32": {
+          "n": 101,
+          "exact": 0.009900990099009901,
+          "semantic_exact": 0.009900990099009901,
+          "token_error_rate": 0.47827635327635326,
+          "syntax_valid": 0.9504950495049505,
+          "eos_rate": 1.0
+        },
+        "33-72": {
+          "n": 0
+        }
+      }
+    },
+    "test_greek": {
+      "n": 300,
+      "exact": 0.0033333333333333335,
+      "semantic_exact": 0.0033333333333333335,
+      "token_error_rate": 0.5489910925286312,
+      "syntax_valid": 0.95,
+      "eos_rate": 1.0,
+      "seconds": 33.739,
+      "greek": {
+        "n": 300,
+        "exact": 0.0033333333333333335,
+        "semantic_exact": 0.0033333333333333335,
+        "token_error_rate": 0.5489910925286312,
+        "syntax_valid": 0.95,
+        "eos_rate": 1.0
+      },
+      "groups": {
+        "human_handwriting": {
+          "n": 300,
+          "exact": 0.0033333333333333335,
+          "semantic_exact": 0.0033333333333333335,
+          "token_error_rate": 0.5489910925286312,
+          "syntax_valid": 0.95,
+          "eos_rate": 1.0
+        }
+      },
+      "layouts": {},
+      "lengths": {
+        "1-8": {
+          "n": 9,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 0.5588235294117647,
+          "syntax_valid": 0.8888888888888888,
+          "eos_rate": 1.0
+        },
+        "9-16": {
+          "n": 111,
+          "exact": 0.009009009009009009,
+          "semantic_exact": 0.009009009009009009,
+          "token_error_rate": 0.6093969144460029,
+          "syntax_valid": 0.963963963963964,
+          "eos_rate": 1.0
+        },
+        "17-24": {
+          "n": 135,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 0.5353868720205354,
+          "syntax_valid": 0.9481481481481482,
+          "eos_rate": 1.0
+        },
+        "25-32": {
+          "n": 45,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 0.51015625,
+          "syntax_valid": 0.9333333333333333,
+          "eos_rate": 1.0
+        },
+        "33-72": {
+          "n": 0
+        }
+      }
+    },
+    "test_capture": {
+      "n": 800,
+      "exact": 0.01125,
+      "semantic_exact": 0.01125,
+      "token_error_rate": 0.529723278884165,
+      "syntax_valid": 0.92375,
+      "eos_rate": 1.0,
+      "seconds": 81.075,
+      "greek": {
+        "n": 300,
+        "exact": 0.0,
+        "semantic_exact": 0.0,
+        "token_error_rate": 0.5526267951281585,
+        "syntax_valid": 0.9166666666666666,
+        "eos_rate": 1.0
+      },
+      "groups": {
+        "human_handwriting": {
+          "n": 800,
+          "exact": 0.01125,
+          "semantic_exact": 0.01125,
+          "token_error_rate": 0.529723278884165,
+          "syntax_valid": 0.92375,
+          "eos_rate": 1.0
+        }
+      },
+      "layouts": {},
+      "lengths": {
+        "1-8": {
+          "n": 49,
+          "exact": 0.08163265306122448,
+          "semantic_exact": 0.08163265306122448,
+          "token_error_rate": 0.5814696485623003,
+          "syntax_valid": 0.8979591836734694,
+          "eos_rate": 1.0
+        },
+        "9-16": {
+          "n": 369,
+          "exact": 0.01084010840108401,
+          "semantic_exact": 0.01084010840108401,
+          "token_error_rate": 0.5748515691263782,
+          "syntax_valid": 0.9159891598915989,
+          "eos_rate": 1.0
+        },
+        "17-24": {
+          "n": 281,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 0.51508078994614,
+          "syntax_valid": 0.9359430604982206,
+          "eos_rate": 1.0
+        },
+        "25-32": {
+          "n": 101,
+          "exact": 0.009900990099009901,
+          "semantic_exact": 0.009900990099009901,
+          "token_error_rate": 0.4772079772079772,
+          "syntax_valid": 0.9306930693069307,
+          "eos_rate": 1.0
+        },
+        "33-72": {
+          "n": 0
+        }
+      }
+    },
+    "legacy_test": {
+      "n": 500,
+      "exact": 0.968,
+      "semantic_exact": 0.968,
+      "token_error_rate": 0.003859141341051616,
+      "syntax_valid": 1.0,
+      "eos_rate": 1.0,
+      "seconds": 24.7,
+      "greek": {
+        "n": 0
+      },
+      "groups": {
+        "fraction": {
+          "n": 100,
+          "exact": 0.99,
+          "semantic_exact": 0.99,
+          "token_error_rate": 0.0009560229445506692,
+          "syntax_valid": 1.0,
+          "eos_rate": 1.0
+        },
+        "linear": {
+          "n": 100,
+          "exact": 0.99,
+          "semantic_exact": 0.99,
+          "token_error_rate": 0.002,
+          "syntax_valid": 1.0,
+          "eos_rate": 1.0
+        },
+        "radical": {
+          "n": 100,
+          "exact": 0.98,
+          "semantic_exact": 0.98,
+          "token_error_rate": 0.0025,
+          "syntax_valid": 1.0,
+          "eos_rate": 1.0
+        },
+        "subscript": {
+          "n": 100,
+          "exact": 0.88,
+          "semantic_exact": 0.88,
+          "token_error_rate": 0.013333333333333334,
+          "syntax_valid": 1.0,
+          "eos_rate": 1.0
+        },
+        "superscript": {
+          "n": 100,
+          "exact": 1.0,
+          "semantic_exact": 1.0,
+          "token_error_rate": 0.0,
+          "syntax_valid": 1.0,
+          "eos_rate": 1.0
+        }
+      },
+      "layouts": {},
+      "lengths": {
+        "1-8": {
+          "n": 200,
+          "exact": 0.985,
+          "semantic_exact": 0.985,
+          "token_error_rate": 0.002307692307692308,
+          "syntax_valid": 1.0,
+          "eos_rate": 1.0
+        },
+        "9-16": {
+          "n": 300,
+          "exact": 0.9566666666666667,
+          "semantic_exact": 0.9566666666666667,
+          "token_error_rate": 0.004567814476458187,
+          "syntax_valid": 1.0,
+          "eos_rate": 1.0
+        },
+        "17-24": {
+          "n": 0
+        },
+        "25-32": {
+          "n": 0
+        },
+        "33-72": {
+          "n": 0
+        }
+      }
+    },
+    "physics_laws": {
+      "n": 213,
+      "exact": 0.04225352112676056,
+      "semantic_exact": 0.04225352112676056,
+      "token_error_rate": 0.3878383388950686,
+      "syntax_valid": 0.9061032863849765,
+      "eos_rate": 1.0,
+      "seconds": 12.36,
+      "greek": {
+        "n": 111,
+        "exact": 0.018018018018018018,
+        "semantic_exact": 0.018018018018018018,
+        "token_error_rate": 0.4050632911392405,
+        "syntax_valid": 0.8648648648648649,
+        "eos_rate": 1.0
+      },
+      "groups": {
+        "em": {
+          "n": 57,
+          "exact": 0.017543859649122806,
+          "semantic_exact": 0.017543859649122806,
+          "token_error_rate": 0.3903345724907063,
+          "syntax_valid": 0.8596491228070176,
+          "eos_rate": 1.0
+        },
+        "measurement": {
+          "n": 15,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 0.357487922705314,
+          "syntax_valid": 1.0,
+          "eos_rate": 1.0
+        },
+        "mechanics": {
+          "n": 60,
+          "exact": 0.08333333333333333,
+          "semantic_exact": 0.08333333333333333,
+          "token_error_rate": 0.40422885572139305,
+          "syntax_valid": 1.0,
+          "eos_rate": 1.0
+        },
+        "modern": {
+          "n": 21,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 0.34967320261437906,
+          "syntax_valid": 0.8571428571428571,
+          "eos_rate": 1.0
+        },
+        "thermal": {
+          "n": 21,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 0.5213675213675214,
+          "syntax_valid": 1.0,
+          "eos_rate": 1.0
+        },
+        "waves": {
+          "n": 39,
+          "exact": 0.07692307692307693,
+          "semantic_exact": 0.07692307692307693,
+          "token_error_rate": 0.30383480825958703,
+          "syntax_valid": 0.7692307692307693,
+          "eos_rate": 1.0
+        }
+      },
+      "layouts": {
+        "native": {
+          "n": 87,
+          "exact": 0.05747126436781609,
+          "semantic_exact": 0.05747126436781609,
+          "token_error_rate": 0.4156545209176788,
+          "syntax_valid": 1.0,
+          "eos_rate": 1.0
+        },
+        "slash": {
+          "n": 63,
+          "exact": 0.06349206349206349,
+          "semantic_exact": 0.06349206349206349,
+          "token_error_rate": 0.37627811860940696,
+          "syntax_valid": 0.8253968253968254,
+          "eos_rate": 1.0
+        },
+        "stack": {
+          "n": 63,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 0.3783231083844581,
+          "syntax_valid": 0.8571428571428571,
+          "eos_rate": 1.0
+        }
+      },
+      "lengths": {
+        "1-8": {
+          "n": 54,
+          "exact": 0.037037037037037035,
+          "semantic_exact": 0.037037037037037035,
+          "token_error_rate": 0.6336996336996337,
+          "syntax_valid": 1.0,
+          "eos_rate": 1.0
+        },
+        "9-16": {
+          "n": 114,
+          "exact": 0.06140350877192982,
+          "semantic_exact": 0.06140350877192982,
+          "token_error_rate": 0.27949852507374634,
+          "syntax_valid": 0.8859649122807017,
+          "eos_rate": 1.0
+        },
+        "17-24": {
+          "n": 27,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 0.449820788530466,
+          "syntax_valid": 0.8518518518518519,
+          "eos_rate": 1.0
+        },
+        "25-32": {
+          "n": 18,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 0.4764705882352941,
+          "syntax_valid": 0.8333333333333334,
+          "eos_rate": 1.0
+        },
+        "33-72": {
+          "n": 0
+        }
+      }
+    },
+    "blank_control": {
+      "n": 128,
+      "exact": 0.0,
+      "semantic_exact": 0.0,
+      "token_error_rate": 0.8122837370242214,
+      "syntax_valid": 1.0,
+      "eos_rate": 1.0,
+      "seconds": 5.803,
+      "greek": {
+        "n": 40,
+        "exact": 0.0,
+        "semantic_exact": 0.0,
+        "token_error_rate": 0.8239895697522817,
+        "syntax_valid": 1.0,
+        "eos_rate": 1.0
+      },
+      "groups": {
+        "human_handwriting": {
+          "n": 128,
+          "exact": 0.0,
+          "semantic_exact": 0.0,
+          "token_error_rate": 0.8122837370242214,
+          "syntax_valid": 1.0,
+          "eos_rate": 1.0
+        }
+      },
+      "layouts": {}
+    }
+  }
+}
